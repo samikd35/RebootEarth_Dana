@@ -206,7 +206,7 @@ class UltraIntegrationBridge:
         self.use_real_alphaearth = False
         
         # Get project ID from environment or constructor
-        project_id = os.getenv('GOOGLE_CLOUD_PROJECT')
+        project_id = os.getenv('GOOGLE_CLOUD_PROJECT', 'reboot-468512')
         
         # Try AlphaEarth module first
         if ALPHAEARTH_AVAILABLE and AlphaEarthExtractor:
@@ -476,13 +476,12 @@ class UltraIntegrationBridge:
                 features['rainfall']
             ]).reshape(1, -1)
             
-            # Apply scaling
+            # Apply scaling (use only MinMaxScaler as the model was trained with it)
             scaled_features = self.minmax_scaler.transform(feature_array)
-            final_features = self.standard_scaler.transform(scaled_features)
             
             # Make prediction
-            prediction = self.model.predict(final_features)[0]
-            probabilities = self.model.predict_proba(final_features)[0]
+            prediction = self.model.predict(scaled_features)[0]
+            probabilities = self.model.predict_proba(scaled_features)[0]
             
             # Get confidence score
             confidence = float(np.max(probabilities))
@@ -515,12 +514,11 @@ class UltraIntegrationBridge:
                 features['rainfall']
             ]).reshape(1, -1)
             
-            # Apply scaling
+            # Apply scaling (use only MinMaxScaler as the model was trained with it)
             scaled_features = self.minmax_scaler.transform(feature_array)
-            final_features = self.standard_scaler.transform(scaled_features)
             
             # Get all crop probabilities
-            probabilities = self.model.predict_proba(final_features)[0]
+            probabilities = self.model.predict_proba(scaled_features)[0]
             
             # Create list of (crop_id, probability) pairs
             crop_probs = [(i+1, prob) for i, prob in enumerate(probabilities)]

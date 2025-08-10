@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANA Admin - Farmer Contact Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-green: #10B981;
+            --secondary-green: #059669;
+            --accent-blue: #3B82F6;
+            --warning-orange: #F59E0B;
+            --danger-red: #EF4444;
+            --light-bg: #E9E3DF;
+            --dark-bg: #000000;
+            --text-light: #6B7280;
+            --text-dark: #1F2937;
+            --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --card-shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: var(--light-bg);
+            min-height: 100vh;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: var(--text-dark);
+            transition: all 0.3s ease;
+        }
+
+        body.dark-theme {
+            background: var(--dark-bg);
+            color: #FFFFFF;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .dark-theme .navbar {
+            background: rgba(0, 0, 0, 0.95);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--primary-green) !important;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo {
+            width: 32px;
+            height: 32px;
+            background: var(--primary-green);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: var(--text-dark) !important;
+            padding: 0.5rem 1rem !important;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .dark-theme .nav-link {
+            color: #FFFFFF !important;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            background: var(--primary-green);
+            color: white !important;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: 2px solid var(--text-light);
+            border-radius: 50px;
+            padding: 0.5rem 1rem;
+            color: var(--text-dark);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+        }
+
+        .dark-theme .theme-toggle {
+            border-color: #6B7280;
+            color: #FFFFFF;
+        }
+
+        .theme-toggle:hover {
+            border-color: var(--primary-green);
+            color: var(--primary-green);
+        }
+
+        .admin-container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: var(--card-shadow);
+            margin: 2rem auto;
+            max-width: 1200px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .dark-theme .admin-container {
+            background: #1F2937;
+            box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1), 0 2px 4px -1px rgba(255, 255, 255, 0.06);
+        }
+
+        .admin-header {
+            background: var(--primary-green);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .admin-header h1 {
+            margin: 0;
+            font-weight: 700;
+            font-size: 2rem;
+        }
+
+        .admin-header p {
+            margin: 0.5rem 0 0 0;
+            opacity: 0.9;
+        }
+
+        .admin-content {
+            padding: 2rem;
+        }
+
+        .farmer-card {
+            border: 1px solid #E5E7EB;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            background: #F9FAFB;
+            transition: all 0.2s ease;
+        }
+
+        .dark-theme .farmer-card {
+            background: #111827;
+            border-color: #374151;
+        }
+
+        .farmer-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--card-shadow-hover);
+        }
+
+        .location-section {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--accent-blue);
+            box-shadow: var(--card-shadow);
+        }
+
+        .dark-theme .location-section {
+            background: #1F2937;
+            border-left-color: var(--accent-blue);
+        }
+
+        .add-farmer-form {
+            background: rgba(16, 185, 129, 0.05);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            margin-bottom: 2rem;
+        }
+
+        .dark-theme .add-farmer-form {
+            background: rgba(16, 185, 129, 0.1);
+            border-color: rgba(16, 185, 129, 0.3);
+        }
+
+        .language-badge {
+            font-size: 0.8rem;
+            padding: 4px 8px;
+        }
+
+        .phone-number {
+            font-family: monospace;
+            background: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .stats-card {
+            background: var(--primary-green);
+            color: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--card-shadow);
+            transition: all 0.2s ease;
+        }
+
+        .stats-card:hover {
+            box-shadow: var(--card-shadow-hover);
+        }
+
+        .stats-card h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .btn-remove {
+            background: var(--danger-red);
+            border: none;
+            color: white;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .btn-remove:hover {
+            background: #DC2626;
+            box-shadow: var(--card-shadow);
+        }
+
+        /* Form Styling */
+        .form-control, .form-select {
+            border-radius: 8px;
+            border: 1px solid #D1D5DB;
+            padding: 0.75rem 1rem;
+            transition: all 0.2s ease;
+            background: white;
+            font-size: 0.875rem;
+        }
+
+        .dark-theme .form-control, .dark-theme .form-select {
+            background: #1F2937;
+            border-color: #374151;
+            color: #FFFFFF;
+        }
+
+        .form-control:focus, .form-select:focus {
+            border-color: var(--primary-green);
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+            outline: none;
+        }
+
+        .btn-success {
+            background: var(--primary-green);
+            border: none;
+            border-radius: 8px;
+            padding: 0.75rem 1.5rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .btn-success:hover {
+            background: var(--secondary-green);
+            box-shadow: var(--card-shadow-hover);
+        }
+
+        /* Admin Tabs Styling - Enhanced Contrast */
+        .nav-tabs {
+            border-bottom: 2px solid #E5E7EB;
+            margin-bottom: 1.5rem;
+        }
+
+        .dark-theme .nav-tabs {
+            border-bottom-color: #374151;
+        }
+
+        .nav-tabs .nav-link {
+            border: 2px solid transparent;
+            border-bottom: none;
+            color: var(--text-light);
+            font-weight: 500;
+            padding: 0.75rem 1.5rem;
+            transition: all 0.2s ease;
+            background: #F9FAFB;
+            margin-right: 0.25rem;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .dark-theme .nav-tabs .nav-link {
+            background: #111827;
+            color: #9CA3AF;
+            border-color: transparent;
+        }
+
+        .nav-tabs .nav-link:hover {
+            border-color: var(--primary-green);
+            color: var(--primary-green);
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .dark-theme .nav-tabs .nav-link:hover {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--primary-green);
+        }
+
+        .nav-tabs .nav-link.active {
+            background: white;
+            color: var(--primary-green);
+            border-color: var(--primary-green);
+            border-bottom-color: white;
+            font-weight: 600;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .dark-theme .nav-tabs .nav-link.active {
+            background: #1F2937;
+            color: var(--primary-green);
+            border-color: var(--primary-green);
+            border-bottom-color: #1F2937;
+            box-shadow: 0 -2px 4px rgba(255, 255, 255, 0.1);
+        }
+
+        /* Table Styling - Enhanced Contrast */
+        .table {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+            border: 1px solid #E5E7EB;
+        }
+
+        .dark-theme .table {
+            background: #1F2937;
+            color: #FFFFFF;
+            border-color: #374151;
+        }
+
+        .table th {
+            background: #F3F4F6;
+            border: none;
+            font-weight: 600;
+            color: var(--text-dark);
+            padding: 1rem;
+            border-bottom: 2px solid #E5E7EB;
+        }
+
+        .dark-theme .table th {
+            background: #111827;
+            color: #FFFFFF;
+            border-bottom-color: #374151;
+        }
+
+        .table td {
+            border: none;
+            padding: 1rem;
+            border-bottom: 1px solid #E5E7EB;
+            color: var(--text-dark);
+        }
+
+        .dark-theme .table td {
+            border-bottom-color: #374151;
+            color: #FFFFFF;
+        }
+
+        .table tbody tr:hover {
+            background: #F9FAFB;
+        }
+
+        .dark-theme .table tbody tr:hover {
+            background: #111827;
+        }
+
+        /* Badge Styling - Enhanced Contrast */
+        .badge {
+            font-weight: 500;
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+        }
+
+        .badge.bg-success {
+            background: var(--primary-green) !important;
+            color: white;
+        }
+
+        .badge.bg-primary {
+            background: var(--accent-blue) !important;
+            color: white;
+        }
+
+        .badge.bg-info {
+            background: #06B6D4 !important;
+            color: white;
+        }
+
+        /* Button Styling - Enhanced Contrast */
+        .btn-outline-primary {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .btn-outline-primary:hover {
+            background: var(--accent-blue);
+            border-color: var(--accent-blue);
+            color: white;
+        }
+
+        .btn-outline-secondary {
+            border-color: #6B7280;
+            color: #6B7280;
+        }
+
+        .dark-theme .btn-outline-secondary {
+            border-color: #9CA3AF;
+            color: #9CA3AF;
+        }
+
+        .btn-outline-secondary:hover {
+            background: #6B7280;
+            border-color: #6B7280;
+            color: white;
+        }
+
+        .dark-theme .btn-outline-secondary:hover {
+            background: #9CA3AF;
+            border-color: #9CA3AF;
+            color: #000000;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid #E5E7EB;
+            color: var(--text-light);
+            font-size: 0.875rem;
+        }
+
+        .dark-theme .footer {
+            border-top-color: #374151;
+            color: #9CA3AF;
+        }
+
+        /* Smooth transitions for theme switching */
+        * {
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <div class="logo">D</div>
+                DANA
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            <i class="fas fa-home"></i> Main
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/admin">
+                            <i class="fas fa-cog"></i> Admin
+                        </a>
+                    </li>
+                </ul>
+                
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                    <span id="theme-text">Dark</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="admin-container">
+        <!-- Header -->
+        <div class="admin-header">
+            <h1><i class="fas fa-users-cog"></i> Farmer Contact Management</h1>
+            <p class="mb-0">Manage farmer contacts for SMS agricultural advice delivery</p>
+        </div>
+
+        <!-- Content -->
+        <div class="admin-content">
+            <!-- Statistics -->
+            <div class="row mb-4">
+                <div class="col-md-3">
+                    <div class="stats-card">
+                        <h3 id="totalFarmers">{{ total_farmers }}</h3>
+                        <p class="mb-0">Total Farmers</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-card">
+                        <h3 id="totalLocations">{{ total_locations }}</h3>
+                        <p class="mb-0">Locations</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-card">
+                        <h3 id="totalSavedResults">{{ total_saved_results or 0 }}</h3>
+                        <p class="mb-0">Saved Results</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-card">
+                        <h3 id="smsStatus">{{ 'Active' if sms_available else 'Inactive' }}</h3>
+                        <p class="mb-0">SMS Service</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Tabs -->
+            <ul class="nav nav-tabs mb-4" id="adminTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="farmers-tab" data-bs-toggle="tab" 
+                            data-bs-target="#farmers-panel" type="button" role="tab">
+                        <i class="fas fa-users"></i> Farmer Management
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="results-tab" data-bs-toggle="tab" 
+                            data-bs-target="#results-panel" type="button" role="tab">
+                        <i class="fas fa-chart-line"></i> Saved Analysis Results
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="sms-tab" data-bs-toggle="tab" 
+                            data-bs-target="#sms-panel" type="button" role="tab">
+                        <i class="fas fa-sms"></i> SMS Management
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="tab-content" id="adminTabContent">
+                <!-- Farmers Panel -->
+                <div class="tab-pane fade show active" id="farmers-panel" role="tabpanel">
+
+            <!-- Add New Farmer Form -->
+            <div class="add-farmer-form mb-4">
+                <h5><i class="fas fa-user-plus"></i> Add New Farmer</h5>
+                <form id="addFarmerForm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="farmerName" class="form-label">Farmer Name</label>
+                            <input type="text" class="form-control" id="farmerName" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="farmerPhone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="farmerPhone" 
+                                   placeholder="+251911234567 or 0911234567" required>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <label for="farmerLocation" class="form-label">Location</label>
+                            <input type="text" class="form-control" id="farmerLocation" 
+                                   placeholder="e.g., Addis Ababa" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="farmerLatitude" class="form-label">Latitude</label>
+                            <input type="number" step="0.0001" class="form-control" id="farmerLatitude" 
+                                   placeholder="9.0320" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="farmerLongitude" class="form-label">Longitude</label>
+                            <input type="number" step="0.0001" class="form-control" id="farmerLongitude" 
+                                   placeholder="38.7469" required>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="farmerLanguage" class="form-label">Language</label>
+                            <select class="form-select" id="farmerLanguage">
+                                <option value="english">English</option>
+                                <option value="amharic">አማርኛ</option>
+                                <option value="afaan_oromo">Afaan Oromoo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-plus"></i> Add Farmer
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Farmers by Location -->
+            <div id="farmersContainer">
+                {% for location, farmers in farmers_by_location.items() %}
+                <div class="location-section">
+                    <h5><i class="fas fa-map-marker-alt"></i> {{ location }}</h5>
+                    <p class="text-muted">{{ farmers|length }} farmer(s) registered</p>
+                    
+                    <div class="row">
+                        {% for farmer in farmers %}
+                        <div class="col-md-6">
+                            <div class="farmer-card">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <h6 class="mb-1">{{ farmer.name }}</h6>
+                                        <p class="phone-number mb-1">{{ farmer.phone_number }}</p>
+                                        <small class="text-muted">
+                                            {{ "%.4f"|format(farmer.latitude) }}, {{ "%.4f"|format(farmer.longitude) }}
+                                        </small>
+                                        <br>
+                                        <span class="badge language-badge 
+                                              {% if farmer.preferred_language == 'english' %}bg-primary
+                                              {% elif farmer.preferred_language == 'amharic' %}bg-success
+                                              {% else %}bg-info{% endif %}">
+                                            {% if farmer.preferred_language == 'english' %}English
+                                            {% elif farmer.preferred_language == 'amharic' %}አማርኛ
+                                            {% else %}Afaan Oromoo{% endif %}
+                                        </span>
+                                    </div>
+                                    <button class="btn-remove" onclick="removeFarmer('{{ location }}', '{{ farmer.phone_number }}')">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+                </div>
+
+                <!-- Saved Analysis Results Panel -->
+                <div class="tab-pane fade" id="results-panel" role="tabpanel">
+                    <div class="row mb-4">
+                        <div class="col-md-8">
+                            <h5><i class="fas fa-chart-line"></i> Saved Analysis Results</h5>
+                            <p class="text-muted">Manage and send SMS from saved crop analysis results</p>
+                        </div>
+                        <div class="col-md-4 text-end">
+                            <button class="btn btn-outline-secondary" onclick="refreshSavedResults()">
+                                <i class="fas fa-sync"></i> Refresh
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Saved Results Table -->
+                    <div class="table-responsive">
+                        <table class="table table-striped" id="savedResultsTable">
+                            <thead>
+                                <tr>
+                                    <th>Date/Time</th>
+                                    <th>Location</th>
+                                    <th>Recommended Crop</th>
+                                    <th>Languages Available</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="savedResultsTableBody">
+                                <tr>
+                                    <td colspan="5" class="text-center">
+                                        <div class="spinner-border text-primary" role="status">
+                                            <span class="visually-hidden">Loading...</span>
+                                        </div>
+                                        Loading saved results...
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- SMS Management Panel -->
+                <div class="tab-pane fade" id="sms-panel" role="tabpanel">
+                    <h5><i class="fas fa-sms"></i> SMS Management</h5>
+                    <p class="text-muted">Send agricultural advice via SMS using saved analysis results</p>
+
+                    <!-- SMS Sending Form -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6><i class="fas fa-paper-plane"></i> Send SMS from Saved Result</h6>
+                                </div>
+                                <div class="card-body">
+                                    <form id="sendSavedResultSMSForm">
+                                        <div class="mb-3">
+                                            <label for="savedResultSelect" class="form-label">Select Saved Result</label>
+                                            <select class="form-select" id="savedResultSelect" required>
+                                                <option value="">Choose a saved analysis result...</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <label for="farmerLocationSelect" class="form-label">Farmer Location</label>
+                                            <select class="form-select" id="farmerLocationSelect" required>
+                                                <option value="">Choose farmer location...</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <label for="smsLanguageSelect" class="form-label">Language</label>
+                                            <select class="form-select" id="smsLanguageSelect" required>
+                                                <option value="auto">Auto (Use farmer's preference)</option>
+                                                <option value="english">English</option>
+                                                <option value="amharic">አማርኛ (Amharic)</option>
+                                                <option value="afaan_oromo">Afaan Oromoo</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-success" id="sendSavedSMSBtn">
+                                                <i class="fas fa-paper-plane"></i> Send SMS
+                                            </button>
+                                        </div>
+                                    </form>
+                                    
+                                    <div id="smsResultStatus" class="mt-3" style="display: none;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6><i class="fas fa-eye"></i> Preview Selected Result</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div id="resultPreview">
+                                        <p class="text-muted">Select a saved result to preview the advice content</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Back to Main App -->
+            <div class="text-center mt-4">
+                <a href="/" class="btn btn-outline-primary">
+                    <i class="fas fa-arrow-left"></i> Back to Crop Recommender
+                </a>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2024 DANA - AI Crop Recommendation System. All rights reserved.</p>
+        </div>
+    </div>
+
+    <!-- Result Details Modal -->
+    <div class="modal fade" id="resultDetailsModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Analysis Result Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="resultDetailsContent">
+                    <!-- Content will be loaded here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Add new farmer
+        document.getElementById('addFarmerForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('farmerName').value,
+                phone_number: document.getElementById('farmerPhone').value,
+                location: document.getElementById('farmerLocation').value,
+                latitude: parseFloat(document.getElementById('farmerLatitude').value),
+                longitude: parseFloat(document.getElementById('farmerLongitude').value),
+                preferred_language: document.getElementById('farmerLanguage').value
+            };
+            
+            try {
+                const response = await fetch('/admin/add-farmer', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    alert('Farmer added successfully!');
+                    location.reload(); // Refresh page to show new farmer
+                } else {
+                    alert('Error adding farmer: ' + result.error);
+                }
+                
+            } catch (error) {
+                alert('Error adding farmer: ' + error.message);
+            }
+        });
+        
+        // Remove farmer
+        async function removeFarmer(location, phoneNumber) {
+            if (!confirm('Are you sure you want to remove this farmer?')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch('/admin/remove-farmer', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        location: location,
+                        phone_number: phoneNumber
+                    })
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    alert('Farmer removed successfully!');
+                    location.reload(); // Refresh page
+                } else {
+                    alert('Error removing farmer: ' + result.error);
+                }
+                
+            } catch (error) {
+                alert('Error removing farmer: ' + error.message);
+            }
+        }
+        
+        // Auto-fill coordinates for common Ethiopian locations
+        document.getElementById('farmerLocation').addEventListener('change', function() {
+            const location = this.value.toLowerCase();
+            const coordinates = {
+                'addis ababa': [9.0320, 38.7469],
+                'dire dawa': [9.5928, 41.8661],
+                'mekelle': [13.4967, 39.4753],
+                'bahir dar': [11.5980, 37.3906],
+                'awassa': [7.0469, 38.4762],
+                'jimma': [7.6731, 36.8344],
+                'dessie': [11.1342, 39.6403],
+                'gondar': [12.6090, 37.4647],
+                'adama': [8.5400, 39.2675],
+                'harar': [9.3133, 42.1168]
+            };
+            
+            if (coordinates[location]) {
+                document.getElementById('farmerLatitude').value = coordinates[location][0];
+                document.getElementById('farmerLongitude').value = coordinates[location][1];
+            }
+        });
+
+        // Load saved results when the tab is shown
+        document.getElementById('results-tab').addEventListener('shown.bs.tab', function() {
+            loadSavedResults();
+        });
+
+        // Load SMS data when the SMS tab is shown
+        document.getElementById('sms-tab').addEventListener('shown.bs.tab', function() {
+            loadSMSData();
+        });
+
+        // Load saved results
+        async function loadSavedResults() {
+            try {
+                const response = await fetch('/api/get-saved-results');
+                const data = await response.json();
+                
+                if (data.success) {
+                    displaySavedResults(data.results);
+                } else {
+                    console.error('Failed to load saved results:', data.error);
+                }
+            } catch (error) {
+                console.error('Error loading saved results:', error);
+            }
+        }
+
+        // Display saved results in table
+        function displaySavedResults(results) {
+            const tbody = document.getElementById('savedResultsTableBody');
+            
+            if (results.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="5" class="text-center text-muted">No saved results found</td></tr>';
+                return;
+            }
+            
+            tbody.innerHTML = results.map(result => {
+                const date = new Date(result.timestamp).toLocaleString();
+                const languages = [];
+                if (result.has_english_advice) languages.push('EN');
+                if (result.has_amharic_advice) languages.push('አማ');
+                if (result.has_afaan_oromo_advice) languages.push('AF');
+                
+                return `
+                    <tr>
+                        <td>${date}</td>
+                        <td>${result.location_name}</td>
+                        <td><span class="badge bg-success">${result.recommended_crop}</span></td>
+                        <td>${languages.join(', ') || 'None'}</td>
+                        <td>
+                            <button class="btn btn-sm btn-outline-primary" onclick="viewResultDetails('${result.id}')">
+                                <i class="fas fa-eye"></i> View
+                            </button>
+                            <button class="btn btn-sm btn-outline-danger ms-1" onclick="deleteResult('${result.id}')">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Load SMS data (saved results and farmer locations)
+        async function loadSMSData() {
+            try {
+                // Load saved results for SMS dropdown
+                const resultsResponse = await fetch('/api/get-saved-results');
+                const resultsData = await resultsResponse.json();
+                
+                if (resultsData.success) {
+                    populateSavedResultsDropdown(resultsData.results);
+                }
+                
+                // Load farmer locations
+                const locationsResponse = await fetch('/api/get-locations');
+                const locationsData = await locationsResponse.json();
+                
+                if (locationsData.success) {
+                    populateFarmerLocationsDropdown(locationsData.locations);
+                }
+                
+            } catch (error) {
+                console.error('Error loading SMS data:', error);
+            }
+        }
+
+        // Populate saved results dropdown
+        function populateSavedResultsDropdown(results) {
+            const select = document.getElementById('savedResultSelect');
+            select.innerHTML = '<option value="">Choose a saved analysis result...</option>';
+            
+            results.forEach(result => {
+                const date = new Date(result.timestamp).toLocaleDateString();
+                const option = document.createElement('option');
+                option.value = result.id;
+                option.textContent = `${date} - ${result.location_name} (${result.recommended_crop})`;
+                select.appendChild(option);
+            });
+        }
+
+        // Populate farmer locations dropdown
+        function populateFarmerLocationsDropdown(locations) {
+            const select = document.getElementById('farmerLocationSelect');
+            select.innerHTML = '<option value="">Choose farmer location...</option>';
+            
+            locations.forEach(location => {
+                const option = document.createElement('option');
+                option.value = location;
+                option.textContent = location;
+                select.appendChild(option);
+            });
+        }
+
+        // Handle saved result selection change
+        document.getElementById('savedResultSelect').addEventListener('change', async function() {
+            const resultId = this.value;
+            if (!resultId) {
+                document.getElementById('resultPreview').innerHTML = '<p class="text-muted">Select a saved result to preview the advice content</p>';
+                return;
+            }
+            
+            try {
+                const response = await fetch(`/api/get-saved-result/${resultId}`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayResultPreview(data.result);
+                } else {
+                    document.getElementById('resultPreview').innerHTML = '<p class="text-danger">Error loading result preview</p>';
+                }
+            } catch (error) {
+                console.error('Error loading result preview:', error);
+                document.getElementById('resultPreview').innerHTML = '<p class="text-danger">Error loading result preview</p>';
+            }
+        });
+
+        // Display result preview
+        function displayResultPreview(result) {
+            const preview = document.getElementById('resultPreview');
+            
+            let languageInfo = '<div class="mt-2"><small class="text-muted">Available languages: ';
+            const languages = [];
+            if (result.farmer_advice_english) languages.push('English');
+            if (result.farmer_advice_amharic) languages.push('አማርኛ');
+            if (result.farmer_advice_afaan_oromo) languages.push('Afaan Oromoo');
+            languageInfo += languages.join(', ') || 'None';
+            languageInfo += '</small></div>';
+            
+            preview.innerHTML = `
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">${result.recommended_crop}</h6>
+                        <p class="card-text">
+                            <strong>Location:</strong> ${result.location_name}<br>
+                            <strong>Coordinates:</strong> ${result.latitude.toFixed(4)}, ${result.longitude.toFixed(4)}<br>
+                            <strong>Climate Zone:</strong> ${result.region_info.climate_zone || 'Unknown'}
+                        </p>
+                        ${languageInfo}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Send SMS from saved result
+        document.getElementById('sendSavedResultSMSForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const resultId = document.getElementById('savedResultSelect').value;
+            const farmerLocation = document.getElementById('farmerLocationSelect').value;
+            const language = document.getElementById('smsLanguageSelect').value;
+            
+            if (!resultId || !farmerLocation || !language) {
+                alert('Please fill in all fields');
+                return;
+            }
+            
+            const sendBtn = document.getElementById('sendSavedSMSBtn');
+            const statusDiv = document.getElementById('smsResultStatus');
+            
+            sendBtn.disabled = true;
+            sendBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            statusDiv.style.display = 'none';
+            
+            try {
+                const response = await fetch('/api/send-saved-result-sms', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        result_id: resultId,
+                        farmer_location: farmerLocation,
+                        language: language
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    statusDiv.className = 'alert alert-success';
+                    statusDiv.innerHTML = `
+                        <h6><i class="fas fa-check-circle"></i> SMS Sent Successfully!</h6>
+                        <p>Sent to ${data.sent_count} farmers in ${farmerLocation}</p>
+                        <p><strong>Result:</strong> ${data.saved_result_info.crop}</p>
+                        ${data.failed_count > 0 ? `<p class="text-warning">Failed to send to ${data.failed_count} farmers</p>` : ''}
+                    `;
+                } else {
+                    statusDiv.className = 'alert alert-danger';
+                    statusDiv.innerHTML = `<h6><i class="fas fa-exclamation-triangle"></i> SMS Failed</h6><p>${data.error}</p>`;
+                }
+                
+                statusDiv.style.display = 'block';
+                
+            } catch (error) {
+                statusDiv.className = 'alert alert-danger';
+                statusDiv.innerHTML = `<h6><i class="fas fa-exclamation-triangle"></i> Error</h6><p>${error.message}</p>`;
+                statusDiv.style.display = 'block';
+            } finally {
+                sendBtn.disabled = false;
+                sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Send SMS';
+            }
+        });
+
+        // View result details
+        async function viewResultDetails(resultId) {
+            try {
+                const response = await fetch(`/api/get-saved-result/${resultId}`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayResultDetailsModal(data.result);
+                } else {
+                    alert('Error loading result details: ' + data.error);
+                }
+            } catch (error) {
+                alert('Error loading result details: ' + error.message);
+            }
+        }
+
+        // Display result details in modal
+        function displayResultDetailsModal(result) {
+            const content = document.getElementById('resultDetailsContent');
+            const date = new Date(result.timestamp).toLocaleString();
+            
+            content.innerHTML = `
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6>Basic Information</h6>
+                        <table class="table table-sm">
+                            <tr><td><strong>Date:</strong></td><td>${date}</td></tr>
+                            <tr><td><strong>Location:</strong></td><td>${result.location_name}</td></tr>
+                            <tr><td><strong>Coordinates:</strong></td><td>${result.latitude.toFixed(4)}, ${result.longitude.toFixed(4)}</td></tr>
+                            <tr><td><strong>Crop:</strong></td><td>${result.recommended_crop}</td></tr>
+                            <tr><td><strong>Climate Zone:</strong></td><td>${result.region_info.climate_zone || 'Unknown'}</td></tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Soil & Climate Data</h6>
+                        <table class="table table-sm">
+                            <tr><td><strong>Nitrogen:</strong></td><td>${result.satellite_features.nitrogen.toFixed(1)}</td></tr>
+                            <tr><td><strong>Phosphorus:</strong></td><td>${result.satellite_features.phosphorus.toFixed(1)}</td></tr>
+                            <tr><td><strong>Potassium:</strong></td><td>${result.satellite_features.potassium.toFixed(1)}</td></tr>
+                            <tr><td><strong>Temperature:</strong></td><td>${result.satellite_features.temperature.toFixed(1)}°C</td></tr>
+                            <tr><td><strong>Humidity:</strong></td><td>${result.satellite_features.humidity.toFixed(1)}%</td></tr>
+                            <tr><td><strong>pH:</strong></td><td>${result.satellite_features.ph.toFixed(2)}</td></tr>
+                            <tr><td><strong>Rainfall:</strong></td><td>${result.satellite_features.rainfall.toFixed(1)}mm</td></tr>
+                        </table>
+                    </div>
+                </div>
+                
+                ${result.farmer_advice_english ? `
+                <div class="mt-3">
+                    <h6>Agricultural Advice (English)</h6>
+                    <div class="border p-3 rounded bg-light" style="max-height: 200px; overflow-y: auto;">
+                        ${result.farmer_advice_english.replace(/\n/g, '<br>')}
+                    </div>
+                </div>
+                ` : ''}
+                
+                ${result.alternative_crops && result.alternative_crops.length > 0 ? `
+                <div class="mt-3">
+                    <h6>Alternative Crops</h6>
+                    <div class="row">
+                        ${result.alternative_crops.map(([crop, conf]) => `
+                            <div class="col-md-4">
+                                <div class="card card-body text-center">
+                                    <strong>${crop}</strong>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : ''}
+            `;
+            
+            const modal = new bootstrap.Modal(document.getElementById('resultDetailsModal'));
+            modal.show();
+        }
+
+        // Delete result
+        async function deleteResult(resultId) {
+            if (!confirm('Are you sure you want to delete this saved result?')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch(`/api/delete-saved-result/${resultId}`, {
+                    method: 'DELETE'
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    alert('Result deleted successfully!');
+                    loadSavedResults(); // Refresh the table
+                    // Update statistics
+                    const currentCount = parseInt(document.getElementById('totalSavedResults').textContent);
+                    document.getElementById('totalSavedResults').textContent = Math.max(0, currentCount - 1);
+                } else {
+                    alert('Error deleting result: ' + data.error);
+                }
+            } catch (error) {
+                alert('Error deleting result: ' + error.message);
+            }
+        }
+
+        // Refresh saved results
+        function refreshSavedResults() {
+            loadSavedResults();
+        }
+
+        // Theme Toggle Functionality
+        function toggleTheme() {
+            const body = document.body;
+            const themeIcon = document.getElementById('theme-icon');
+            const themeText = document.getElementById('theme-text');
+            
+            if (body.classList.contains('dark-theme')) {
+                body.classList.remove('dark-theme');
+                themeIcon.className = 'fas fa-moon';
+                themeText.textContent = 'Dark';
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.classList.add('dark-theme');
+                themeIcon.className = 'fas fa-sun';
+                themeText.textContent = 'Light';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        function loadTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            const body = document.body;
+            const themeIcon = document.getElementById('theme-icon');
+            const themeText = document.getElementById('theme-text');
+            
+            if (savedTheme === 'dark') {
+                body.classList.add('dark-theme');
+                themeIcon.className = 'fas fa-sun';
+                themeText.textContent = 'Light';
+            } else {
+                body.classList.remove('dark-theme');
+                themeIcon.className = 'fas fa-moon';
+                themeText.textContent = 'Dark';
+            }
+        }
+
+        // Load theme on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadTheme();
+        });
+    </script>
+</body>
+</html>
