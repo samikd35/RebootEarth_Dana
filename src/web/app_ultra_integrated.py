@@ -11,11 +11,24 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 import json
 
-from core.integration_bridge import UltraIntegrationBridge, CropRecommendationRequest
+import sys
+import os
+import logging
 
-# Configure logging
+# Configure logging first
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# Ensure Google Cloud Project is set
+if 'GOOGLE_CLOUD_PROJECT' not in os.environ:
+    os.environ['GOOGLE_CLOUD_PROJECT'] = 'reboot-468512'
+    logger.info("✅ Set GOOGLE_CLOUD_PROJECT environment variable to reboot-468512")
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from core.integration_bridge import UltraIntegrationBridge, CropRecommendationRequest
+from features.sms_service import sms_service, farmer_manager, FarmerContact, SMSRequest
+from features.analysis_results_manager import analysis_results_manager
 
 # Initialize the ultra integration bridge
 try:
@@ -77,6 +90,15 @@ def handle_single_request(data: Dict) -> Dict:
     
     # Get recommendation
     response = bridge.get_crop_recommendation(req)
+    
+    # Auto-save the analysis result for admin SMS sending
+    try:
+        location_name = f"{req.latitude:.4f}, {req.longitude:.4f}"
+        saved_result_id = analysis_results_manager.save_analysis_result(response, location_name)
+        if saved_result_id:
+            logger.info(f"Auto-saved analysis result: {saved_result_id}")
+    except Exception as e:
+        logger.warning(f"Failed to auto-save analysis result: {e}")
     
     # Convert to JSON-serializable format
     response_data = {
@@ -197,6 +219,381 @@ def get_stats():
     stats = bridge.get_performance_stats()
     return jsonify(stats)
 
+# SMS and Admin Panel Routes
+
+@app.route('/admin')
+def admin_panel():
+    """Admin panel for managing farmer contacts and saved analysis results"""
+    farmers_by_location = farmer_manager.get_all_farmers()
+    total_farmers = sum(len(farmers) for farmers in farmers_by_location.values())
+    total_locations = len(farmers_by_location)
+    sms_available = sms_service.is_available()
+    
+    # Get saved analysis results summary
+    results_summary = analysis_results_manager.get_results_summary()
+    
+    return render_template('admin.html',
+                         farmers_by_location=farmers_by_location,
+                         total_farmers=total_farmers,
+                         total_locations=total_locations,
+                         sms_available=sms_available,
+                         total_saved_results=results_summary['total_results'],
+                         unique_crops_analyzed=results_summary['unique_crops'])
+
+@app.route('/admin/add-farmer', methods=['POST'])
+def add_farmer():
+    """Add a new farmer contact"""
+    try:
+        data = request.get_json()
+        
+        farmer = FarmerContact(
+            name=data['name'],
+            phone_number=data['phone_number'],
+            location=data['location'],
+            latitude=float(data['latitude']),
+            longitude=float(data['longitude']),
+            preferred_language=data.get('preferred_language', 'english')
+        )
+        
+        success = farmer_manager.add_farmer(farmer)
+        
+        if success:
+            return jsonify({'success': True, 'message': 'Farmer added successfully'})
+        else:
+            return jsonify({'success': False, 'error': 'Farmer already exists or invalid data'})
+            
+    except Exception as e:
+        logger.error(f"Error adding farmer: {e}")
+        return jsonify({'success': False, 'error': str(e)})
+
+@app.route('/admin/remove-farmer', methods=['POST'])
+def remove_farmer():
+    """Remove a farmer contact"""
+    try:
+        data = request.get_json()
+        location = data['location']
+        phone_number = data['phone_number']
+        
+        success = farmer_manager.remove_farmer(location, phone_number)
+        
+        if success:
+            return jsonify({'success': True, 'message': 'Farmer removed successfully'})
+        else:
+            return jsonify({'success': False, 'error': 'Farmer not found'})
+            
+    except Exception as e:
+        logger.error(f"Error removing farmer: {e}")
+        return jsonify({'success': False, 'error': str(e)})
+
+@app.route('/api/get-farmers-by-location/<location>')
+def get_farmers_by_location(location):
+    """Get farmers for a specific location"""
+    farmers = farmer_manager.get_farmers_by_location(location)
+    
+    farmers_data = []
+    for farmer in farmers:
+        farmers_data.append({
+            'name': farmer.name,
+            'phone_number': farmer.phone_number,
+            'preferred_language': farmer.preferred_language
+        })
+    
+    return jsonify({
+        'success': True,
+        'location': location,
+        'farmers': farmers_data
+    })
+
+@app.route('/api/send-advice-sms', methods=['POST'])
+def send_advice_sms():
+    """Send agricultural advice via SMS to farmers - DEPRECATED: Use /api/send-saved-result-sms instead"""
+    try:
+        data = request.get_json()
+        
+        location = data['location']
+        language = data['language']
+        advice_text = data['advice_text']
+        
+        # Get farmers for the location
+        farmers = farmer_manager.get_farmers_by_location(location)
+        
+        if not farmers:
+            return jsonify({
+                'success': False,
+                'error': f'No farmers found for location: {location}'
+            })
+        
+        # Send SMS to all farmers in the location
+        sent_count = 0
+        failed_count = 0
+        results = []
+        
+        for farmer in farmers:
+            # Use farmer's preferred language if not specified
+            sms_language = language if language != 'auto' else farmer.preferred_language
+            
+            sms_request = SMSRequest(
+                phone_number=farmer.phone_number,
+                message=advice_text,
+                language=sms_language,
+                location=location
+            )
+            
+            sms_response = sms_service.send_agricultural_advice(sms_request)
+            
+            if sms_response.success:
+                sent_count += 1
+                results.append({
+                    'farmer': farmer.name,
+                    'phone': farmer.phone_number,
+                    'status': 'sent',
+                    'message_sid': sms_response.message_sid
+                })
+            else:
+                failed_count += 1
+                results.append({
+                    'farmer': farmer.name,
+                    'phone': farmer.phone_number,
+                    'status': 'failed',
+                    'error': sms_response.error_message
+                })
+        
+        return jsonify({
+            'success': True,
+            'sent_count': sent_count,
+            'failed_count': failed_count,
+            'total_farmers': len(farmers),
+            'results': results
+        })
+        
+    except Exception as e:
+        logger.error(f"Error sending SMS advice: {e}")
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        })
+
+@app.route('/api/get-locations')
+def get_locations():
+    """Get all available farmer locations"""
+    locations = farmer_manager.get_all_locations()
+    return jsonify({
+        'success': True,
+        'locations': locations
+    })
+
+@app.route('/api/get-saved-results')
+def get_saved_results():
+    """Get all saved analysis results for admin"""
+    try:
+        results = analysis_results_manager.get_all_results()
+        
+        # Convert to JSON-serializable format
+        results_data = []
+        for result_id, result in results.items():
+            results_data.append({
+                'id': result.id,
+                'timestamp': result.timestamp,
+                'location_name': result.location_name,
+                'latitude': result.latitude,
+                'longitude': result.longitude,
+                'recommended_crop': result.recommended_crop,
+                'confidence_score': result.confidence_score,
+                'has_english_advice': bool(result.farmer_advice_english),
+                'has_amharic_advice': bool(result.farmer_advice_amharic),
+                'has_afaan_oromo_advice': bool(result.farmer_advice_afaan_oromo),
+                'alternative_crops': result.alternative_crops
+            })
+        
+        # Sort by timestamp (newest first)
+        results_data.sort(key=lambda x: x['timestamp'], reverse=True)
+        
+        return jsonify({
+            'success': True,
+            'results': results_data,
+            'total_count': len(results_data)
+        })
+        
+    except Exception as e:
+        logger.error(f"Error getting saved results: {e}")
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        })
+
+@app.route('/api/get-saved-result/<result_id>')
+def get_saved_result(result_id):
+    """Get a specific saved analysis result"""
+    try:
+        result = analysis_results_manager.get_result_by_id(result_id)
+        
+        if not result:
+            return jsonify({
+                'success': False,
+                'error': 'Result not found'
+            }), 404
+        
+        return jsonify({
+            'success': True,
+            'result': {
+                'id': result.id,
+                'timestamp': result.timestamp,
+                'location_name': result.location_name,
+                'latitude': result.latitude,
+                'longitude': result.longitude,
+                'recommended_crop': result.recommended_crop,
+                'confidence_score': result.confidence_score,
+                'satellite_features': result.satellite_features,
+                'region_info': result.region_info,
+                'farmer_advice_english': result.farmer_advice_english,
+                'farmer_advice_amharic': result.farmer_advice_amharic,
+                'farmer_advice_afaan_oromo': result.farmer_advice_afaan_oromo,
+                'alternative_crops': result.alternative_crops,
+                'processing_time_ms': result.processing_time_ms
+            }
+        })
+        
+    except Exception as e:
+        logger.error(f"Error getting saved result {result_id}: {e}")
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        })
+
+@app.route('/api/delete-saved-result/<result_id>', methods=['DELETE'])
+def delete_saved_result(result_id):
+    """Delete a saved analysis result"""
+    try:
+        success = analysis_results_manager.delete_result(result_id)
+        
+        if success:
+            return jsonify({
+                'success': True,
+                'message': 'Result deleted successfully'
+            })
+        else:
+            return jsonify({
+                'success': False,
+                'error': 'Result not found'
+            }), 404
+            
+    except Exception as e:
+        logger.error(f"Error deleting saved result {result_id}: {e}")
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        })
+
+@app.route('/api/send-saved-result-sms', methods=['POST'])
+def send_saved_result_sms():
+    """Send SMS using a saved analysis result"""
+    try:
+        data = request.get_json()
+        
+        result_id = data['result_id']
+        farmer_location = data['farmer_location']
+        language = data['language']
+        
+        # Get the saved result
+        saved_result = analysis_results_manager.get_result_by_id(result_id)
+        if not saved_result:
+            return jsonify({
+                'success': False,
+                'error': 'Saved result not found'
+            })
+        
+        # Get the appropriate advice text based on language
+        advice_text = None
+        if language == 'english':
+            advice_text = saved_result.farmer_advice_english
+        elif language == 'amharic':
+            advice_text = saved_result.farmer_advice_amharic
+        elif language == 'afaan_oromo':
+            advice_text = saved_result.farmer_advice_afaan_oromo
+        
+        if not advice_text:
+            return jsonify({
+                'success': False,
+                'error': f'No advice available in {language} for this result'
+            })
+        
+        # Get farmers for the location
+        farmers = farmer_manager.get_farmers_by_location(farmer_location)
+        
+        if not farmers:
+            return jsonify({
+                'success': False,
+                'error': f'No farmers found for location: {farmer_location}'
+            })
+        
+        # Send SMS to all farmers in the location
+        sent_count = 0
+        failed_count = 0
+        results = []
+        
+        for farmer in farmers:
+            # Use specified language or farmer's preferred language
+            sms_language = language if language != 'auto' else farmer.preferred_language
+            
+            # Get the appropriate advice text for this farmer
+            if sms_language == 'english':
+                farmer_advice_text = saved_result.farmer_advice_english
+            elif sms_language == 'amharic':
+                farmer_advice_text = saved_result.farmer_advice_amharic
+            elif sms_language == 'afaan_oromo':
+                farmer_advice_text = saved_result.farmer_advice_afaan_oromo
+            else:
+                farmer_advice_text = saved_result.farmer_advice_english  # Fallback
+            
+            if not farmer_advice_text:
+                farmer_advice_text = saved_result.farmer_advice_english or "Agricultural advice not available in requested language."
+            
+            sms_request = SMSRequest(
+                phone_number=farmer.phone_number,
+                message=farmer_advice_text,
+                language=sms_language,
+                location=farmer_location
+            )
+            
+            sms_response = sms_service.send_agricultural_advice(sms_request)
+            
+            if sms_response.success:
+                sent_count += 1
+                results.append({
+                    'farmer': farmer.name,
+                    'phone': farmer.phone_number,
+                    'status': 'sent',
+                    'message_sid': sms_response.message_sid
+                })
+            else:
+                failed_count += 1
+                results.append({
+                    'farmer': farmer.name,
+                    'phone': farmer.phone_number,
+                    'status': 'failed',
+                    'error': sms_response.error_message
+                })
+        
+        return jsonify({
+            'success': True,
+            'sent_count': sent_count,
+            'failed_count': failed_count,
+            'total_farmers': len(farmers),
+            'results': results,
+            'saved_result_info': {
+                'location_name': saved_result.location_name,
+                'crop': saved_result.recommended_crop,
+                'confidence': saved_result.confidence_score
+            }
+        })
+        
+    except Exception as e:
+        logger.error(f"Error sending SMS from saved result: {e}")
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        })
+
 @app.route('/predict_coordinates', methods=['POST'])
 def predict_coordinates():
     """Web form endpoint for coordinate-based prediction"""
@@ -220,6 +617,15 @@ def predict_coordinates():
         
         # Get recommendation
         response = bridge.get_crop_recommendation(req)
+        
+        # Auto-save the analysis result for admin SMS sending
+        try:
+            location_name = f"{latitude:.4f}, {longitude:.4f}"
+            saved_result_id = analysis_results_manager.save_analysis_result(response, location_name)
+            if saved_result_id:
+                logger.info(f"Auto-saved analysis result from web form: {saved_result_id}")
+        except Exception as e:
+            logger.warning(f"Failed to auto-save analysis result from web form: {e}")
         
         # Render result
         return render_template('index_ultra_integrated.html',

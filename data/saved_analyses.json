@@ -1,0 +1,15 @@
+[
+  {
+    "id": "analysis_20250810_080549_0",
+    "location_name": "Demo Farm - Addis Ababa",
+    "latitude": 9.032,
+    "longitude": 38.7469,
+    "crop_recommendation": "Maize, Teff",
+    "confidence_score": 0.85,
+    "advice_english": "Plant maize and teff this season for optimal yields. Apply organic fertilizer before planting.",
+    "advice_amharic": "በዚህ ወቅት በቆሎ እና ጤፍ ለተሻለ ምርት ይዝራ። ከመዝራት በፊት የተፈጥሮ ማዳበሪያ ይተግብሩ።",
+    "advice_afaan_oromo": "Yeroo kana boqqolloo fi xaafii oomisha gaariif facaasaa. Osoo hin facaasin dura xurii uumamaa fayyadamaa.",
+    "created_at": "2025-08-10T08:05:49.350058",
+    "saved_by": "demo_user"
+  }
+]

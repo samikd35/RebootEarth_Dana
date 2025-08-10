@@ -1,0 +1,851 @@
+{
+  "20250810_095406_9.0320_38.7469": {
+    "id": "20250810_095406_9.0320_38.7469",
+    "timestamp": "2025-08-10T09:54:06.562784",
+    "location_name": "Test Location - Addis Ababa",
+    "latitude": 9.032,
+    "longitude": 38.7469,
+    "recommended_crop": "Maize",
+    "confidence_score": 0.87,
+    "satellite_features": {
+      "nitrogen": 45.2,
+      "phosphorus": 38.7,
+      "potassium": 42.1,
+      "temperature": 28.5,
+      "humidity": 75.3,
+      "ph": 6.2,
+      "rainfall": 120.8
+    },
+    "region_info": {
+      "climate_zone": "tropical"
+    },
+    "farmer_advice_english": "Your soil and weather can grow Maize, but here's what you should know:\n\nFertilizer use\n- Your soil has good nitrogen levels (45.2). This is perfect for maize growth.\n- Add some phosphorus fertilizer or bone meal to boost the phosphorus from 38.7 to above 40.\n- Your potassium level (42.1) is excellent for strong maize stalks.\n\nTemperature & Rain\n- Temperature is 28.5°C - perfect for maize growing season\n- Rainfall is 120.8mm - good amount, but make sure water drains well\n\nSoil pH\n- Your soil pH is 6.2 - excellent for maize! No need to change.\n\nFighting pests & diseases\n- Watch for stem borers and army worms during growing season\n- Use clean seeds and rotate crops to prevent diseases\n- Remove weeds that compete with maize\n\nPlanting tips\n- Plant when rains start consistently\n- Space plants 75cm between rows, 25cm between plants\n- Plant 2-3 seeds per hole, thin to strongest plant\n\nOther crops that can grow well here\n- Rice and Banana also suit your soil and climate well\n- Consider intercropping with beans to add nitrogen to soil",
+    "farmer_advice_amharic": "የእርስዎ አፈር እና የአየር ሁኔታ ቆሎ ማብቀል ይችላል፣ ግን ይህንን ማወቅ አለብዎት፡\n\nማዳበሪያ አጠቃቀም\n- የእርስዎ አፈር ጥሩ የናይትሮጅን መጠን አለው (45.2)። ይህ ለቆሎ እድገት ፍጹም ነው።\n- ፎስፎረስን ከ38.7 ወደ 40 በላይ ለማሳደግ የፎስፎረስ ማዳበሪያ ወይም የአጥንት ዱቄት ይጨምሩ።\n- የእርስዎ የፖታሲየም መጠን (42.1) ለጠንካራ የቆሎ ግንድ በጣም ጥሩ ነው።",
+    "farmer_advice_afaan_oromo": "Lafti fi haalli qilleensaa keessan Boqqolloo guddisuu danda'a, garuu kana beekuu qabdu:\n\nItti fayyadama xurii\n- Lafti keessan hamma gaarii naayitrojenii qaba (45.2). Kun guddina boqqolloof hundaaf gaarii dha.\n- Foosfooras 38.7 irraa gara 40 ol kaasuf xurii foosfooras ykn daakuu lafee itti dabalaa.\n- Hamma pootaasiyeemii keessan (42.2) hidda boqqolloo jabaa ta'eef baay'ee gaarii dha.",
+    "alternative_crops": [
+      [
+        "Rice",
+        78.2
+      ],
+      [
+        "Banana",
+        72.1
+      ],
+      [
+        "Cotton",
+        65.8
+      ]
+    ],
+    "processing_time_ms": 1850.5
+  },
+  "20250810_095957_7.4489_39.0674": {
+    "id": "20250810_095957_7.4489_39.0674",
+    "timestamp": "2025-08-10T09:59:57.886099",
+    "location_name": "7.4489, 39.0674",
+    "latitude": 7.448943,
+    "longitude": 39.067383,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.37,
+    "satellite_features": {
+      "nitrogen": 62.057273587566776,
+      "phosphorus": 78.29991552686788,
+      "potassium": 111.41175342490794,
+      "temperature": 26.911639623613546,
+      "humidity": 51.7815559792,
+      "ph": 6.879448652160659,
+      "rainfall": 152.48837390399353
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather can grow muskmelon, but it is not a good match right now. Here’s what you should know:\n\nFertilizer use  \n- Your soil has enough nitrogen, phosphorus, and potassium.  \n- Do not add much chemical fertilizer now.  \n- Use compost or animal manure to keep your soil healthy.  \n- Mix in old leaves, cow dung, or kitchen waste before planting.\n\nTemperature & Rain  \n- The temperature is good for muskmelon.  \n- Rainfall is not too high, but muskmelon needs good drainage.  \n- Make raised beds or small ridges to stop water from standing around the plants.  \n- If the weather gets dry, water the plants regularly but do not flood them.\n\nSoil pH  \n- Your soil pH is 6.88, which is fine for muskmelon.  \n- No need to change anything here.\n\nFighting pests & diseases  \n- Muskmelon can get attacked by insects like fruit flies and powdery mildew disease.  \n- Keep your field clean and remove old plant parts.  \n- Check your plants every week for spots or bugs.  \n- If you see white powder on leaves or damaged fruits, remove and bury them away from your field.  \n- Use neem water spray to scare away pests.\n\nPlanting tips  \n- Pick a sunny spot with loose soil.  \n- Plant seeds in small hills, about 1 meter apart.  \n- Do not plant muskmelon in the same spot every year; rotate with other crops.  \n- Keep weeds away by hoeing around the plants.\n\nOther crops that can grow well here  \n- Kidneybeans grow well here and are a better choice.  \n- You can also try mothbeans or mango, but kidneybeans are the best match for your land right now.\n\nIf you want the best harvest, try kidneybeans this season—they fit your soil and weather much better than muskmelon.",
+    "farmer_advice_amharic": "የእርሻዎ መሬትና የአየር ሁኔታ ሙስክመሎን ማበቅ ይችላል፣ ነገር ግን አሁን ለመቀጠል በጣም ተስማሚ አይደለም። የሚያስፈልጉት ነገሮች እነዚህ ናቸው፦\n\nየማር አጠቃቀም  \n- በመሬትዎ በቂ ናይትሮጅን፣ ፎስፈረስ፣ እና ፖታሲየም አሉ።  \n- አሁን ብዙ የኬሚካል ማር አትጨምሩ።  \n- የእንስሳት ጉዳይ ወይም ኮምፖስት በመጠቀም መሬትዎን ጤናማ ያድርጉት።  \n- ከተከለለ ቅጠል፣ የበሬ ጉዳይ ወይም የቤት ቆሻሻ በመቀላቀል ማስተካከል በመተከል በፊት ያድርጉ።\n\nየአየር ሙቀትና ዝናብ  \n- የአየር ሙቀት ለሙስክመሎን ተስማሚ ነው።  \n- ዝናቡ ብዙ አይደለም፣ ነገር ግን ሙስክመሎን መልካም የውሃ መውጫ ያስፈልገዋል።  \n- የውሃ መቆየት እንዳይኖር በተከል ቦታዎ ላይ ከፍ ያሉ መኝታዎች ወይም ትንሽ ከተራቆች ያዘጋጁ።  \n- አየር ከደረቀ ጊዜ በተደጋጋሚ ውሃ ይስጡ፣ ግን ውሃ አትጠጉ።\n\nየመሬት pH  \n- የመሬትዎ pH 6.88 ነው፣ ለሙስክመሎን ተስማሚ ነው።  \n- በዚህ ምክንያት ምንም መቀየር አያስፈልግም።\n\nተባዮችና በሽታዎችን መከላከል  \n- ሙስክመሎን የፍራፍሬ ዝንብ እና የነጭ ትቢያ በሽታ ይጥላት ይችላል።  \n- እርሻዎን ንጹህ ያድርጉ፣ አሮጌ ተከላዎችን ያስወግዱ።  \n- በየሳምንቱ ተከላዎትን ለቅጠል ወይም ለተባይ ይመልከቱ።  \n- በቅጠሉ ላይ ነጭ ትቢያ ወይም ተጎዳኘ ፍራፍሬ ካየታችሁ ከእርሻዎ በሩቅ ያስወግዱና ያቀቡ።  \n- ተባዮችን ለማስፈራት የኒም ውሃ ስፕሬ ይጠቀሙ።\n\nየመተከል ምክሮች  \n- ፀሐይ የሚያስገባ እና ዝቅተኛ የሆነ መሬት ይምረጡ።  \n- ዘሮቹን በትንሽ ከፍ ያሉ ኮከቦች ላይ፣ ከአንዱ ወደ ሌላ 1 ሜትር ርቀት በመተከል ይተክሉ።  \n- ሙስክመሎን በየዓመቱ በአንደኛው ቦታ አትተክሉ፤ ከሌሎች እፅዋት ጋር ይቀያዩ።  \n- በተከላዎች ዙሪያ በመጎተት ሣር ያስወግዱ።\n\nከዚህ በተጨማሪ በዚህ መሬት ላይ የሚበቁ ሌሎች እፅዋት  \n- ኪድኒቢንስ (አይብ ባቄላ) በዚህ መሬት ላይ በጣም ይበቃል፣ ይህ የተሻለ አማራጭ ነው።  \n- ሞትቢንስ ወይም ማንጎ ማበቅ ይችላሉ፣ ግን ኪድኒቢንስ ለመሬትዎ አሁን በጣም ተስማሚ ነው።\n\nከሁሉም በላይ የሚሻለውን ውጤት ለማግኘት በዚህ ወቅት ኪድኒቢንስ ይተክሉ፤ ለመሬትዎና ለአየር ሁኔታዎ ከሙስክመሎን ይልቅ ተስማሚ ነው።",
+    "farmer_advice_afaan_oromo": "Qilleensa fi lafa kee irratti muskmelon ni biqilu, garuu yeroo ammaa lafa keetiif hin mijaa’u. Mee waan kana hubachuu qabdu:\n\nFayyadama Foolii  \n- Lafni kee naayitroojiinii, fosforaasii fi potaasiyemii gahaa qaba.  \n- Amma foolii keemikaalaa baay’ee hin dabaliin.  \n- Qoricha lafaaf, kompostii ykn xurree horii fayyadami.  \n- Folii durii, xurree loonii, ykn hafuura nyaataa mana keessaa lafa keessa makiitii dura biqiltuu ittiin facaftu.\n\nQilleensa fi Rooba  \n- Qilleensi yeroo ammaa muskmelon irratti gaarii dha.  \n- Roobni baay’ee hin jiru, garuu muskmelon bishaan dhaabbataa hin barbaadu.  \n- Lafaa ol kaasii ykn xurree xiqqoo tolchi, bishaan biqiltuu marsuu irraa ittisuuf.  \n- Yeroo qilleensi goggoguu jalqabu, yeroo yerootti bishaan kenni, garuu lafa hin dhoowwatin.\n\npH Lafaa  \n- pH lafa kee 6.88 dha, kunis muskmelon irratti gaarii dha.  \n- Waan kana irratti homaa jijjiiru hin barbaachisu.\n\nBalaaleffannaa Qamadii fi Dhukkuba  \n- Muskmelon bifa qamadii akka harooressa midhaanii fi dhukkuba funyaan adii (powdery mildew) irraa miidhamuu danda’a.  \n- Qonnaa kee qulqulleessi, hafuura biqiltuu dulloomaa balleessi.  \n- Torban torbaan biqiltuu kee ilaali, mallattoo dhibee ykn qamadii ilaali.  \n- Yoo funyaan adii baala irra argite ykn midhaan miidhame argite, irraa fuudhi, lafa qonnaa irraa fagoo awwaali.  \n- Bishaan neemiin buufadhu, qamadii akka hin dhufneef.\n\nGorsa Facaasaa  \n- Bakka aduu argatu fi lafa laaftuu filadhu.  \n- Sanyii gaara xiqqoo irratti, meetira tokko tokkoon facaasi.  \n- Muskmelon waggaa waggaan bakka tokkotti hin facaafatin; midhaan biroo waliin wal jijjiiri.  \n- Qamadii lafa irraa buqqisuuf, naannoo biqiltuu ciri.\n\nMidhaan Biroo Asitti Gaarii Ta’an  \n- Baaqelaa (kidneybean) asitti baay’ee gaarii biqila, filannoo gaarii dha.  \n- Mothbean ykn mangaas dabalataan yaaluun ni danda’ama, garuu baaqelaa lafa keetiif yeroo ammaa filannoo duraa dha.\n\nHorsaa gaarii argachuuf, yeroo kana baaqelaa facaasi—lafa fi qilleensa keetiif muskmelon caalaa siif mijaa’a.",
+    "alternative_crops": [
+      [
+        "Kidneybeans",
+        31.0
+      ],
+      [
+        "Mothbeans",
+        10.0
+      ],
+      [
+        "Mango",
+        8.0
+      ]
+    ],
+    "processing_time_ms": 74797.36876487732
+  },
+  "20250810_101101_7.5361_37.6611": {
+    "id": "20250810_101101_7.5361_37.6611",
+    "timestamp": "2025-08-10T10:11:01.549104",
+    "location_name": "7.5361, 37.6611",
+    "latitude": 7.536084,
+    "longitude": 37.661133,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.37,
+    "satellite_features": {
+      "nitrogen": 48.12668717927696,
+      "phosphorus": 84.27337214716,
+      "potassium": 108.95481776870756,
+      "temperature": 26.777138278519047,
+      "humidity": 55.80124112373473,
+      "ph": 7.085783683484952,
+      "rainfall": 144.90854150492484
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather can grow muskmelon, but it is not a good match. Here’s what you should know:\n\nFertilizer use\n- Your soil is low in nitrogen. Muskmelon needs more. Add urea or well-rotted cow dung to your field.\n- Phosphorus and potassium are enough. No need to add more.\n- Mixing compost or old manure into the soil will help your plants grow better.\n\nTemperature & Rain\n- The temperature is good for muskmelon.\n- Rainfall is a bit low. Muskmelon likes more water. You may need to water your plants often, especially if there is no rain.\n- Make sure your field does not flood. Muskmelon roots do not like too much water staying around.\n\nSoil pH\n- Your soil pH is 7.1. This is a little high for muskmelon, but still okay.\n- Adding compost or manure every season helps keep the soil healthy.\n\nFighting pests & diseases\n- Your area is warm and a bit humid. Watch out for powdery mildew (white dust on leaves) and fruit flies.\n- Water in the morning, not at night, to keep leaves dry.\n- Remove and burn sick plants quickly.\n- Check your field every week for bugs and sick plants.\n\nPlanting tips\n- Choose a sunny spot with loose soil.\n- Plant seeds about 1 meter apart.\n- Rotate muskmelon with other crops each season. Do not plant muskmelon in the same spot every year.\n- Keep the field free from weeds.\n\nOther crops that can grow well here\n- Kidney beans (best match)\n- Moth beans\n- Mango (can grow, but not the best fit)\n\nMuskmelon is not the best crop for your land. Kidney beans will grow better. You can try those for better harvest and less trouble.",
+    "farmer_advice_amharic": "የመሬትዎ እና የአየር ንብረት ሙስክመሎን ማበቅ ይችላሉ፣ ግን በጣም ተስማሚ አይደለም። የሚያስፈልጎትን ያስታውቁ፦\n\nየማር አጠቃቀም  \n- መሬትዎ ናይትሮጅን ዝቅተኛ ነው። ሙስክመሎን በጣም ያስፈልጋል። ዩሪያ ወይም የበግ የቆመ ጉድ ወደ እርሻዎ ያክሉ።  \n- ፎስፎረስ እና ፖታሲየም በቂ ነው። ተጨማሪ ማከም አያስፈልግም።  \n- ኮምፖስት ወይም የቆመ ጉድ በመሬት ማቀላጠፍ እፍራትዎን ያሻሻላል።  \n\nየአየር ሙቀት እና ዝናብ  \n- ሙቀቱ ለሙስክመሎን ተስማሚ ነው።  \n- ዝናቡ ትንሽ ዝቅተኛ ነው። ሙስክመሎን በጣም ውሃ ይወዳል። ዝናብ ካልሆነ ተደጋጋሚ ማጠጣት ያስፈልጋል።  \n- እርሻዎ እንዳይጠልቅ ያረጋግጡ። የሙስክመሎን ሥር በጣም ውሃ ሲቆይ አይወድድም።  \n\nየመሬት pH  \n- የመሬትዎ pH 7.1 ነው። ለሙስክመሎን ትንሽ ከመጠኑ በላይ ነው፣ ግን ገና ይሄን ይቻላል።  \n- ኮምፖስት ወይም ጉድ በየወቅቱ በመጨመር መሬትዎን ጤናማ ያደርጋል።  \n\nተበካካ እና በሽታ  \n- አካባቢዎ ውዝግት እና ትንሽ እርጥበት አለው። የፈጣሪ በሽታ (በቅጠሉ ላይ ነጭ ደባብ) እና የፍራፍሬ ዝንብ ይጠነቀቁ።  \n- ቅጠሎቹ እንዳይረጡ ውሃን በጠዋት ይሙቁ፣ በሌሊት አይሙቁም።  \n- በሽታ ያጋጠመ ተክል በፍጥነት ያስወግዱና ያቃጡት።  \n- በየሳምንቱ እርሻዎን ለተበካካና ለበሽታ ይመልከቱ።  \n\nየተከላ ምክሮች  \n- ፀሐይ የሚደርስበትና ዝቅተኛ መሬት ይምረጡ።  \n- ዘሩን በ1 ሜትር ርቀት ይተክሉ።  \n- ሙስክመሎንን በየወቅቱ ከሌሎች እፍራት ጋር በመቀየር ይተክሉ። በየዓመቱ በአንደኛው ቦታ አይተክሉት።  \n- እርሻዎን ከቆጭቆጮ ነጻ ያድርጉት።  \n\nእዚህ በቀላሉ የሚያበቁ ሌሎች እፍራት  \n- የአንደኛ ደረጃ የሚሆኑ ኪድኒ ባቄላ  \n- ሞት ባቄላ  \n- ማንጎ (ማበቅ ይችላል፣ ግን ተስማሚ አይደለም)  \n\nሙስክመሎን ለመሬትዎ ተስማሚ አይደለም። ኪድኒ ባቄላ ይሻላል። እነዚህን በመተካት የበለጠ ምርት እና ቀላል የሆነ ሥራ ያገኛሉ።",
+    "farmer_advice_afaan_oromo": "Lafti fi haalli qilleensaa keessan muskmelon akka biqilu ni danda’a, garuu lafti keessan muskmelon waliin hin mijaa’u. Mee waan kana beekuu qabdan:\n\nFayyadama Foolii (Qoricha Lafaa)\n- Lafti keessan naayitroojiinii (nitrogen) xiqqoo qaba. Muskmelon naayitroojiinii baay’ee barbaada. Ureaa ykn xurumba loon duraan goggogee lafa keessanitti dabalaa.\n- Phosphorus fi potassium gahaa dha. Isaan dabaluu hin barbaachisu.\n- Kompostii ykn xurumba dulloomaa lafa keessa makuun biqiltoonni keessan akka gaariitti guddatan ni gargaara.\n\nHaala Qilleensaa fi Rooba\n- Haalli qilleensaa muskmelonaf mijataa dha.\n- Roobni xiqqoo dha. Muskmelon bishaan baay’ee jaallata. Yoo roobni hin jirre, yeroo baay’ee bishaan itti naqaa.\n- Lafa keessan bishaan keessa hin dhaabbanne akka ta’u mirkaneessaa. Ijji muskmelon bishaan baay’ee keessa turuu hin jaallattu.\n\npH Lafaa\n- pH lafa keessan 7.1 dha. Kun muskmelonaf olka’aa dha, garuu rakkoo hin qabu.\n- Kompostii ykn xurumba waggaa waggaan lafa keessanitti dabaluu lafa fayyaa qabaachuuf ni gargaara.\n\nBalaaleffannaa Qamadii fi Dhukkuboota\n- Naannoon keessan ho’aa fi dukkana xiqqoo qaba. Mildewwii adii (daakuu adii baala irra jiru) fi simbirroota midhaanii (fruit fly) irraa of eeggadhaa.\n- Ganama bishaan naqaa, halkan bishaan hin naqinaa, baalli akka qal’uuf.\n- Biqiltoota dhukkubsatan ariitiin ciruu fi gubuu.\n- Torban torbaan lafa keessan sakatta’aa, bifa qamadii fi biqiltoota dhukkubsatan ilaalaa.\n\nGorsa Qabiyyee\n- Bakka aduu argatu fi lafti laaftuu ta’e filadhaa.\n- Ilkaan (seed) meetira 1 walirraa fagaatee faca’aa.\n- Muskmelon waggaa waggaan bakka tokkotti hin faca’iinaa, midhaan biroo waliin wal jijjiiraa.\n- Lafaa margaa fi hadhaa irraa qulqulleessaa.\n\nMidhaanii Biroo Asitti Gaariidha\n- Baqqalaa (kidney beans) – kan irra gaariidha\n- Moth beans\n- Mango (ni biqila, garuu mijataa miti)\n\nMuskmelon lafa keessan irratti midhaan gaarii miti. Baqqalaan (kidney beans) irra gaariidha. Isaan filachuun midhaan gaarii fi rakkoo xiqqaa argattu.",
+    "alternative_crops": [
+      [
+        "Kidneybeans",
+        33.0
+      ],
+      [
+        "Mothbeans",
+        13.0
+      ],
+      [
+        "Mango",
+        5.0
+      ]
+    ],
+    "processing_time_ms": 71913.63000869751
+  },
+  "20250810_101655_7.6671_35.7935": {
+    "id": "20250810_101655_7.6671_35.7935",
+    "timestamp": "2025-08-10T10:16:55.130741",
+    "location_name": "7.6671, 35.7935",
+    "latitude": 7.667101,
+    "longitude": 35.793457,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.38,
+    "satellite_features": {
+      "nitrogen": 52.298352685028185,
+      "phosphorus": 78.14627066891929,
+      "potassium": 115.71909576822824,
+      "temperature": 26.198034064741933,
+      "humidity": 53.74255361299932,
+      "ph": 6.814178213510701,
+      "rainfall": 156.28122070874025
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing muskmelon! Here’s how to get the best results:\n\nFertilizer use  \n- Your soil has a little low nitrogen. Add more nitrogen by using urea, well-rotted cow dung, or compost before planting.  \n- Phosphorus and potassium are good. No need to add much of these.  \n- Mix in farmyard manure or compost to keep your soil healthy.\n\nTemperature & Rain  \n- The temperature is very good for muskmelon.  \n- Rainfall is also enough, but make sure your field does not get waterlogged.  \n- If rain is less or late, give extra water by watering can or drip.\n\nSoil pH  \n- Your soil pH is just right for muskmelon. No changes needed.\n\nFighting pests & diseases  \n- Muskmelon can get attacked by insects like fruit flies and leaf-eating worms.  \n- In tropical areas, watch out for powdery mildew (white spots on leaves).  \n- Keep your field clean. Remove and burn any sick plants.  \n- Use neem spray or soap water to control small insects.  \n- Do not grow muskmelon in the same place every season.\n\nPlanting tips  \n- Choose a sunny spot with loose, well-drained soil.  \n- Make beds or small mounds, and plant seeds about 1 meter apart.  \n- Give enough space for the vines to spread.  \n- Change the crop every year to keep soil strong; do not plant muskmelon every season in the same spot.\n\nOther crops that can grow well here  \n- You can also grow kidney beans, mango, and moth beans on your land.\n\nYou have a good chance to get a healthy muskmelon crop. Follow these steps and your harvest will be strong!",
+    "farmer_advice_amharic": "የእርሻዎ መሬትና የአየር ሁኔታ ለሙስክመሎን ማብቃት በጣም ተስማሚ ነው! የተሻለ ውጤት ለማግኘት እንዲህ ያድርጉ፡\n\nየምግብ አሰጣጥ  \n- በመሬትዎ ውስጥ ናይትሮጅን በትንሽ ዝቅተኛ ነው። ከተከማቹ በፊት ዩሪያ፣ ደረቅ የበሬ ጉድፍ፣ ወይም ኮምፖስት በመጨመር ናይትሮጅን ያክሉ።  \n- ፎስፎረስና ፖታሲየም በመሬትዎ በበቂ መጠን አሉ። ብዙ መጨመር አያስፈልግም።  \n- የእርሻ ቤት ቆሻሻ ወይም ኮምፖስት በመጨመር መሬትዎን ጤናማ ያድርጉ።\n\nየአየር ሙቀትና ዝናብ  \n- የአየር ሙቀት ለሙስክመሎን በጣም ተስማሚ ነው።  \n- ዝናቡም በቂ ነው፣ ግን እርሻዎ ውሃ እንዳይቆምበት ይጠንቀቁ።  \n- ዝናብ ቢጎድል ወይም ቢዘገይ በውሃ ቃና ወይም በድርፕ ተጨማሪ ውሃ ይስጡ።\n\nየመሬት pH  \n- የመሬትዎ pH ለሙስክመሎን በጥሩ ሁኔታ ነው። ምንም ለውጥ አያስፈልግም።\n\nተበካካቢና በሽታ መከላከያ  \n- ሙስክመሎን በተለይ የፍራፍሬ ዝንብና የቅጠል ተበላሽ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትልቅ ትል",
+    "farmer_advice_afaan_oromo": "Qilleensa fi lafa kee irratti muskmelon (kallacha) guddisuuf haala gaarii qabda! Akka midhaan gaarii argattuuf, kana hojjadhu:\n\nFayyadama Foolii  \n- Lafni kee nitrogen xiqqoo qaba. Nitrogen dabalataa argachuuf urea, xurumbaa loon goggogee, yookaan kompostii yeroo biqilchuu dura lafa irra naqii.  \n- Phosphorus fi potassium gaarii dha. Isaan kana baay’inaan dabaluu hin barbaachisu.  \n- Xurumbaa qonnaa ykn kompostii lafa kee irratti maki, lafa kee fayyaa qabaachuuf.\n\nHeeraa fi Rooba  \n- Heerri lafa kee muskmelonf baay’ee mijataa dha.  \n- Roobniis gahaa dha, garuu lafa kee bishaan keessa hin guutamne akka ta’u mirkaneessi.  \n- Yoo roobni xiqqaate yookaan turte, bishaan dabalataa bidiruu yookaan sirna bishaan buusuun lafa irra naqii.\n\npH Lafa  \n- pH lafa kee muskmelonf sirrii dha. Jijjiirama gochuu hin barbaachisu.\n\nBalaaleffannaa Qamadii fi Dhukkuba  \n- Muskmelon bifa qamadii akka bofa midhaanii fi harooressa baala nyaatuun miidhamuu danda’a.  \n- Naannoo ho’aa keessatti, dhukkuba baala irratti bifa adii fakkaatu (powdery mildew) irraa of eegi.  \n- Qe’ee kee qulqulleessi. Qamadii dhukkubsate ciri, gubii.  \n- Qamadii xiqqaa to’achuuf neemiin yookaan bishaan saaphanaa fayyadami.  \n- Muskmelon iddoo tokkoo waggaa hunda hin biqilchinaa.\n\nGorsa Biqilchuu  \n- Iddoo aduu argatu, lafa laaftuu fi bishaan itti hin dhaabbane filadhu.  \n- Siree yookaan gaara xiqqaa tolchi, sanyii meetira tokko tokkoon facaasi.  \n- Qabiyyee baay’ee lafa irratti akka faca’u gochuu.  \n- Midhaan gara garaa waggaa waggaan jijjiiri, muskmelon iddoo tokkoo waggaa hunda hin biqilchinaa.\n\nMidhaan biroo asitti gaarii ta’an  \n- Lafa keetiin atis atara (kidney beans), manga, fi moth beans biqilchuu dandeessa.\n\nCarraa gaarii qabda muskmelon fayyaa fi gaarii argachuuf. Kanas hordoftee yoo hojjatte, midhaan kee cimaa fi baay’ee ni ta’a!",
+    "alternative_crops": [
+      [
+        "Kidneybeans",
+        24.0
+      ],
+      [
+        "Mango",
+        12.0
+      ],
+      [
+        "Mothbeans",
+        8.0
+      ]
+    ],
+    "processing_time_ms": 78815.664768219
+  },
+  "20250810_102337_7.0123_39.6387": {
+    "id": "20250810_102337_7.0123_39.6387",
+    "timestamp": "2025-08-10T10:23:37.770330",
+    "location_name": "7.0123, 39.6387",
+    "latitude": 7.012305,
+    "longitude": 39.638672,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.42,
+    "satellite_features": {
+      "nitrogen": 38.8232610502855,
+      "phosphorus": 85.29231833910035,
+      "potassium": 119.10769703960017,
+      "temperature": 31.339913110342174,
+      "humidity": 40.27320709983339,
+      "ph": 6.284640522875817,
+      "rainfall": 113.9921312315776
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing muskmelon! Here’s how to get the best results:\n\n**Fertilizer use**\n- Your soil has enough phosphorus and potassium, but needs more nitrogen for muskmelon.\n- Add more nitrogen by using UREA fertilizer or plenty of well-rotted animal manure.\n- Mix compost into the soil before planting. This will keep the soil healthy and help muskmelon grow strong.\n\n**Temperature & Rain**\n- The temperature is very good for muskmelon. Muskmelon likes warm weather.\n- Rainfall is a bit low, so you must water your plants regularly, especially when fruits are growing.\n- Make sure your field does not hold water for long. Muskmelon roots do not like too much water.\n\n**Soil pH**\n- Your soil pH is just right for muskmelon. No need to add anything to change it.\n\n**Fighting pests & diseases**\n- In warm and dry weather, watch out for insects like melon flies and some fungal diseases.\n- Check your plants often for holes in leaves or spots on fruits.\n- Remove sick plants or leaves quickly.\n- Do not water from above; water at the base to keep leaves dry.\n- Keep weeds away and do not leave old plant parts on the field.\n\n**Planting tips**\n- Plant muskmelon in a sunny place with loose, well-drained soil.\n- Leave enough space—about one arm’s length—between each plant.\n- If you can, rotate with other crops each year. This will help keep the soil healthy and reduce disease.\n\n**Other crops that can grow well here**\n- Besides muskmelon, you can also try kidney beans, chickpea, or moth beans. These crops can do well in your soil and weather.\n\nYou are set up for a great muskmelon crop! If you follow these steps, you will get healthy plants and sweet fruits. Good luck!",
+    "farmer_advice_amharic": "አፉን የሚያስደስት ሙስክመሎን ለመተከል የመሬትዎና የአየር ሁኔታዎ በጣም ተስማሚ ነው! ከዚህ በታች የተሻለ ውጤት ለማግኘት የሚረዱ መመሪያዎች አሉ፦\n\n**የማመልከቻ መጠቀም**\n- መሬትዎ በፎስፎረስና ፖታሲየም በቂ ነው፣ ግን ለሙስክመሎን ተጨማሪ ናይትሮጅን ያስፈልጋል።\n- ተጨማሪ ናይትሮጅን ለማግኘት ዩሪያ ፈርቲላይዘር ወይም በጣም የተበተነ እንስሳ ጉድ ይጨምሩ።\n- በመተከል በፊት ኮምፖስት በመሬት ውስጥ ያድርጉ። ይህ መሬቱን ጤናማ ያደርጋልና ሙስክመሎንም በጠንካራነት ያድጋል።\n\n**የአየር ንብረትና ዝናብ**\n- የአየር ሙቀት ለሙስክመሎን በጣም ተስማሚ ነው። ሙስክመሎን ከባድ ሙቀት ይወዳል።\n- ዝናቡ ጥቂት ነው፣ ስለዚህ ተከላዎትን በተደጋጋሚ ይጠጡ፣ በተለይም ፍራፍሬው ሲያድግ ጊዜ።\n- መሬትዎ ውሃ ረጅም ጊዜ እንዳይቆይበት ያረጋግጡ። የሙስክመሎን ሥሮች ብዙ ውሃ አይወዱም።\n\n**የመሬት ኤሽ (pH)**\n- የመሬትዎ ኤሽ ለሙስክመሎን በጣም ተስማሚ ነው። ለመቀየር ምንም አይደለበትም።\n\n**ተባዮችና በሽታዎችን መከላከል**\n- በሙቀትና በደረቅ አየር ተባዮች እንደ ሙስክመሎን ዝንብ እና አንዳንድ ፈንገላዊ በሽታዎች ሊታዩ ይችላሉ።\n- ቅጠሎች ላይ ቀይ ቁስሎች ወይም ፍራፍሬዎች ላይ ነጭ ነጭ ነጥቦች እንዳሉ በተደጋጋሚ ይመልከቱ።\n- የታመመ ተከላ ወይም ቅጠል በፍጥነት ያስወግዱ።\n- ከላይ ውሃ አትጠጡ፤ በመሠረት ውሃ ይስጡ፣ ቅጠሎቹ እንዳይረግፉ።\n- ሣር አይደለም በመሬት ላይ አትተዉ፤ የቆየ ተከላ አካላትንም አትተዉ።\n\n**የመተከል ምክሮች**\n- ሙስክመሎንን በፀሐይ የሚያገኝ፣ ዝቅተኛና ውሃ የማይይዝ መሬት ውስጥ ይተክሉ።\n- በአንድ ተከላ መካከል የአንድ እጅ ርዝመት ቦታ ይቆዩ።\n- ከቻሉ በየዓመቱ ከሌሎች እፅዋት ጋር ይቀያዩ። ይህ መሬቱን ጤናማ ያደርጋልና በሽታዎችንም ያሳንሳል።\n\n**በዚህ አካባቢ የሚበቁ ሌሎች እፅዋት**\n- ከሙስክመሎን በተጨማሪ፣ ኪድኒ ባቄላ፣ ሽምብራ ወይም ሞት ባቄላ ለመተከል ሙሉ እድል አለዎት። እነዚህም በመሬትዎና በአየር ሁኔታዎ ይበቃሉ።\n\nለሙስክመሎን በጣም ጥሩ መጀመሪያ አለዎት! እነዚህን መመሪያዎች ብትከተሉ ጤናማ ተከላና ጣፋጭ ፍራፍሬ ታገኛላችሁ። እንኳን ደስ ይበላችሁ!",
+    "farmer_advice_afaan_oromo": "Sooranni lafaa fi qilleensi keessan Miskimeloon (muskmelon) guddifachuuf baay’ee mijataa dha! Akka bu’aa gaarii argattanitti, kunoo maal gochuu qabdan:\n\n**Fayyadama Foolii (Fertilizer)**\n- Lafni keessan fosforasii fi potaasiyemiin gahaa qaba, garuu naayitroojinii (nitrogen) dabalataa barbaada.\n- Naayitroojinii dabaluu yoo barbaaddan, foolii UREA fayyadamaa yookaan bineensa irraa bahe kan goggogee fi urgaa hin qabne baay’ee lafa irra facaasa.\n- Qoricha lafa (kompostii) lafa keessa makaa dura dhaabuu. Kun lafa fayyaa qabaachuu fi miskimeloon jabinaan akka guddatu ni gargaara.\n\n**Qilleensa fi Rooba**\n- Qilleensi keessan miskimeloof baay’ee mijataa dha. Miskimeloon qilleensa hoo’aa jaalata.\n- Roobni xiqqoo dha, kanaaf yeroo yerootti biqiltoota keessan bishaanii. Yeroo midhaan misoomu, bishaan baay’ee barbaachisa.\n- Lafa keessan bishaan yeroo dheeraa akka hin dhaabbanne mirkaneessaa. Miskimeloon marga isaa bishaan baay’ee hin jaalatu.\n\n**pH Lafa**\n- pH’n lafa keessan miskimeloof sirrii dha. Waan biraa itti dabaluun hin barbaachisu.\n\n**Balaaleffannaa Qamadii fi Dhukkuboota**\n- Qilleensa hoo’aa fi gogaa keessatti, ilbiisota akka “melon fly” fi dhukkuboota funyoon dhufan irraa of eeggadhaa.\n- Yeroo hunda biqiltoota keessan ilaalaa, yoo baalli irra bokkaa yookaan midhaan irra xurumbaa argitan.\n- Biqiltoota yookaan baala dhukkubsataa armaan booda ariitiin irraa baasaa.\n- Bishaan gara gubbaa irraa hin buufinaa; gara marga buusuun baala akka hin jallanne godhaa.\n- Qamadii (sanyii badii) irraa qulqulleessaa, fi qabeenya biqiltoota dulloomaa lafa irratti hin dhiisinaa.\n\n**Gorsa Dhaabuu**\n- Miskimeloon bakka aduu argatu, lafa laaftuu fi bishaan itti hin dhaabbanne irratti dhaabaa.\n- Bakka biqiltuu tokkoo fi tokkoo gidduu fageenya—harka tokkoo dheerina—kaayadhaa.\n- Yoo dandeessan, waggaa waggaan sanyii biroo waliin wal jijjiiraa. Kun lafa fayyaa qabaachuu fi dhukkuba hir’isuuf ni gargaara.\n\n**Sanyii Biroo Asitti Guddachuu Danda’an**\n- Miskimeloon alatti, atis akkasumas atara (kidney beans), shumburaa (chickpea), yookaan moth beans itti yaalu dandeessa. Sanyiin kunis lafa fi qilleensa keessan keessatti baay’ee ni guddatu.\n\nMiskimeloon gaarii oomishuu irratti qophooftee jirta! Tarkaanfii kana hordoftee yoo hojjatte, biqiltoota fayyaa fi midhaan mi’aawaa ni argatta. Milkaa’i!",
+    "alternative_crops": [
+      [
+        "Kidneybeans",
+        15.0
+      ],
+      [
+        "Chickpea",
+        13.0
+      ],
+      [
+        "Mothbeans",
+        12.0
+      ]
+    ],
+    "processing_time_ms": 81583.1458568573
+  },
+  "20250810_103819_7.8845_39.1553": {
+    "id": "20250810_103819_7.8845_39.1553",
+    "timestamp": "2025-08-10T10:38:19.679199",
+    "location_name": "7.8845, 39.1553",
+    "latitude": 7.884467,
+    "longitude": 39.155273,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.52,
+    "satellite_features": {
+      "nitrogen": 44.094667266919316,
+      "phosphorus": 48.12549019607843,
+      "potassium": 122.95140330642062,
+      "temperature": 37.661319492502884,
+      "humidity": 72.7839805203127,
+      "ph": 5.805602652825836,
+      "rainfall": 109.6792156862745
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing muskmelon! Here's how to get the best results:\n\nFertilizer use  \n- Your soil has a little less nitrogen and phosphorus than muskmelon likes.  \n- Add some well-rotted animal manure or compost before planting.  \n- Use a small amount of UREA for nitrogen and DAP fertilizer for phosphorus, if possible.  \n- Potassium is enough—no need to add more.  \n- Keep adding compost every season to make your soil even better.\n\nTemperature & Rain  \n- Muskmelon loves warm weather, and your place is just right.  \n- Rainfall is enough, but make sure your field does not get water-logged.  \n- If rain is less, water the plants regularly, but do not flood them.\n\nSoil pH  \n- Your soil pH is a little bit low, but still okay for muskmelon.  \n- Mixing in more compost or farmyard manure can help balance the soil.\n\nFighting pests & diseases  \n- High humidity can bring leaf diseases and fruit rot.  \n- Check your plants often for spots on leaves or soft fruits.  \n- Remove sick plants quickly so disease does not spread.  \n- Always keep the area clean and remove old plant parts from the field.  \n- Mulch around the plants to stop weeds and keep fruits clean.\n\nPlanting tips  \n- Choose a sunny spot with good drainage.  \n- Make small mounds or raised beds to help with drainage.  \n- Leave about 2-3 feet (one arm’s length) between each plant.  \n- Rotate with other crops every year to keep soil healthy.  \n- Train the vines so fruits do not touch wet soil.\n\nOther crops that can grow well here  \n- Mango, mothbeans, and chickpea can also do well on your land.\n\nTry these steps and you will have a healthy muskmelon crop! If you need help, just ask—I am here for you.",
+    "farmer_advice_amharic": "አፉን የሚሰኛ ሙስክመሎን ለመተከል የእርስዎ መሬትና የአየር ንብረት በጣም ተስማሚ ነው! የተሻለ ውጤት ለማግኘት የሚከተሉትን ይውሰዱ፡፡\n\nአርማዎች አጠቃቀም  \n- በመሬትዎ ውስጥ ሙስክመሎን የሚወደው ናይትሮጅንና ፎስፎረስ ትንሽ ያነሰ ነው።  \n- ከመተከል በፊት የተበላሸ የእንስሳ ጉድ ወይም ኮምፖስት ያክሉ።  \n- ካለ ትንሽ ዩሪያ (ናይትሮጅን ለማግኘት) እና ዲ.ኤ.ፒ (ፎስፎረስ ለማግኘት) አርማ ይጠቀሙ።  \n- ፖታሲየም በመሬትዎ በቂ ነው፤ ተጨማሪ ማከል አያስፈልግም።  \n- መሬትዎን ለማሻሻል በየወቅቱ ኮምፖስት ቀጥለው ያክሉ።\n\nየአየር ሙቀትና ዝናብ  \n- ሙስክመሎን ውድቅ የሆነ ሙቀት ይወዳል፤ እርስዎ ያሉበት ቦታ በጣም ተስማሚ ነው።  \n- የሚወርደው ዝናብ በቂ ነው፤ ግን መሬትዎ ውሃ እንዳይቆምበት ያረጋግጡ።  \n- ዝናብ ቢቀንስ ተክሎቹን በተደጋጋሚ ውሃ ይስጡ፤ ግን አትጠጉሙአቸው።\n\nየመሬት pH  \n- የመሬትዎ የpH መጠን ትንሽ ዝቅ ነው፣ ግን ለሙስክመሎን ገና ተስማሚ ነው።  \n- ተጨማሪ ኮምፖስት ወይም የእንስሳ ጉድ በመቀላቀል የመሬትዎን ሚዛን ማሻሻል ይችላሉ።\n\nተባዮችና በሽታዎችን መቆጣጠር  \n- ከፍተኛ እርጥበት የቅጠል በሽታዎችና የፍሬ በሽታ ሊያመጣ ይችላል።  \n- በተደጋጋሚ በተክሎቹ ላይ የቅጠል ቦይነት ወይም የሚቀላ ፍሬ አለ እንደሆነ ይመልከቱ።  \n- በሽታ ያጋጠመ ተክል ፈጥነው ያስወግዱ፤ በሽታው እንዳይበተን ይረዳል።  \n- መሬትን ሁልጊዜ ንጹህ ያድርጉ፤ የቆየ የተክል አካላትን ከእርሻዎ ያስወግዱ።  \n- በተክሎቹ ዙሪያ ሙልች ይያዙ፤ ይህ ለሣር መቆጣጠርና ፍሬዎቹ ንጹህ ለመቀመጥ ይረዳል።\n\nየመተከል ምክሮች  \n- ፀሐይ የሚደርስበትና ውሃ የማይቆምበት ቦታ ይምረጡ።  \n- የተከፈቱ አደባባዮች ወይም ከፍ ያሉ መንደሮች ያዘጋጁ፤ ይህ ውሃ ለመፍሰስ ይረዳል።  \n- በእያንዳንዱ ተክል መካከል 2-3 ጫካ (አንድ ክን ርዝመት) ይቆዩ።  \n- በየዓመቱ ከሌሎች እፅዋት ጋር ይቀያይሩ፤ ይህ መሬትዎን ጤናማ ያደርጋል።  \n- ተክሎቹ በመደርደር ፍሬዎቹ በውሃ ያልተሞላ መሬት ላይ እንዲቀመጡ ያድርጉ።\n\nበዚህ አካባቢ የሚበቅሉ ሌሎች እፅዋት  \n- ማንጎ፣ ሞትቢንስ (ማሽከርከር በተባለው ተክል) እና ሽንኩርት እንዲሁም በመሬትዎ በጣም ይሻላሉ።\n\nእነዚህን ይከተሉ፤ ጤናማ የሙስክመሎን እርሻ ያገኛሉ! እርዳታ ከፈለጉ አውቅኝ፤ እኔ እገዛለሁ።",
+    "farmer_advice_afaan_oromo": "Qilleensa fi lafa kee irratti muskmelon (kallacha) baay’ee gaarii dha! Akka midhaan gaarii argattuuf, kunoo maal gochuu akka qabdu:\n\nFayyadama Qorichaa (Fertilizer)  \n- Lafa kee keessatti naayitroojinii fi fosfoorasiin xiqqoo gad-aanaa dha, muskmelon immoo baay’ee barbaada.  \n- Dhoqqee loon ykn kompostii gaariin bilcheessite dabaltee lafa irratti facaasi.  \n- Yoo danda’te, qoricha UREA xiqqoo naayitroojinii fi DAP fosfoorasiif fayyadami.  \n- Potassium gahaa dha—dabalataan itti hin dabalin.  \n- Kompostii waggaa waggaan itti dabalaa, lafa kee caalaatti fooyyessuuf.\n\nQilleensa fi Rooba  \n- Muskmelon qilleensa hoo’aa jaalatti, bakka kee immoo sirriitti mijataa dha.  \n- Roobni gahaa dha, garuu lafa kee bishaan keessa hin jigu gochuu qabda.  \n- Yoo roobni xiqqaate, yeroo yerootti bishaan kenni, garuu bishaan baay’ee hin guutini.\n\npH Lafa  \n- pH lafa kee xiqqoo gad-aanaa dha, garuu muskmelon ittiin ni guddatu.  \n- Kompostii ykn dhoqqee loon dabaluu lafa kee madaalawaa gochuuf ni gargaara.\n\nBalaawwan fi Dhukkuba Ittisuuf  \n- Qilleensi dukkana fi ho’aa (humidity) olka’uun, dhukkuba baala fi balbala midhaanii fiduu danda’a.  \n- Baala fi midhaan lafa irra jiru yeroo hunda ilaali, mallattoo bifa diimaa ykn baala gogaa, midhaan lafa irra jilbeeffatee yoo argite.  \n- Qoricha dhukkuba qabu ariitiin baasii, akka dhukkubni hin facaaneef.  \n- Bakka qotiisaa qulqulluu eegadhu, baala dulloomaa fi qabeenya dulloomaa lafa irraa qulqulleessi.  \n- Qoricha lafa irratti facaasi (mulch) akka hoolaa hin biqilchine fi midhaan kee qulqulluu ta’uuf.\n\nGorsa Biqiltuu  \n- Bakka aduu argatu fi bishaan itti hin dhaabbatu filadhu.  \n- Lafa olka’aa ykn gaara xiqqaa tolchi, bishaan akka baasuuf.  \n- Biqiltuu tokkoo fi tokko gidduu meetira 0.6-0.9 (harka tokko) fageessi.  \n- Bara hunda midhaan gara biraa waliin wal jijjiiri, lafa akka fayyaa ta’uuf.  \n- Qabriilee biqiltuu lafa irraa olkaasi, akka midhaan bishaan lafa irraa hin tuqneef.\n\nMidhaan Biroo Bakka Keesatti Guddatu  \n- Mangoo, mothbeans fi chickpea (shumburaa fi shumbura adii) bakka kee irratti gaarii ni ta’u.\n\nKanas hojjadhu, muskmelon fayyaa fi midhaan gaarii ni argatta! Yoo gargaarsa barbaadde, na gaafadhu—si gargaaruuf nan jirra.",
+    "alternative_crops": [
+      [
+        "Mango",
+        11.0
+      ],
+      [
+        "Mothbeans",
+        10.0
+      ],
+      [
+        "Chickpea",
+        7.000000000000001
+      ]
+    ],
+    "processing_time_ms": 74901.37791633606
+  },
+  "20250810_103959_38.1603_-122.0251": {
+    "id": "20250810_103959_38.1603_-122.0251",
+    "timestamp": "2025-08-10T10:39:59.140271",
+    "location_name": "38.1603, -122.0251",
+    "latitude": 38.160341,
+    "longitude": -122.025146,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.41,
+    "satellite_features": {
+      "nitrogen": 60.436951642619256,
+      "phosphorus": 61.93156478277585,
+      "potassium": 62.77592464436755,
+      "temperature": 26.388344482891195,
+      "humidity": 73.57828976034858,
+      "ph": 5.113439061899269,
+      "rainfall": 136.5773625528643
+    },
+    "region_info": {
+      "climate_zone": "Subtropical",
+      "continent": "Americas",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing muskmelon! Here’s how to get the best results:\n\nFertilizer use  \n- Your soil has enough nitrogen, phosphorus, and potassium for muskmelon.  \n- To keep your soil healthy, add compost or well-rotted animal manure before planting.  \n- If you want to give your plants an extra boost, you can use a small amount of balanced fertilizer (like NPK 10:10:10).\n\nTemperature & Rain  \n- The temperature is just right for muskmelon.  \n- Your area gets good rainfall, but muskmelon does not like too much water.  \n- Make sure your field drains well and there is no standing water after rain.\n\nSoil pH  \n- The soil is a bit sour (acidic) for muskmelon.  \n- To improve this, mix some lime (chuna) into the soil before planting. This will help the plant grow better.\n\nFighting pests & diseases  \n- Because of the warm and humid weather, keep an eye out for leaf spots, powdery mildew, and fruit flies.  \n- Remove weeds and old plant parts from the field.  \n- Check your plants every week. Remove any sick-looking leaves.  \n- If you see insects, pick them off by hand or use neem spray.\n\nPlanting tips  \n- Choose a sunny spot—muskmelon loves sunlight.  \n- Make small beds or raised rows for planting. This helps with drainage.  \n- Leave about 2 feet (60 cm) between each plant.  \n- Rotate your muskmelon with other crops each year so the soil stays healthy.\n\nOther crops that can grow well here  \n- You can also try growing orange, mothbeans, or lentil in your soil. These crops can do well with your land and weather.\n\nIf you follow these steps, you will get a good muskmelon harvest. Happy farming!",
+    "farmer_advice_amharic": "እርስዎ ያላችሁት መሬትና የአየር ሁኔታ ለሙስክመሎን (muskmelon) ማበብ በጣም ተስማሚ ነው! ከሚከተሉት መመሪያዎች በተከታታይ የተሻለ ውጤት ማግኘት ትችላላችሁ፡፡\n\nየማር አጠቃቀም  \n- መሬታችሁ ለሙስክመሎን በቂ ናይትሮጅን፣ ፎስፈረስ፣ እና ፖታሲየም አለው።  \n- የመሬታችሁን ጤና ለመጠበቅ ከማትከል በፊት ኮምፖስት ወይም በጥሩ ሁኔታ የተበቀለ የእንስሳ ጉድ ያክሉ።  \n- ተክሎቻችሁን ተጨማሪ ለማጎልበት ትንሽ መጠን ያለው የተመጣጠነ ማር (ለምሳሌ NPK 10:10:10) መጠቀም ትችላላችሁ።\n\nየአየር ሙቀትና ዝናብ  \n- የአካባቢዎ ሙቀት ለሙስክመሎን በጣም ተስማሚ ነው።  \n- የአካባቢዎ ዝናብ ደምብ ነው፣ ነገር ግን ሙስክመሎን ብዙ ውሃ አይወድድም።  \n- መሬታችሁ ውሃ እንዳይቆም ያድርጉ፣ ዝናብ ከወረደ በኋላ የቆመ ውሃ እንዳይኖር ያረጋግጡ።\n\nየመሬት ኤስድ (pH)  \n- መሬታችሁ ለሙስክመሎን ትንሽ አሲዲክ (አሲድ ያለው) ነው።  \n- ይህን ለማሻሻል ከማትከል በፊት ትንሽ ላይም (chuna) በመሬቱ ውስጥ ያቀርቡ። ይህ ተክሉ የበለጠ እንዲያድግ ይረዳል።\n\nተክሎችን ከተባባሪ በሽታና ተባባሪ ተቃዋሚዎች መከላከያ  \n- በአካባቢዎ የሚገኝ የሙቀትና እርጥበት ምክንያት የቅጠል ነጭ ነጭ ነጭ ምቾት (powdery mildew)፣ የፍራፍሬ ዝንብና የቅጠል ነጥብ በሽታ ሊታዩ ይችላሉ።  \n- ሰባትን ሣርና አሮጌ ተክሎችን ከመሬቱ ያስወግዱ።  \n- ተክሎቻችሁን በየሳምንቱ ይመልከቱ። የበሽታ ምልክት ያላቸውን ቅጠሎች ያስወግዱ።  \n- ተቃዋሚ ተባባሪዎችን ካየችሁ በእጅ ይሰብስቡአቸው ወይም የኒም ስፕሬይ ይጠቀሙ።\n\nየመተከል ምክሮች  \n- የፀሐይ ብዙ የሚደርስበት ቦታ ይምረጡ፤ ሙስክመሎን ፀሐይ ይወዳል።  \n- ለመተከል ትንሽ አሞሌ ወይም የተደረጉ አሰፋላሊ መስኮች ያዘጋጁ። ይህ ውሃ እንዳይቆም ይረዳል።  \n- በአንዱ ተክል እና በሌላው መካከል ወደ 60 ሴ.ሜ (2 ጫማ) ይቆርጡ።  \n- ሙስክመሎን ከዓመት ወደ ዓመት ከሌሎች እርሻ ተክሎች ጋር በመቀየር ይተክሉ፤ ይህ መሬታችሁን ጤናማ ያደርጋል።\n\nበዚህ አካባቢ የሚበቁ ሌሎች ተክሎች  \n- በመሬታችሁ ብርቱካን፣ ሞትቢንስ (mothbeans) ወይም ምስር ማበብ ይችላሉ። እነዚህ ተክሎች በመሬታችሁና በአየር ሁኔታችሁ ይሻላሉ።\n\nእነዚህን መመሪያዎች ከተከተሉ የሙስክመሎን አጥር ትሰበስባላችሁ። መልካም ሥራ!",
+    "farmer_advice_afaan_oromo": "Qilleensa fi lafa keessan irratti muskimaaloon baay’ee gaariidha! Akka bu’aa gaarii argattanitti kunoo akkamitti hojjettan:\n\nFayyadama Foolii  \n- Lafni keessan naayitroojiinii, fosforaasii fi potaasiyemii gahaa qaba muskimaaloo irratti.  \n- Lafni keessan fayyaa ta’uuf, kompostii ykn xurumba bineensaa dulloomaa gaarii ta’e dabaluu qabdu dura dhaabuu.  \n- Yoo biqiltuun keessan dabalataan guddatu akka danda’u feetan, foolii wal-qixa qabuu xiqqoo (akka NPK 10:10:10) fayyadamuu dandeessu.\n\nQilleensa fi Rooba  \n- Qilleensi keessan sirriidha muskimaaloo irratti.  \n- Naannoo keessan roobni gaarii ni rooba, garuu muskimaaloon bishaan baay’ee hin jaalatu.  \n- Lafni keessan bishaan akka sirriitti darbu godhaa, roobaan booda bishaan dhaabbataa akka hin hafne mirkaneessaa.\n\npH Lafaa  \n- Lafni keessan xiqqoo mi’aawaa (asidii) dha muskimaaloo irratti.  \n- Kana fooyyessuuf, lime (chuna) xiqqoo lafa keessa makaa dura dhaabuu. Kun biqiltuu akka gaariitti akka guddatu ni gargaara.\n\nQorannoo Balaa fi Dhukkubaa  \n- Qilleensa hoo’aa fi dukkana keessa, balaa bifa baala irratti mul’atu, buddeena adii (powdery mildew), fi ilbiisa midhaanii (fruit flies) irratti xiyyeeffadhaa.  \n- Qamadii fi baala dulloomaa lafa irraa qulqulleessaa.  \n- Torbaan torbaan biqiltuu keessan ilaalaa. Baala dhukkuba qabu irraa fuudhaa.  \n- Ilbiisota yoo argitan, harka keessanitti fuudhaa ykn buqqisaa, yookaan neemiin buusaa.\n\nGorsa Dhaabuu  \n- Bakka aduu argatu filadhaa—muskimaaloon aduu jaalataa.  \n- Sarara xiqqaa ykn lafa olka’aa irratti dhaabaa. Kun bishaan akka darbu ni gargaara.  \n- Biqiltuu tokkoo fi tokko gidduu meetira 2 (60 cm) fagaadhaa.  \n- Muskimaaloo waggaa waggaan midhaan biroo waliin wal jijjiiraa, lafti fayyaa akka ta’uuf.\n\nMidhaanii Biroo Asitti Guddachuu Danda’an  \n- Akka lafa fi qilleensa keessanitti, orenjii, moothbiinii ykn lentiil (atara) illee asitti guddisuu dandeessu. Midhaan kunneen lafa keessan irratti baay’ee gaarii ta’u.\n\nTarkaanfii kana hordofuun, midhaan muskimaaloo gaarii argattu. Hojii qonnaa gammachuu qabaadhaa!",
+    "alternative_crops": [
+      [
+        "Orange",
+        21.0
+      ],
+      [
+        "Mothbeans",
+        16.0
+      ],
+      [
+        "Lentil",
+        8.0
+      ]
+    ],
+    "processing_time_ms": 71133.73112678528
+  },
+  "20250810_105940_38.4449_-117.1692": {
+    "id": "20250810_105940_38.4449_-117.1692",
+    "timestamp": "2025-08-10T10:59:40.867719",
+    "location_name": "38.4449, -117.1692",
+    "latitude": 38.44485,
+    "longitude": -117.169189,
+    "recommended_crop": "Pomegranate",
+    "confidence_score": 0.31,
+    "satellite_features": {
+      "nitrogen": 79.70561011278782,
+      "phosphorus": 78.41916660510144,
+      "potassium": 127.22114882808717,
+      "temperature": 28.247198251711584,
+      "humidity": 64.56732728897927,
+      "ph": 6.666697032463586,
+      "rainfall": 183.24205631705598
+    },
+    "region_info": {
+      "climate_zone": "Subtropical",
+      "continent": "Americas",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing pomegranate! Here's how to get the best results:\n\nFertilizer use  \n- Your soil has enough nitrogen, phosphorus, and potassium.  \n- Use a little well-rotted animal manure or compost at planting time to keep the soil healthy.  \n- You do not need to use much chemical fertilizer, just a small top-up once or twice a year.  \n- Every year, add compost or cow dung to help the pomegranate trees grow strong.\n\nTemperature & Rain  \n- The weather is very good for pomegranate. The temperature is warm, which pomegranate likes.  \n- Rainfall is not too much, so the ground will not get waterlogged.  \n- Make sure the soil drains water well. If rain is less, give water to young plants during dry spells.\n\nSoil pH  \n- Your soil pH is just right for pomegranate. No need to change anything.\n\nFighting pests & diseases  \n- Warm and humid weather can bring leaf spot, fruit rot, and some insects.  \n- Check your plants often for any sick leaves or damaged fruits.  \n- Remove and burn any diseased parts.  \n- Keep the area under the tree clean and weed-free.  \n- Use neem spray or soapy water to control small pests.\n\nPlanting tips  \n- Choose a sunny place with no standing water.  \n- Dig big holes, about 60cm wide and deep, for each plant.  \n- Leave a space of 4–5 meters between each plant.  \n- Plant at the start of the rainy season for best results.  \n- Rotate with legume crops after a few years to keep the soil strong.\n\nOther crops that can grow well here  \n- You can also grow mango and chickpea very well.  \n- Pigeonpea can also grow, but is less suitable than mango and chickpea.\n\nYou are making a GREAT choice with pomegranate. Follow these steps and your farm will do well!",
+    "farmer_advice_amharic": "የእርሻዎ መሬትና የአየር ሁኔታ ለሮማን በጣም ተስማሚ ነው! ከዚህ በታች የተሻለ ውጤት ለማግኘት የሚያስችሉትን አስተያየቶች ይከተሉ፡\n\nየማመልከቻ አቃጣሪ አጠቃቀም  \n- መሬታችሁ በቂ ናይትሮጅን፣ ፎስፎረስና ፖታሲየም አለው።  \n- በመተከል ጊዜ በቂ የቆመ የእንስሳት ጉድ ወይም ኮምፖስት ይጨምሩ። ይህ መሬቱን ጤናማ ያደርጋል።  \n- ብዙ የኬሚካል ማመልከቻ አትጠቀሙ፤ አንድ ወይም ሁለት ጊዜ በአመቱ ትንሽ ብቻ ይጨምሩ።  \n- በየአመቱ ኮምፖስት ወይም የበሬ ጉድ ይጨምሩ፤ ይህ የሮማን ዛፎችን ጠንካራ ያደርጋል።\n\nየአየር ሙቀትና ዝናብ  \n- የአየር ሁኔታ ለሮማን በጣም መልካም ነው። ሙቀት አለ፣ ሮማንም ይወዳል።  \n- ዝናቡ በጣም አይበዛም፣ መሬቱም ውሃ አይቆይበትም።  \n- መሬቱ ውሃ እንዲወጣ ያረጋግጡ። ዝናብ ቢታጠፍ፣ በደረቅ ወቅት ለቆዳ ተከላዎች ውሃ ይስጡ።\n\nየመሬት pH  \n- የመሬታችሁ pH ለሮማን በጣም ተስማሚ ነው። ምንም መቀየር አያስፈልግም።\n\nተበካካይነትና በሽታ  \n- የሙቀትና የእርጥበት አየር የቅጠል ምባብ፣ የፍራፍሬ በሽታና አንዳንድ ተበካካዮችን ሊያመጣ ይችላል።  \n- ተከላዎትን በየጊዜው ይመልከቱ፤ በሽታ ያጋጠሙ ቅጠሎች ወይም ፍራፍሬዎች ካገኙ ይወስዱ።  \n- በሽታ ያጋጠሙትን ክፍሎች አስወግዱና ያቃጥሉ።  \n- ከዛፉ በታች ቦታ ንጹህና ከተራሮች ነፃ ይያዙ።  \n- ትንሽ ተበካካዮችን ለመቆጣጠር የኒም ስፕሬይ ወይም የሳሙና ውሃ ይጠቀሙ።\n\nየመተከል ምክሮች  \n- ፀሐይ የሚደርስበትና ውሃ የማይቆይበት ቦታ ይምረጡ።  \n- ለእያንዳንዱ ተከላ የ60ሴ.ሜ ስፋትና ጥልቀት ያለው ቁልቁል ጉድጓድ ይቆፉ።  \n- በእያንዳንዱ ተከላ መካከል 4-5 ሜትር ርቀት ይቆሙ።  \n- ለምርት የተሻለ ውጤት በዝናብ ወቅት መጀመሪያ ይተክሉ።  \n- ከጥቂት ዓመታት በኋላ ከሮማን ጋር የተለያዩ የተስፋፋ ተከላዎችን (ለምሳሌ ተስፋፋ አተር) ይቀያይሩ፤ ይህ መሬቱን ጠንካራ ያደርጋል።\n\nከዚህ በተጨማሪ በዚህ አካባቢ የሚበቅሉ ተከላዎች  \n- እንዲሁም ማንጎና ሽንኩርት በጣም መልካም ይበቅላሉ።  \n- ፒጅንፒ (አንድ ዓይነት ተስፋፋ አተር) እንዲሁ ሊበቅል ይችላል፣ ግን ከማንጎና ሽንኩርት ይበልጥ አይሆንም።\n\nሮማን መተከል በጣም ጥሩ ምርጫ ነው። እነዚህን አስተያየቶች ተከትላችሁ እርሻዎ ይሻላል!",
+    "farmer_advice_afaan_oromo": "Lafti fi haalli qilleensaa keessan Pomegranate (Roman) biqilchuuf baay’ee mijataa dha! Akka bu’aa gaarii argattanitti, akkana godhaa:\n\nFayyadama Foolii  \n- Lafti keessan nitrogen, phosphorus fi potassium gahaa qaba.  \n- Yeroo biqilchuu, xurumba bineensaa goggogee yookiin kompostii xiqqoo itti dabalaa, lafa fayyaa qabaachuuf.  \n- Foolii chemikaalaa baay’ee hin barbaachisu, yeroo tokko yookiin lama waggaa keessatti xiqqoo qofa dabalaa.  \n- Waggaa waggaan, kompostii yookiin xurumba loonii itti dabalaa, muka pomegranate jabeessuuf.\n\nHaala Qilleensaa fi Rooba  \n- Qilleensi naannoo keessan pomegranate biqilchuuf baay’ee gaariidha. Haalli qilleensaa hoo’aa, pomegranate ni jaallata.  \n- Roobni baay’ee hin jiru, lafti bishaan keessa hin turu.  \n- Lafti bishaan akka gaariitti darbachuu qaba. Yoo roobni xiqqaate, muka xixiqqoo yeroo goggogaa bishaan itti kennuu hin dagatinaa.\n\npH Laafaa  \n- pH lafa keessanii pomegranate biqilchuuf sirriidha. Homaa jijjiiruu hin barbaachisu.\n\nBalaawwan fi Dhukkuboota Ittisuuf  \n- Qilleensi hoo’aa fi dukkana qabu, dhibee baala boba’uu, midhaan balbala’uu fi ilbiisota muraasa fiduu danda’a.  \n- Muka keessan yeroo hunda ilaalaa, baala dhukkubsatee fi midhaan miidhame ilaalaa.  \n- Qabiyyee dhukkubsate ciradhaa, gubaa balleessaa.  \n- Naannoo muka jala qulqulleessaa, harooressa balleessaa.  \n- Ilbiisota xixiqqoo to’achuuf neemiin yookiin bishaan sibiilaa (bishaan saaphanaa) fayyadamaa.\n\nGorsa Biqilchuu  \n- Bakka aduu argatu, bishaan keessa hin turre filadhaa.  \n- Ulee tokkoof boolla guddaa, meetira 0.6 bal’ina fi gadi fagoo qotuu.  \n- Muka tokkoo fi tokkoo gidduutti meetira 4–5 fageenya dhiisaa.  \n- Yeroo roobni jalqabu irratti biqilchuun bu’a qabeessa.  \n- Waggaa muraasa booda, lafa jabeessuuf mudaa biqilchaa jijjiiraa.\n\nQonnaalee Biroo Asitti Gaarii Ta’an  \n- Mangoo fi chickpea (shumburaa) asitti baay’ee gaarii ni biqilu.  \n- Pigeonpea (atara) ni biqila, garuu mangoo fi chickpea caalaa hin mijatu.\n\nFilannoo GAARIIDHA pomegranate filachuun keessan. Tartiiba kana hordofaa, qonnaan keessan ni milkaa’a!",
+    "alternative_crops": [
+      [
+        "Mango",
+        30.0
+      ],
+      [
+        "Chickpea",
+        24.0
+      ],
+      [
+        "Pigeonpeas",
+        6.0
+      ]
+    ],
+    "processing_time_ms": 83883.57400894165
+  },
+  "20250810_110244_7.2712_38.8044": {
+    "id": "20250810_110244_7.2712_38.8044",
+    "timestamp": "2025-08-10T11:02:44.677183",
+    "location_name": "7.2712, 38.8044",
+    "latitude": 7.271195,
+    "longitude": 38.804398,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.39,
+    "satellite_features": {
+      "nitrogen": 54.54641475089502,
+      "phosphorus": 82.36640756191623,
+      "potassium": 120.91481239494946,
+      "temperature": 27.319583500180286,
+      "humidity": 53.4527903716368,
+      "ph": 6.762741470994056,
+      "rainfall": 152.47383329683882
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing muskmelon! Here's how to get the best results:\n\nFertilizer use\n- Your soil has enough nitrogen and potassium, but the phosphorus is a bit high.\n- Use compost or rotted cow manure to keep your soil healthy.\n- Do not add too much chemical fertilizer, especially not too much phosphorus.  \n- If you want to use fertilizer, use only a small amount of NPK (look for 10:10:10 type) at planting.\n- Always mix fertilizer well into the soil.\n\nTemperature & Rain\n- The temperature is just right for muskmelon. They like warm weather.\n- Rainfall is good, but muskmelon does not like too much water. Make sure your field drains well.\n- If it gets dry, water the plants at the base. Do not let the soil get soggy.\n\nSoil pH\n- Your soil pH is very good for muskmelon. You do not need to change anything.\n\nFighting pests & diseases\n- Muskmelon can get attacked by insects like aphids and fruit flies.\n- Check your plants often. If you see small bugs or holes in leaves, remove the damaged parts.\n- Use ash, neem leaves, or mild soapy water on leaves to help keep pests away.\n- Keep the field clean. Remove old leaves and weeds to stop diseases.\n\nPlanting tips\n- Choose a sunny spot with good drainage.\n- Make small mounds or raised beds to plant muskmelon seeds.\n- Leave enough space—about one meter (3 feet) between plants.\n- Rotate your crop. Do not plant muskmelon in the same spot every year.\n- Water in the morning to avoid wet leaves at night.\n\nOther crops that can grow well here\n- Kidneybeans, chickpea, and mango can also do well on your land.\n\nYou are on the right path! With these simple steps, your muskmelon crop will do well. Good luck, and happy farming!",
+    "farmer_advice_amharic": "የእርሻዎ አፈርና የአየር ሁኔታ ለሙስክመሎን ማብቃት በጣም ተስማሚ ነው! የተሻለ ውጤት ለማግኘት ይህን ያድርጉ፡\n\nየማር አጠቃቀም  \n- በአፈርዎ ውስጥ ናይትሮጅንና ፖታሲየም በቂ አለ፣ ፎስፎረስ ግን ትንሽ በዝቶ አለ።  \n- አፈርዎን ጤናማ ለማድረግ ኮምፖስት ወይም ያረጀ የበሬ ጉዳት ይጠቀሙ።  \n- በተለይም ብዙ ፎስፎረስ የያዘ የኬሚካል ማር አትጨምሩ።  \n- ማር መጠቀም ከፈለጉ በተከታታይ 10:10:10 ያለውን NPK አነስተኛ መጠን በተከላ ጊዜ ብቻ ይጨምሩ።  \n- ማሩን በአፈሩ ውስጥ በደንብ ያድርጉ።  \n\nየአየር ሙቀትና ዝናብ  \n- ለሙስክመሎን የሚስማማ የሙቀት ሁኔታ አለ። ሙስክመሎን ሞቃት አየር ይወዳል።  \n- የዝናብ መጠኑ ጥሩ ነው፣ ግን ሙስክመሎን ብዙ ውሃ አይወድድም። አፈሩ ውሃ እንዳይቆይበት ያረጋግጡ።  \n- አፈሩ ከደረቀ ተመልከቱ፤ ተክሎቹን በመሠረቱ ውሃ ይሙሉ። አፈሩ በጣም ውሃ እንዳይይዝበት ይተገበሩ።  \n\nየአፈር pH  \n- የአፈርዎ የpH መጠን ለሙስክመሎን በጣም ተስማሚ ነው። ምንም ለመቀየር አያስፈልግዎትም።  \n\nተበካካቢና በሽታ  \n- ሙስክመሎን በተለይ አፊድ እና ፍራፍሬ ዝንብ ያጥለዋል።  \n- ተክሎቹን በተደጋጋሚ ይመልከቱ። ትንሽ ትኩስ ተባዮች ወይም በቅጠሎች ላይ ቁስል ካየታችሁ ተጎዳውን ክፍል ይቁረጡ።  \n- በቅጠሎቹ ላይ አመዳደብ የሚያደርጉት አመዳደብ አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የሚያደርጉት አመዳደብ የ",
+    "farmer_advice_afaan_oromo": "Qilleensa fi lafa keessan irratti muskmelon (karra) baay’ee bareedaa dha! Akka midhaan keessan gaarii ta’uuf, akkana gochuu dandeessu:\n\nFayyadama Qorichaa Lafaa\n- Lafa keessan keessatti naayitroojiinii fi potaasiyemiin gahaa jira, garuu fosfooriin xiqqoo olka’aa dha.\n- Qoricha lafa uumamaa ykn xurumba loon goggogee fayyadamaa, lafa keessan akka fayyaa ta’uuf.\n- Qoricha lafaa keemikaalaa baay’ee hin dabalaa, fosfooriin baay’inaan hin dabalaa.\n- Yoo qoricha lafaa fayyadamuu barbaaddan, xiqqoo NPK (10:10:10 jedhu) yeroo biqiltuu ittiin biqiltanitti qofa fayyadamaa.\n- Qoricha lafaa lafa keessa sirriitti makaa.\n\nQilleensa fi Rooba\n- Qilleensi keessan muskmelonf mijataa dha. Muskmelon qilleensa hoo’aa jaalata.\n- Roobni gaarii dha, garuu muskmelon bishaan baay’ee hin jaalatu. Lafni keessan bishaan akka baasu mirkaneessaa.\n- Yoo lafa gogee, biqiltuu bu’uura irraa bishaanii. Lafa akka bishaan keessa hin turre godhaa.\n\npH Lafa\n- pH lafa keessan muskmelonf baay’ee mijataa dha. Homaa jijjiiruu hin barbaachisu.\n\nDhibee fi Ilbiisota Dhoorkuu\n- Muskmelon ilbiisota akka afiidii fi fruit fly (simbira midhaan nyaattu) irraa miidhamuu danda’a.\n- Biqiltuu keessan yeroo hunda ilaalaa. Yoo ilbiisota xixiqqoo ykn bifa gaaga’ama (hoolee) irratti argitan, bakka miidhamte ciradhaa.\n- Daakuu, baala neemii ykn bishaan xaa’oo salphaa baala irratti dibuu dandeessu, ilbiisota akka fagaatan godhuuf.\n- Dirree qulqulleessaa. Baala dulloomaa fi buruqqee balleessaa, dhibee akka hin babal’anneef.\n\nGorsa Biqilchuu\n- Bakka aduu argatu fi bishaan akka baasu danda’u filadhaa.\n- Tulluu xixiqqoo ykn lafa olka’aa irratti muskmelon biqilchaa.\n- Fageenya gahaa, meetira tokko (miila sadii) gidduu biqiltuu dhiisaa.\n- Midhaan bakka tokkotti waggaa waggaan hin biqilchin, bakka jijjiiraa.\n- Ganama bishaanii, baala akka halkan hin jalamneef.\n\nMidhaanii Biroo Asitti Guddatuu Danda’an\n- Boqqolloo adii, shumburaa fi mangaawoo lafa keessan irratti gaarii ta’u.\n\nKaraa sirrii irra jirtu! Tarkaanfii kanaan midhaan muskmelon keessan gaarii ni ta’a. Milkaa’aa, qonnaa gammachuu!",
+    "alternative_crops": [
+      [
+        "Kidneybeans",
+        15.0
+      ],
+      [
+        "Chickpea",
+        13.0
+      ],
+      [
+        "Mango",
+        10.0
+      ]
+    ],
+    "processing_time_ms": 156973.23393821716
+  },
+  "20250810_110914_41.3437_-122.9919": {
+    "id": "20250810_110914_41.3437_-122.9919",
+    "timestamp": "2025-08-10T11:09:14.202162",
+    "location_name": "41.3437, -122.9919",
+    "latitude": 41.343696,
+    "longitude": -122.991943,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.56,
+    "satellite_features": {
+      "nitrogen": 91.0,
+      "phosphorus": 82.6,
+      "potassium": 79.8,
+      "temperature": 14.642505705128599,
+      "humidity": 87.9,
+      "ph": 6.86,
+      "rainfall": 100.4
+    },
+    "region_info": {
+      "climate_zone": "Temperate",
+      "continent": "Americas",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing muskmelon! Here’s how to get the best results:\n\nFertilizer use\n- Your soil already has good amounts of nutrients for muskmelon.\n- You do not need to add too much fertilizer.\n- Use a little compost or well-rotted manure before planting. This keeps your soil healthy.\n- If you want, you can add a small amount of balanced fertilizer, but do not overdo it.\n\nTemperature & Rain\n- The temperature is cool but still good for muskmelon, especially as the season warms up.\n- Rainfall is just right. Make sure your field does not get waterlogged.\n- Muskmelons like well-drained soil. If it rains too much, make small ridges or beds to help water flow away.\n\nSoil pH\n- Your soil pH is very good for muskmelon. No need to change anything.\n\nFighting pests & diseases\n- Because the air is humid, watch out for leaf diseases and fruit rot.\n- Always remove old plant parts and weeds from your field.\n- Water the plants in the morning so leaves dry quickly.\n- If you see sick plants, remove them to stop disease spread.\n\nPlanting tips\n- Choose a sunny spot with good airflow.\n- Plant muskmelon seeds about 1 meter apart. This gives them space to grow.\n- Rotate crops. Do not plant muskmelon in the same spot every year. Switch with other crops to keep soil healthy.\n- Keep the field clean and weed-free.\n\nOther crops that can grow well here\n- Besides muskmelon, you can also grow orange, watermelon, and maize. These crops also like your soil and weather.\n\nHappy farming! Your land is ready for a great muskmelon harvest.",
+    "farmer_advice_amharic": "የእርሻዎ መሬትና የአየር ሁኔታ ለሙስክመሎን ማብቃት በጣም ተስማሚ ነው! እነዚህን መመሪያዎች ተከትሉ ምርት እንዲበልጥ፡\n\nየማርና የፍግ አጠቃቀም\n- መሬትዎ ለሙስክመሎን በቂ ነጥቦች አሉት።\n- ብዙ ማር ማከማቸት አያስፈልግም።\n- በማትከሻ በፊት ትንሽ ኮምፖስት ወይም ደምቆ የተቀመሰ የእንስሳት ፍግ ያክሉ። ይህ መሬትዎን ጤናማ ያደርጋል።\n- ብቻ ትንሽ የተመጣጠነ ማር መጨመር ትችላላችሁ፣ ግን አትበዛበዙት።\n\nየአየር ሙቀትና ዝናብ\n- ሙቀት ቀዝቃዛ ቢሆንም ለሙስክመሎን በጣም ተስማሚ ነው፣ ወቅቱ ሲሞቅ ይበልጣል።\n- የዝናብ መጠኑ ትክክል ነው። እርሻዎ ውሃ እንዳይቆምበት ያረጋግጡ።\n- ሙስክመሎን የውሃ መውጫ ያለው መሬት ይወዳል። ዝናብ ብዙ ከሆነ ትንሽ ከተማዎች ወይም መኝታዎች ያድርጉ ውሃው እንዲፈፀም።\n\nየመሬት pH\n- የመሬትዎ pH ለሙስክመሎን በጣም ተስማሚ ነው። ምንም ለመቀየር አያስፈልግም።\n\nተባዮችንና በሽታዎችን መቃኘት\n- አየሩ አፍጣጣሪ ስለሆነ የቅጠል በሽታዎችና የፍሬ በሽታ ይታወቁ።\n- የቆየ ተክል ክፍሎችንና ሣር ሁሉን ከእርሻዎ ያስወግዱ።\n- ውሃ በጠዋት ይስጡ፤ ቅጠሎቹ ፈጥነው እንዲደርቁ ይረዳል።\n- በሽተኛ ተክሎችን ካየችሁ ያስወግዱ፣ በሽታው እንዳይበተን ይረዳል።\n\nየተከላ ምክሮች\n- ፀሐይ የሚደርስበትና አየር የሚያንፀባርቅበት ቦታ ይምረጡ።\n- የሙስክመሎን ዘር በአንድ ሜትር ርቀት ይተክሉ። በዚህ ቦታ ይወስዳሉ።\n- የእርሻ ልውጥ ያድርጉ። ሙስክመሎንን በየዓመቱ በአንደኛው ቦታ አትተክሉ። ከሌሎች እርሻዎች ጋር ይቀይሩ፣ መሬትዎ ጤናማ ይቆያል።\n- እርሻዎን ንፁህና ከሣር ነጻ ያድርጉ።\n\nበዚህ አካባቢ የሚበቁ ሌሎች እርሻዎች\n- ከሙስክመሎን በተጨማሪ ብርቱካን፣ ውሃ ቤልና በቆሎም ማብቃት ትችላላችሁ። እነዚህም እርሻዎች መሬትዎንና አየር ሁኔታዎን ይወዳሉ።\n\nእንኳን ደስ አለዎት! መሬትዎ ለታላቅ የሙስክመሎን ምርት ዝግጁ ነው።",
+    "farmer_advice_afaan_oromo": "**Lafti fi qilleensi keessan MUSKMELON (Qarafii) guddifachuuf mijataa dha! Akka bu’aa gaarii argattanitti, kunoo maal gochuu qabdan:**\n\n---\n\n**Fayyadama Foolii (Fertilizer)**\n- Lafti keessan duraanuu nyaata (qulqullina) gaarii muskmelon (qarafii)f qaba.\n- Foolii baay’ee dabaluu hin barbaachisu.\n- Kompostii xiqqoo ykn xaa’oo goggogee gaarii ta’e yeroo biqiltuu ittiin facaastan.\n- Yoo barbaaddan, foolii wal-qixa qabuu xiqqoo dabaluu ni dandeessu, garuu baay’isuu hin qabdan.\n\n---\n\n**Qilleensa fi Rooba (Temperature & Rain)**\n- Qilleensi yeroo ammaa qabbanaadha, garuu muskmelon (qarafii)f ni mijata, yeroo ho’uun dabaluus ni caala.\n- Roobni gaarii dha. Lafti keessan bishaan keessa hin guutamneef of eeggadhaa.\n- Muskmelon lafa bishaan itti hin dhaabbanne jaalata. Yoo roobni baay’ate, lafa ol-kaasuun (ridges ykn beds) bishaan akka ba’u godhaa.\n\n---\n\n**pH Laafaa (Soil pH)**\n- pH lafti keessan muskmelon (qarafii)f baay’ee gaariidha. Homaa jijjiiru hin barbaachisu.\n\n---\n\n**Balaawwan fi Dhukkuba Ittisuuf (Fighting pests & diseases)**\n- Qilleensi huumidii waan ta’eef, dhukkuba baala fi gogaa midhaanii irraa of eeggadhaa.\n- Qabiyyee biqiltuu dulloomte fi hadhaa lafa irraa qulqulleessaa.\n- Biqiltuu ganama bishaanii, baalli akka ariifachiisee goggogu godha.\n- Yoo biqiltuu dhukkubsatte argitan, ariitiin baasaa, dhukkuba akka hin facaaneef.\n\n---\n\n**Tarsiimoo Facaasaa (Planting tips)**\n- Bakka aduun itti baatu fi qilleensi itti naanna’u filadhaa.\n- Qarafii (muskmelon) meetira 1 walirraa fagaatee facaasa. Kun akka guddatuuf iddoo ni kenna.\n- Midhaan bakka tokkotti waggaa hunda hin facaafinaa. Midhaan garaa garaa wal jijjiiraa, lafti akka fayyaa ta’uuf.\n- Lafaa qulqulleessaa, hadhaa fi qamadii keessaa baasaa.\n\n---\n\n**Midhaan Biroo Asitti Guddachuu Danda’an (Other crops that can grow well here)**\n- Qarafii (muskmelon) qofaa osoo hin taane, orenjii, habbuuqa (watermelon), fi boqolloo (maize) illee asitti ni guddatu. Isaanis lafa fi qilleensa keessan jaalatu.\n\n---\n\n**Fayyadamaa! Lafni keessan qarafii (muskmelon)f qophaa’eera. Hojii gaarii!**",
+    "alternative_crops": [
+      [
+        "Orange",
+        16.0
+      ],
+      [
+        "Watermelon",
+        11.0
+      ],
+      [
+        "Maize",
+        6.0
+      ]
+    ],
+    "processing_time_ms": 43943.65119934082
+  },
+  "20250810_111248_36.6330_-93.0652": {
+    "id": "20250810_111248_36.6330_-93.0652",
+    "timestamp": "2025-08-10T11:12:48.105586",
+    "location_name": "36.6330, -93.0652",
+    "latitude": 36.633024,
+    "longitude": -93.065186,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.42,
+    "satellite_features": {
+      "nitrogen": 35.75688369898932,
+      "phosphorus": 27.666410310724466,
+      "potassium": 49.8439126300458,
+      "temperature": 27.98819743844541,
+      "humidity": 76.46424880852811,
+      "ph": 7.243383696062569,
+      "rainfall": 79.86387644961214
+    },
+    "region_info": {
+      "climate_zone": "Subtropical",
+      "continent": "Americas",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing muskmelon! Here’s how to get the best results:\n\nFertilizer use  \n- Your soil is a bit low in all main plant foods. Muskmelon loves rich soil.  \n- Add more cow dung or compost before planting. This will help the plants grow strong.  \n- You should also use a little UREA (for nitrogen), Single Super Phosphate (for phosphorus), and MOP (for potassium).  \n- Mix these well into the soil before sowing seeds.  \n- Keep adding a bit more manure or compost every month.\n\nTemperature & Rain  \n- Your land is warm, which is very good for muskmelon.  \n- Rainfall is okay, but not too much. Muskmelon does not like water to stand around roots.  \n- Make sure your field drains well. If too dry, give extra water once a week.\n\nSoil pH  \n- Your soil pH is 7.24. This is fine for muskmelon. No need to change anything here.\n\nFighting pests & diseases  \n- Because your place is warm and a bit humid, keep an eye out for powdery leaves or fruit rot.  \n- Always check plants for insects or white powder on leaves.  \n- Remove sick plants early.  \n- Use neem spray or soap water if you see bugs.  \n- Do not water on leaves, water only at the roots.\n\nPlanting tips  \n- Choose a sunny spot with good airflow.  \n- Plant seeds 2 feet apart in rows.  \n- Make small mounds (raised beds) for each plant.  \n- Don’t plant muskmelon in the same spot every year. Change the spot every season.\n\nOther crops that can grow well here  \n- You can also try growing orange, mungbean, or pomegranate. These crops do well in your soil and weather.\n\nHappy farming! You will get a good muskmelon harvest if you follow these tips.",
+    "farmer_advice_amharic": "የእርሻዎ መሬትና የአየር ንብረት ለሙስክመሎን (Muskmelon) ማሳያ በጣም ተስማሚ ነው! ከዚህ በታች የተሻለ ውጤት ለማግኘት የሚረዱ መመኪያዎች አሉ፦\n\nየፍግ አቀማመጥ  \n- መሬትዎ በሁሉም ዋና የእፅዋት ምግቦች ትንሽ ዝቅተኛ ነው። ሙስክመሎን በሀብታም መሬት ይወዳል።  \n- ከተደረገ በፊት በመሬትዎ ላይ የበግ ጉድ ወይም ኮምፖስት በበቂ መጠን ያክሉ። ይህ እፅዋቶቹን ጠንካራ እንዲያደጉ ይረዳል።  \n- ትንሽ ዩሪያ (ናይትሮጅን ለማግኘት), ሲንግል ሱፐር ፎስፎት (ፎስፎረስ ለማግኘት), እና MOP (ፖታሲየም ለማግኘት) ያጠቀሙ።  \n- እነዚህን በመሬት ውስጥ በበጎ ሁኔታ ያቀላጁ ከዘር ማቀድ በፊት።  \n- በየወሩ ትንሽ የበግ ጉድ ወይም ኮምፖስት በመጨመር ይቀጥሉ።\n\nየአየር ንብረትና ዝናብ  \n- መሬትዎ ሞቃት ነው፣ ይህም ለሙስክመሎን በጣም ጥሩ ነው።  \n- ዝናቡ ይበቃል፣ ግን በጣም አይበዛ። ሙስክመሎን በሥሮቹ ዙሪያ ውሃ እንዲቆይ አይወድድም።  \n- እርሻዎ ውሃ በቀላሉ እንዲወጣ ያድርጉ። መሬቱ በጣም ከረፈ ተጨማሪ ውሃ በሳምንት አንድ ጊዜ ይስጡ።\n\nየመሬት ኤስኤች (pH)  \n- የመሬትዎ ኤስኤች 7.24 ነው። ይህ ለሙስክመሎን ተስማሚ ነው። በዚህ የሚያስፈልገው ምንም ለውጥ የለም።\n\nተበካካቢ ተፈጥሯዊ በሽታዎችና ተበካካቢ ተበካካቢዎች  \n- አካባቢዎ ሞቃትና ጥቂት እርጥበት ስለሚኖረው በቅጠሎች ላይ ነጭ ዐባላም ወይም የፍሬ በሽታ እንዳይታይ ተጠንቀቁ።  \n- ተቀጣይ በእፅዋቶቹ ላይ ትንንሽ ተበካካቢዎች ወይም ነጭ ዐባላም በቅጠሎች ላይ እንዳለ ያረጋግጡ።  \n- በሽተኛ የሆኑ እፅዋት በፍጥነት ያስወግዱ።  \n- ተበካካቢ አይታዩ ከሆነ የኒም ዘይት ወይም የሳሙና ውሃ ይቅበዙ።  \n- በቅጠሎች ላይ ውሃ አይስጡ፤ ውሃን በሥሮች ላይ ብቻ ይስጡ።\n\nየመተከል ምክሮች  \n- ፀሐይ የሚደርስበትና አየር የሚያንፀባረቅበት ቦታ ይምረጡ።  \n- ዘሮቹን በረድፎች ላይ ከሁለት እግር ርቀት ያቀመጡ።  \n- ለእያንዳንዱ ተክል ትንሽ ከፍ ያለ አደባባይ (ተራራ ያለው መድረክ) ያዘጋጁ።  \n- ሙስክመሎን በየዓመቱ በተመሳሳይ ቦታ አትተክሉ። ቦታውን በየወቅቱ ይቀያይሩ።\n\nበዚህ አካባቢ በጥሩ ሁኔታ የሚያድጉ ሌሎች እፅዋት  \n- በዚህ መሬትና አየር ንብረት ብርቱካን፣ ሙንግቢን (mungbean) ወይም የሮማኔ ፍሬ (pomegranate) ማብጠል ይችላሉ። እነዚህም በዚህ መሬትና አየር ንብረት በጣም ይበቃሉ።\n\nደስ ይበላችሁ የእርሻ ስራ! እነዚህን ምክሮች ከተከተሉ የሙስክመሎን ምርት በጣም ጥሩ ይሆናል።",
+    "farmer_advice_afaan_oromo": "Lafti fi haalli qilleensaa keessan baay’ee mijataa dhaaf! Akka harbuu muskmelon ittiin biqiltan kunooti:\n\nFayyadama Qoricha Lafaa (Fertilizer)  \n- Lafti keessan nyaata biqiltootaa ijoo hunda irratti xiqqoo hafeera. Muskmelon lafa qabeenya qabu jaalata.  \n- Horii loonii ykn kompostii dabalataa lafa irra facaasaa dura biqiltuu dhaabdan. Kun biqiltuu akka jabinaan guddatu gargaara.  \n- UREE (naitiroojiinii), Single Super Phosphate (phosphorus), fi MOP (potassium) xiqqoo fayyadamaa.  \n- Qoricha kana lafa keessa sirriitti makaa, erga biqiltuu facaafuu dura.  \n- Ji’a ji’aan horii loonii ykn kompostii xiqqoo dabalataa itti dabalaa.\n\nHaala Qilleensaa fi Rooba  \n- Lafteen keessan hoo’aa dha, kunis muskmelonf baay’ee gaarii dha.  \n- Roobni gaarii dha, garuu baay’ee hin ta’u. Muskmelon bishaan lafa irra dhaabbatu hin jaalatu.  \n- Lafteen keessan bishaan akka sirriitti baasu mirkaneessaa. Yoo lafti gogaa ta’e, torbanitti yeroo tokko bishaan dabalataa kennuu dandeessu.\n\npH Laafaa  \n- pH lafti keessan 7.24 dha. Kun muskmelonf gaarii dha. Homaa jijjiiruu hin barbaachisu.\n\nQorannoo Ilbiisotaa fi Dhukkubaa  \n- Sababni isaas bakka keessan hoo’aa fi dukkana xiqqoo qaba, baakteeriyaa funyoon (powdery leaves) fi gogaa midhaan (fruit rot) ilaalchisee of eeggadhaa.  \n- Yeroo hunda biqiltuu keessan irratti ilbiisota ykn funyoo adii (white powder) irra ilaalaa.  \n- Biqiltuu dhukkubsatte yeroo jalqabaatti baasaa.  \n- Yoo ilbiisota argitan, neem ykn bishaan sibiilaa (soap water) fayyadamaa.  \n- Bishaan goggogaa irratti hin buufinaa, gara mukeetti qofa bishaan kennaa.\n\nOdeeffannoo Dhaabuu (Planting tips)  \n- Bakka aduu argatu fi qilleensa gaarii qabu filadhaa.  \n- Sanyii walitti fageenya miila lama (2 feet) ta’een tarree tarree dhaabaa.  \n- Lafaa ol kaasaa (mound) xiqqoo biqiltuu hundaaf tolchaa.  \n- Muskmelon bakka tokko waggaa waggaan hin dhaabinaa. Bara hunda bakka jijjiiraa.\n\nQonnaalee biroo asitti gaarii ta’an  \n- Akka dabalataan, burtukaan (orange), mungbean, ykn rummaan (pomegranate) illee asitti biqilchuu dandeessu. Isaan kun lafa fi haala qilleensa keessanitti baay’ee mijatu.\n\nQonna gammachuu! Tartiiba kana yoo hordoftan, midhaan muskmelon gaarii argattu.",
+    "alternative_crops": [
+      [
+        "Orange",
+        26.0
+      ],
+      [
+        "Mungbean",
+        11.0
+      ],
+      [
+        "Pomegranate",
+        6.0
+      ]
+    ],
+    "processing_time_ms": 40978.798151016235
+  },
+  "20250810_112705_37.3001_-84.1882": {
+    "id": "20250810_112705_37.3001_-84.1882",
+    "timestamp": "2025-08-10T11:27:05.861717",
+    "location_name": "37.3001, -84.1882",
+    "latitude": 37.300139,
+    "longitude": -84.188232,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.39,
+    "satellite_features": {
+      "nitrogen": 32.522,
+      "phosphorus": 71.8915,
+      "potassium": 41.260999999999996,
+      "temperature": 22.630499999999998,
+      "humidity": 66.261,
+      "ph": 7.2522,
+      "rainfall": 45.044
+    },
+    "region_info": {
+      "climate_zone": "Subtropical",
+      "continent": "Americas",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing muskmelon! Here’s how to get the best results:\n\nFertilizer use  \n- Your soil has a little low nitrogen. Add extra nitrogen using UREA or well-rotted animal manure.  \n- Phosphorus is good, so no need to add much.  \n- Potassium is a bit low. Use MOP (Muriate of Potash) or wood ash to increase it.  \n- Mix compost or cow dung into your soil. This keeps the soil healthy and helps plants grow strong.\n\nTemperature & Rain  \n- The temperature is just right for muskmelon.  \n- Rainfall is a bit low, so you may need to water your crop, especially when the weather is dry.  \n- Make sure your field drains well. Don’t let water stand around the plants.\n\nSoil pH  \n- Your soil pH is good for muskmelon. No need to change anything.\n\nFighting pests & diseases  \n- Warm and humid weather can bring pests like fruit flies and diseases like powdery mildew.  \n- Check your plants often for insects and spots on leaves.  \n- Remove and burn any sick plants.  \n- Use neem spray or soap water to stop pests early.  \n- Keep the field clean. Don’t leave old plant waste around.\n\nPlanting tips  \n- Choose a sunny spot for planting.  \n- Plant seeds in small mounds, about 2-3 feet apart.  \n- Give each plant enough space, so air can move around.  \n- Rotate your muskmelon with other crops each year to keep soil healthy and reduce disease.\n\nOther crops that can grow well here  \n- If you want to try other crops, mothbeans, oranges, and mango can also grow nicely here.\n\nHappy farming! You can do very well with muskmelon on your land!",
+    "farmer_advice_amharic": "የእርሻዎ መሬትና የአየር ንብረት ለሙስክመሎን ማሳረግ በጣም ተስማሚ ነው! የተሻለ ውጤት ለማግኘት ይህን ያድርጉ፦\n\nየማርፍ አጠቃቀም  \n- በመሬትዎ ውስጥ ናይትሮጅን ትንሽ ዝቅተኛ ነው። ተጨማሪ ናይትሮጅን በዩሪያ (UREA) ወይም በበጎ የተበቃ የእንስሳ ጉድ ያክሉ።  \n- ፎስፈረስ ይበቃል፣ ስለዚህ ብዙ ማከል አያስፈልግም።  \n- ፖታሲየም ትንሽ ዝቅተኛ ነው። ለማሳደግ ኤም.ኦ.ፒ (MOP) ወይም የእንጨት አመድ ይጠቀሙ።  \n- ኮምፖስት ወይም የበሬ ጉድ በመሬትዎ ውስጥ ያቀርቡ። ይህ መሬትዎን ጤናማ ያደርጋል እና ተክሎች ጠንካራ እንዲያድጉ ይረዳል።\n\nየአየር ንብረትና ዝናብ  \n- የአየር ንብረቱ ለሙስክመሎን በጣም ተስማሚ ነው።  \n- ዝናቡ ትንሽ ዝቅተኛ ነው። ስለዚህ በደረቅ ወቅት ተክሎትን ማጠጣት ያስፈልጋል።  \n- መሬትዎ ውስጥ ውሃ እንዳይቆም ያረጋግጡ። ውሃ በተክሎች ዙሪያ እንዳይቆይ ይተግቡ።\n\nየመሬት pH  \n- የመሬትዎ pH ለሙስክመሎን በጣም ተስማሚ ነው። ምንም ለመቀየር አያስፈልግም።\n\nተክሎችን ከተበኩላና ከበሽታ መጠበቅ  \n- የትኩስና አንፃፃፍ አየር ተበኩላ እንደ ፍሩት ፍላይ (fruit fly) እና በሽታ እንደ ፓውደሪ ሚልዲው (powdery mildew) ሊያመጣ ይችላል።  \n- ተክሎችዎን በየጊዜው ይመልከቱ፤ ተበኩላ ወይም በቅጠሎች ላይ ነጭ ነጭ ነጥብ አለ ወይም የተበላ ቦታ አለ ይመልከቱ።  \n- የተበላ ተክሎችን አውጥተው ያቃጥሉ።  \n- ተበኩላ ሲመጣ በቅድሚያ የኒም ዘይት ስፕሬ ወይም የሳሙና ውሃ ይሙቀሉ።  \n- እርሻዎን ንጹህ ያድርጉ። የቀድሞ ተክሎች ቅሪት አትተዉት።\n\nየመተከል ምክሮች  \n- በፀሐይ የሚደርስበት ቦታ ይምረጡ።  \n- ዘሮቹን በትንሽ ኩባያዎች ውስጥ፣ ከ2-3 ጫማ ርቀት ላይ ይተክሉ።  \n- ለእያንዳንዱ ተክል በቂ ቦታ ይስጡ፣ እንዲሁም አየር እንዲያልፍ ይደርስ።  \n- ሙስክመሎን ከዓመት ወደ ዓመት ከሌሎች እንደ ተለያዩ እርሻ ተክሎች ጋር በመቀየር ይተክሉ። ይህ መሬትዎን ጤናማ ያደርጋል እና በሽታ ይቀንሳል።\n\nበዚህ አካባቢ የሚያድጉ ሌሎች ተክሎች  \n- ሌሎች ተክሎችን ለመሞከር ብትፈልጉ፣ ሞትቢን (mothbeans), ብርቱካን እና ማንጎ እንዲሁ በጥሩ ሁኔታ ይያዙበታል።\n\nእንኳን ደስ ይበላችሁ! በመሬትዎ ላይ ሙስክመሎን በጣም በተሻለ ሁኔታ ማሳረግ ትችላላችሁ!",
+    "farmer_advice_afaan_oromo": "Qilleensa fi lafa keessan irratti muskmelon (khammiiti) guddisuuf haala gaarii qabdu! Akka bu’aa gaarii argattuuf, kana hojjadhu:\n\nFayyadama Foolii (Fertilizer)  \n- Lafni keessan nitrogen xiqqoo dhabaa jira. Nitrogen dabalataa argachuuf UREA ykn xurumba bineensaa goggogee fayyadami.  \n- Phosphorus gaarii dha, kanaaf baay’ee dabaluu hin barbaachisu.  \n- Potassium xiqqoo dha. MOP (Muriate of Potash) ykn daakuu muka gubanii itti dabali.  \n- Qoricha lafa (compost) ykn xurumba loon lafa keessanitti makaa. Kun lafa fayyaa qabaachuu fi biqiltoonni jabinaan akka guddatan gargaara.\n\nQilleensa fi Rooba  \n- Qilleensi yeroo ammaa muskmelon irratti mijataa dha.  \n- Roobni xiqqoo dha, kanaaf yeroo qilleensi goggogaa ta’u bishaan dabalataa biqiltuu keetti kennuu dandeessa.  \n- Lafni kee bishaan akka sirriitti baasu mirkaneessi. Bishaan biqiltuu irra akka hin dhaabbanne of eegi.\n\npH Lafa  \n- pH lafa keessan muskmelon irratti mijataa dha. Homaa jijjiiru hin barbaachisu.\n\nQorannoo Ilbiisota fi Dhukkuboota  \n- Qilleensa ho’aa fi dukkana qabu keessatti ilbiisota akka fruit fly fi dhukkuboota akka powdery mildew dhufuu danda’u.  \n- Biqiltuu kee yeroo hunda ilaali, ilbiisota fi mallattoo bifa halluu jijjiiruu (spot) irratti ilaali.  \n- Biqiltuu dhukkubsatte ciri, gubii balleessi.  \n- Ilbiisota dura dhaabuuf neem spray ykn bishaan saaphanaa fayyadami.  \n- Qonnaa kee qulqulluu eegi. Qoricha biqiltuu dulloomaa lafa irratti hin dhiisin.\n\nGorsa Biqilchuu  \n- Bakka aduu argatu filadhu.  \n- Sanyii marga xiqqaa irratti, fageenya meetira 0.6-1 (miilla 2-3) gidduutti facaasi.  \n- Biqiltuu hundaaf iddoo bal’aa kenni, qilleensi akka keessa darbu godhi.  \n- Muskmelon waggaa waggaan biqiltuu biraa waliin wal jijjiiri, lafa fayyaa qabaachuuf fi dhukkuba hir’isuuf.\n\nQonnaa Biraas Bakka Kanaan Guddachuu Danda’an  \n- Yoo biqiltuu biraa yaalu barbaadde, mothbeans, orenjii fi mangoo illee asitti gaarii ni guddatu.\n\nQonnaa gammachuu! Muskmelon lafa keetiirratti baay’ee milkaa’ina argachuu dandeessa!",
+    "alternative_crops": [
+      [
+        "Mothbeans",
+        28.000000000000004
+      ],
+      [
+        "Orange",
+        16.0
+      ],
+      [
+        "Mango",
+        5.0
+      ]
+    ],
+    "processing_time_ms": 38375.502824783325
+  },
+  "20250810_112801_8.5369_38.1885": {
+    "id": "20250810_112801_8.5369_38.1885",
+    "timestamp": "2025-08-10T11:28:01.800908",
+    "location_name": "8.5369, 38.1885",
+    "latitude": 8.536886,
+    "longitude": 38.188477,
+    "recommended_crop": "Muskmelon",
+    "confidence_score": 0.39,
+    "satellite_features": {
+      "nitrogen": 51.2465,
+      "phosphorus": 61.662,
+      "potassium": 81.662,
+      "temperature": 18.6648,
+      "humidity": 70.831,
+      "ph": 6.5831,
+      "rainfall": 124.986
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing muskmelon! Here’s how to get the best results:\n\nFertilizer use  \n- Your soil has some nutrients, but muskmelon needs more food to grow well.  \n- Give extra nitrogen to the soil. Use UREA or animal manure to help the plants grow strong leaves and vines.  \n- Add a little more phosphorus too. You can use DAP fertilizer or compost.  \n- Potassium is good, but a little more will help your fruits grow bigger and sweeter. Use MOP fertilizer or add wood ash to the soil.  \n- Always mix in compost or animal manure before planting. This keeps your soil healthy and helps the muskmelon taste better.\n\nTemperature & Rain  \n- The temperature is good for muskmelon. It likes warm weather.  \n- Rainfall is okay, but make sure the field does not get waterlogged.  \n- If rain is not enough, water your plants regularly, especially when the fruits are growing.  \n- Make small raised beds so water drains away easily.\n\nSoil pH  \n- Your soil pH is good for muskmelon. No need to change anything here.\n\nFighting pests & diseases  \n- Humid and warm weather can bring pests such as fruit flies and powdery mildew.  \n- Check your plants often for yellow leaves, holes, or white spots.  \n- Remove any sick plants quickly.  \n- Use ash or neem water spray to keep away insects.  \n- Do not plant muskmelon in the same spot every year. Change the place to avoid disease buildup.\n\nPlanting tips  \n- Choose a sunny spot for planting. Muskmelon needs lots of sunlight.  \n- Plant seeds about 2 feet apart in rows.  \n- Give enough space between plants for the vines to spread.  \n- Mix compost into the soil before planting.  \n- After planting, cover the soil with dry grass or leaves. This keeps the soil moist and stops weeds.\n\nOther crops that can grow well here  \n- Besides muskmelon, you can also grow mothbeans, oranges, and lentils.  \n- These crops also like your soil and weather.\n\nWith these simple steps, you will have a healthy muskmelon crop and a good harvest. Good luck!",
+    "farmer_advice_amharic": "የእርሻዎ አፈርና የአየር ንብረት ለሙስክመሎን ማብቃት በጣም ተስማሚ ነው! የተሻለ ውጤት ለማግኘት እነዚህን መንገዶች ይከተሉ፡\n\nየምግብ አቅርቦት  \n- አፈርዎ አንዳንድ ምግብ አለው፣ ግን ሙስክመሎን በጥልቅ ማዳበር የበለጠ ምግብ ይፈልጋል።  \n- ተጨማሪ ናይትሮጅን ለአፈርዎ ይስጡ። ዩሪያ (UREA) ወይም የእንስሳ ጉዳት ይጠቀሙ፤ ይህ ተክሎቹን ጠንካራ ቅጠልና ቅርንጫፍ እንዲሰሩ ይረዳል።  \n- ተጨማሪ ፎስፎረስ ደግሞ ያስፈልጋል። የዲኤፒ (DAP) እርሻ ወይም ኮምፖስት ይጠቀሙ።  \n- ፖታሲየም ደግሞ ጥሩ ነው፣ ግን ተጨማሪ ሲሰጥ ፍሬዎቹ ትልቅና ጣፋጭ ይሆናሉ። ኤምኦፒ (MOP) እርሻ ወይም የእንጨት አመድ ወደ አፈርዎ ያክሉ።  \n- ሁልጊዜ ከመተከል በፊት ኮምፖስት ወይም የእንስሳ ጉዳት ወደ አፈር ያቀርቡ። ይህ አፈርዎን ጤናማ ያደርጋል እና ሙስክመሎኑን ጣፋጭ ያደርጋል።\n\nየሙቀት እና የዝናብ ሁኔታ  \n- የአካባቢዎ ሙቀት ለሙስክመሎን ተስማሚ ነው። ሙስክመሎን ከፍተኛ ሙቀት ይወዳል።  \n- የዝናብ መጠኑ ደስ ይላል፣ ግን አፈርዎ ውሃ እንዳይቆምበት ይጠንቀቁ።  \n- ዝናብ በቂ ካልሆነ፣ ተክሎቹ ፍሬ ሲያበቃ በተለይ በየጊዜው ውሃ ይስጡ።  \n- ውሃ በቀላሉ እንዲወጣ ትንሽ የተሰበሰቡ መኝታዎች ያዘጋጁ።\n\nየአፈር ኤችፒ (pH)  \n- የአፈርዎ ኤችፒ ለሙስክመሎን ተስማሚ ነው። እዚህ ምንም ለመቀየር አያስፈልግም።\n\nተበዳዮችን እና በሽታዎችን መቃኘት  \n- ከፍተኛ እና እርጥበት ያለው አየር የፍሬ አንበጣ (fruit fly) እና የነጭ በሽታ (powdery mildew) ያሉ ተበዳዮችን ሊያመጣ ይችላል።  \n- ተክሎቹን በየቀኑ የማቅበር ቅጠል፣ ቀይ ቦታዎች ወይም ነጭ ነጠብጣቦች እንዳሉበት ይመልከቱ።  \n- በሽታ ያጋጠሙ ተክሎችን ፈጥነው ያውጡ።  \n- ተበዳዮችን ለመከላከል አመድ ወይም የኒም ውሃ ይቅበዙ።  \n- ሙስክመሎን በየዓመቱ በተመሳሳይ ቦታ አትተክሉ። ቦታውን ይቀይሩ እንዳይበዛ በሽታ።\n\nየመተከል ምክሮች  \n- በፀሐይ የሚያጠፋ ቦታ ይምረጡ። ሙስክመሎን ብዙ ፀሐይ ይፈልጋል።  \n- ዘሮቹን በረድፎች ላይ ከአንዱ ወደ ሌላ ሁለት እግር ርቀት ይተክሉ።  \n- ቅርንጫፎቹ እንዲዘርጉ በተክሎች መካከል በቂ ቦታ ይስጡ።  \n- ከመተከል በፊት ኮምፖስት ወደ አፈር ያቀርቡ።  \n- ከመተከል በኋላ አፈሩን በደረቅ ሣር ወይም በደረቅ ቅጠል ይሸፍኑ። ይህ አፈሩን እንዳይደረቅ እና ሣር እንዳይበዛ ይረዳል።\n\nበዚህ አካባቢ በጥሩ ሁኔታ የሚያበቁ ሌሎች ተክሎች  \n- በሙስክመሎን በተጨማሪ ሞትቢንስ (mothbeans)፣ ብርቱካን እና ምስር ደግሞ ማብቃት ይችላሉ።  \n- እነዚህ ተክሎች ደግሞ አፈርዎንና አየርዎን ይወዳሉ።\n\nእነዚህን ቀላል እርምጃዎች በመከተል ጤናማ ሙስክመሎን አግ",
+    "farmer_advice_afaan_oromo": "**Lafti fi haalli qilleensaa keessan muskmelon (khamam) biqilchuuf baay’ee mijataa dha! Akka midhaan gaarii argattanitti, kunoo maal gochuu qabdan:**\n\n**Fayyadama Qoricha Lafaa (Fertilizer)**  \n- Lafti keessan nyaata muraasa qaba, garuu muskmelon guddachuu fi midhaan gaarii argamsiisuuf nyaata dabalataa barbaada.  \n- Naatroojiinii (nitrogen) dabalataa lafa keessanitti dabalaa. UREA ykn xurumba bineensaa itti fayyadamaa, kun biqiltuu fi baala jabaa akka qabaatu gargaara.  \n- Phosphorus xiqqoo dabaluu ni barbaachisa. Qoricha DAP ykn kompostii fayyadamaa.  \n- Potassium gaariidha, garuu xiqqoo dabalataan midhaan keessan guddaa fi mi’aawaa akka ta’u ni gargaara. Qoricha MOP ykn daakuu muka gubamee lafa irratti dabalaa.  \n- Yeroo hundaa kompostii ykn xurumba bineensaa lafa keessa makaa erga biqiltuu hin faca’in dura. Kun lafa keessan fayyaa akka ta’u fi muskmelon mi’aawaa akka ta’u ni gargaara.\n\n**Haala Qilleensaa fi Rooba**  \n- Haalli qilleensaa keessan muskmelon biqilchuuf mijataa dha. Qilleensa ho’aa jaallata.  \n- Roobni gaariidha, garuu lafti bishaan keessa hin turre akka ta’u mirkaneessaa.  \n- Yoo roobni hin gahin, yeroo yerootti bishaan lafa keessanirratti naqaa, yeroo midhaan biqilaa jiru keessumaa.  \n- Lafee olka’aa xiqqoo tolchaa, bishaan akka salphatti ba’uuf.\n\n**pH Laafaa**  \n- pH lafa keessan muskmelon biqilchuuf mijataa dha. As irratti wanti jijjiiramu hin jiru.\n\n**Balaawwan fi Dhukkuba Ittisuuf**  \n- Qilleensa ho’aa fi dukkana keessa balaawwan akka harooressa midhaanii fi dhukkuba akka powdery mildew dhufuu danda’u.  \n- Biqiltuu keessan yeroo yerootti ilaalaa, baala magariisa, bifa bifa, ykn madaan yoo jiraate ilaalaa.  \n- Biqiltuu dhukkuba qabdu hatattamaan baasaa.  \n- Daakuu muka gubamee ykn bishaan neem itti buusaa, balaawwan akka hin dhufneef.  \n- Muskmelon waggaa waggaan bakka tokko irratti hin biqilchinaa. Bakka jijjiiraa, dhukkuba akka hin baay’anneef.\n\n**Tartiiba Facaasaa**  \n- Bakka aduu argatu filadhaa. Muskmelon ifa baay’ee barbaada.  \n- Ilbiisota (seeds) fageenya meetira 0.6 (miilla lama) walirraa fageessanii tarree keessatti faca’aa.  \n- Fageenya gahaa biqiltuu gidduu kennaa, lafa akka baalli bal’atuuf.  \n- Kompostii lafa keessa makaa erga faca’in dura.  \n- Faca’anii booda, lafa irra saree qal’aa ykn baala goggogee dabalaa. Kun lafa akka qabbana’u fi hadhaa akka hin biqilne ni gargaara.\n\n**Qonnaalee Biroo Asitti Guddachuu Danda’an**  \n- Muskmelon alatti, mothbeans, orenjii fi lentilsis asitti biqiluu ni danda’u.  \n- Qonnaaleen kunis lafa fi qilleensa keessan jaallatu.\n\n**Tartiiba kanaan yoo hojjattan, muskmelon fayyaa fi midhaan gaarii ni argattu. Milkaa’aa!**",
+    "alternative_crops": [
+      [
+        "Mothbeans",
+        22.0
+      ],
+      [
+        "Orange",
+        16.0
+      ],
+      [
+        "Lentil",
+        9.0
+      ]
+    ],
+    "processing_time_ms": 39685.40692329407
+  },
+  "20250810_112955_33.4678_-84.3970": {
+    "id": "20250810_112955_33.4678_-84.3970",
+    "timestamp": "2025-08-10T11:29:55.079665",
+    "location_name": "33.4678, -84.3970",
+    "latitude": 33.467822,
+    "longitude": -84.396973,
+    "recommended_crop": "Orange",
+    "confidence_score": 0.87,
+    "satellite_features": {
+      "nitrogen": 60.951,
+      "phosphorus": 45.634,
+      "potassium": 101.902,
+      "temperature": 28.2536,
+      "humidity": 85.317,
+      "ph": 6.1902,
+      "rainfall": 185.072
+    },
+    "region_info": {
+      "climate_zone": "Subtropical",
+      "continent": "Americas",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing Orange! Here’s how to get the best results:\n\nFertilizer use\n- Your soil has a good amount of plant food (nitrogen, phosphorus, potassium).\n- Still, oranges grow better if you add more natural manure or compost every year. This will keep your soil healthy.\n- You can also use a little NPK fertilizer if you have it, but don’t use too much.\n- Spread manure or compost around the base of each tree, not too close to the stem.\n\nTemperature & Rain\n- The temperature here (about 28°C) is very good for oranges. They like warm weather.\n- You get enough rain. Make sure water does not stand around the trees—good drainage is important.\n- If it gets dry later, give your orange trees water, but don’t flood them.\n\nSoil pH\n- Your soil pH is 6.19, which is just right for oranges. You don’t need to add anything for pH.\n\nFighting pests & diseases\n- Because it’s warm and humid, watch for common orange pests like aphids and leaf miners.\n- Also, keep an eye out for black spots or mold on leaves and fruit.\n- Always pick up fallen leaves and fruit from under the tree—don’t leave them to rot.\n- Use neem spray or soapy water to control pests if you see them.\n- Always check your trees every week.\n\nPlanting tips\n- Plant your orange trees where they get lots of sunlight.\n- Leave enough space between trees (at least 5-6 meters apart) so they grow well.\n- Dig big holes, mix in compost or old manure before planting.\n- If you plant every year, try not to plant oranges in the same spot to avoid soil sickness.\n\nOther crops that can grow well here\n- You can also try growing coconut, pomegranate, or cotton here. These crops can do well in your soil and weather.\n\nYou have a great place for oranges. With these simple steps, you will get good harvests!",
+    "farmer_advice_amharic": "የእርሻዎ መሬትና የአየር ንብረት ለብርቱካን ማሳያ በጣም ተስማሚ ነው! እነዚህን መመሪያዎች ተከትላችሁ የተሻለ ውጤት ማግኘት ትችላላችሁ፡፡\n\nየማርና የኩነት አጠቃቀም  \n- መሬታችሁ በቂ የእፅዋት ምግብ (ናይትሮጅን፣ ፎስፎረስ፣ ፖታሲየም) አለው።  \n- ነገር ግን፣ በየዓመቱ ተፈጥሯዊ የእንስሳት ጉድ፣ ወይም ኮምፖስት በመጨመር ብርቱካኑ ይሻላል። ይህ መሬታችሁን ጤናማ ያደርጋል።  \n- ከሆነ ትንሽ NPK ኩነት መጠቀም ትችላላችሁ፣ ግን ብዙ አይደለም።  \n- የእንስሳት ጉድ ወይም ኮምፖስትን በየዛፉ መሠረት ዙሪያ ይበትኑ፣ በቅርንጫፉ ቅርብ አይደለም።  \n\nየአየር ንብረትና የዝናብ መጠን  \n- እዚህ ያለው የአየር ሙቀት (ከ28°C ዙሪያ) ለብርቱካን በጣም ተስማሚ ነው። ብርቱካን ከፍተኛ ሙቀት ይወዳል።  \n- በቂ ዝናብ ይደርሳችኋል። ውሃ በዛፉ ዙሪያ እንዳይቆይ ያረጋግጡ፤ መልካም የውሃ ማውጫ አስፈላጊ ነው።  \n- በኋላ ደረቅ ከሆነ፣ ብርቱካኑን ውሃ ይሙሉ፣ ግን በጣም አትጠጡት።  \n\nየመሬት pH  \n- የመሬታችሁ pH 6.19 ነው፣ ይህም ለብርቱካን በጣም ተስማሚ ነው። ለpH ምንም አይነት ነገር ማከል አያስፈልግም።  \n\nተባላሽና በሽታ መቃኘት  \n- ሙቀትና እርጥበት ስለሚጨምር፣ የብርቱካን የተለመዱ ተባላሽ እንደ አፊድ (Aphids) እና ቅጠል ቀጣይ (Leaf miner) ተጠንቀቁ።  \n- እንዲሁም በቅጠሉና ፍራፉ ላይ ጥቁር ነጥብ ወይም ፍግ እንዳይታየው ተመልከቱ።  \n- በዛፉ በታች የወደቁ ቅጠሎችንና ፍራፎችን ሁልጊዜ ይከማቹ፤ አትተዉአቸው እንዲበሱ።  \n- ተባላሽ ካየችሁ፣ የኒም ስፕሬ ወይም የሳሙና ውሃ ይጠቀሙ።  \n- ዛፎቻችሁን በየሳምንቱ ይመርምሩ።  \n\nየተከል ምክሮች  \n- ብርቱካኑን በፀሐይ በበዛ ቦታ ይተክሉ።  \n- በየዛፉ መካከል በቂ ርቀት (ቢያንስ 5-6 ሜትር) ይተዉ፣ እንዲያድጉ ይረዳል።  \n- ትልቅ ጉድጓድ ይቆፍሩ፣ ከመተከል በፊት ኮምፖስት ወይም የድሮ የእንስሳት ጉድ ያድርጉበት።  \n- በየዓመቱ ከተከሉ፣ ብርቱካንን በአንደኛው ቦታ እንዳትተክሉ ይሞክሩ፤ ይህ የመሬት በሽታ ያካሂዳል።  \n\nከዚህ በተጨማሪ የሚያድጉ ምርቶች  \n- እዚህ ኮኮናት፣ ሮማን (pomegranate) ወይም ጡት ማለትም ኮተን ማብጠት ይችላሉ። እነዚህም በመሬታችሁና በአየር ንብረታችሁ ላይ መልካም ውጤት ይሰጣሉ።  \n\nበእነዚህ ቀላል እርምጃዎች ቦታችሁ ለብርቱካን በጣም ተስማሚ ነው። ጥሩ እድገት ታገኛላችሁ!",
+    "farmer_advice_afaan_oromo": "**Lafti fi haalli qilleensaa keessan Oranjii (burtukaan) biqilchuuf bareedaa dha! Akka bu’aa gaarii argattaniif, kunoo maal gochuu qabdan:**\n\n---\n\n**Fayyadama Foolii (Fertilizer)**\n- Lafti keessan nyaata biqiltuu (nayitroojiinii, fosfoorasi, potaasiyeemii) gaarii qaba.\n- Haa ta’u malee, oranjii keessan akka gaariitti guddatuuf, waggaa waggaan foolii uumamaa ykn komposti dabalataa itti dabalaa. Kun lafa keessan fayyaa qabaachisaa ni taasisa.\n- NPK foolii xiqqoo yoo qabaattan itti fayyadamuu dandeessu, garuu baay’ee hin fayyadamin.\n- Foolii ykn komposti naannoo jirma muka oranjii marsee facaasi, garuu gara hidda mukaatti dhiyaachuu hin qabu.\n\n---\n\n**Qilleensa fi Rooba**\n- Qilleensi as jiru (daraaraa 28°C) oranjii biratti baay’ee gaariidha. Oranjii qilleensa hoo’aa jaalatti.\n- Rooba gahaa argattu. Bishaan muka oranjii jala dhaabbachuu hin hayyamin—bishaan akka ba’u (drainage) gaarii ta’uu qaba.\n- Yeroo goggogduu yoo dhufe, muka oranjii keessan bishaan kennaa, garuu bishaan baay’ee hin tuqaa.\n\n---\n\n**pH Laafaa (Soil pH)**\n- pH lafa keessan 6.19 dha, kun oranjii biqilchuuf sirrii dha. pH irratti wanti dabalataan gochuu qabdan hin jiru.\n\n---\n\n**Balaawwan fi Dhukkuboota Dhiibuu**\n- Sababni isaas qilleensa hoo’aa fi dukkana qabu waan jiruuf, balaawwan oranjii akka afidi fi leaf miner irratti xiyyeeffadhaa.\n- Akkasumas, bifa gurraacha ykn xurumbaa (mold) baala fi midhaan irratti ilaalaa.\n- Baala fi midhaan muka jala kufan walitti qabaa—akka hin balleesineef lafa irratti hin dhiisin.\n- Balaawwan yoo argitan, neem spray ykn bishaan sabuun qabu itti fayyadamaa.\n- Muka keessan torban torban qoradhaa.\n\n---\n\n**Yaadannoo Yeroo Biqilchuu**\n- Muka oranjii bakka aduu baay’ee argatu biqilchaa.\n- Muka gidduutti fageenya gahaa (meetira 5-6) dhiisaa, akka gaariitti akka guddatuuf.\n- Holqa guddaa qodaa, komposti ykn foolii dulloomaa keessa makaa booda muka biqilchaa.\n- Waggaa waggaan yoo biqiltan, bakka oranjii duraan biqiltan irra oranjii biqiluu irra of qusadhaa, lafti hin dadhabneef.\n\n---\n\n**Qonnaalee Biroo Asitti Guddachuu Danda’an**\n- Asitti kokonatti, rummaan (pomegranate), ykn qotonni (cotton) illee biqilchuu dandeessu. Qonnaaleen kun lafa fi qilleensa keessan keessatti gaarii ni guddatu.\n\n---\n\n**Bakki keessan oranjii biqilchuuf baay’ee gaarii dha. Tarkaanfiiwwan salphaa kanaan midhaan gaarii ni argattu!**",
+    "alternative_crops": [
+      [
+        "Coconut",
+        6.0
+      ],
+      [
+        "Pomegranate",
+        4.0
+      ],
+      [
+        "Cotton",
+        1.0
+      ]
+    ],
+    "processing_time_ms": 36563.47894668579
+  },
+  "20250810_113150_8.1272_39.3764": {
+    "id": "20250810_113150_8.1272_39.3764",
+    "timestamp": "2025-08-10T11:31:50.338740",
+    "location_name": "8.1272, 39.3764",
+    "latitude": 8.127189,
+    "longitude": 39.376373,
+    "recommended_crop": "Orange",
+    "confidence_score": 0.8,
+    "satellite_features": {
+      "nitrogen": 61.347,
+      "phosphorus": 45.898,
+      "potassium": 102.694,
+      "temperature": 28.3592,
+      "humidity": 85.449,
+      "ph": 6.2694,
+      "rainfall": 187.184
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing Orange! Here's how to get the best results:\n\nFertilizer use\n- Your soil has some nutrients, but oranges need a bit more help.\n- Add some well-rotted manure or compost to your soil before planting.\n- Use a little fertilizer that has more phosphorus and potassium. Ask for NPK fertilizer at the shop (like 10:20:20).\n- After planting, give some more manure or compost every few months to keep the trees healthy.\n\nTemperature & Rain\n- The temperature on your land is just right for oranges. Oranges love warm weather like yours!\n- There is enough rain, but make sure water does not stand around the roots. Oranges do not like too much water at the roots.\n- If there is a dry spell, water the trees deeply once a week.\n\nSoil pH\n- Your soil pH is very good for oranges. No changes needed! Oranges like soil just like yours.\n\nFighting pests & diseases\n- Because the air is humid, watch out for leaf spots and fruit rot.\n- Check your trees often. If you see sick leaves or fruits, remove and burn them.\n- Keep the area under the trees clean. Remove fallen leaves and fruits.\n- You can spray neem water on the leaves every month to keep pests away.\n\nPlanting tips\n- Choose a sunny spot with good drainage (water should not collect).\n- Dig big holes about 2 feet wide and 2 feet deep for each tree.\n- Plant trees about 5 to 6 meters apart.\n- Mix compost or manure into the hole before planting the young trees.\n- Keep weeds away from around the tree base, but don’t dig too deep near the roots.\n- Do not plant oranges in the same spot where you grew oranges before. Rotate with other crops if possible.\n\nOther crops that can grow well here\n- You can also try growing coconut, pomegranate, or pigeonpeas on your land. Coconut is a good second choice for this area.\n\nYou have a great place for oranges. With a little care, you will have healthy, fruitful trees!",
+    "farmer_advice_amharic": "የእርስዎ መሬትና የአየር ንብረት ለብርቱካን ማሳያ በጣም ተስማሚ ነው! ከዚህ በታች የተሻለ ውጤት ለማግኘት የሚረዱት ምክሮች ናቸው፡፡\n\nየማር፣ የኩነት እና የማዳበሪያ አጠቃቀም  \n- መሬትዎ አንዳንድ ምግብ አለው፣ ግን ብርቱካን ትንሽ ተጨማሪ ምግብ ይፈልጋል።  \n- በመተከል በፊት ደረቅ የተበቀለ ኩነት ወይም ኮምፖስት ወደ መሬትዎ ያክሉ።  \n- ፎስፈረስና ፖታሲየም የሚበዛበት ትንሽ ማዳበሪያ ይጠቀሙ። በሱቅ \"ኤንፒኬይ\" ማዳበሪያ (ለምሳሌ 10:20:20) ተጠይቁ።  \n- ከመተከል በኋላ፣ አንድ ሰዓት በአንድ ጊዜ ደረቅ ኩነት ወይም ኮምፖስት ይጨምሩ፣ ዛፎቹ ጤናማ እንዲቆዩ።  \n\nየአየር ንብረትና ዝናብ  \n- በመሬትዎ ያለው የአየር ንብረት ለብርቱካን ተስማሚ ነው። ብርቱካን እንደ እርስዎ ያለ ሙቀት ይወዳል!  \n- የበቂ ዝናብ አለ፣ ግን ውሃ በዛፎቹ ሥር እንዳይቆይ ያረጋግጡ። ብርቱካን በሥሩ ላይ ብዙ ውሃ አይወድድም።  \n- የዝናብ አመጋገብ ከተከሰተ፣ ዛፎቹን በሳምንት አንድ ጊዜ በበቂ ውሃ ያጠጡ።  \n\nየመሬት ኤፍኤች (pH)  \n- የመሬትዎ ኤፍኤች ለብርቱካን በጣም ተስማሚ ነው። ምንም ለውጥ አያስፈልግም! ብርቱካን እንደ መሬትዎ ያለውን ይወዳል።  \n\nተበካካሪና በሽታ መከላከያ  \n- አየሩ እንደሚያጠጣ ስለሆነ፣ የቅጠል ነጥብና የፍሬ በሽታ ይታወቃል።  \n- ዛፎቹን በየጊዜው ይመልከቱ። በሽታ ያላቸው ቅጠሎች ወይም ፍሬዎች ካየታችሁ አስወግዱና ያቃጡ።  \n- ከዛፎቹ በታች አካባቢ ንጹህ ያድርጉ። የወደቁ ቅጠሎችና ፍሬዎችን ያስወግዱ።  \n- ተበካካሪ እንዳይሰሩ የኒም ውሃ በየወሩ በቅጠሉ ላይ ይቅበሉ።  \n\nየመተከል ምክሮች  \n- ፀሐይ የሚደርስበትና ውሃ የማይቆይበት ቦታ ይምረጡ።  \n- ለእያንዳንዱ ዛፍ ወደ 2 እግር ስፋትና 2 እግር ጥልቀት ቆዳ ቁፋሮች ይቀኑ።  \n- ዛፎቹን ከ5 እስከ 6 ሜትር ርቀት ያቀኑ።  \n- አንድ የተከለ ዛፍ ሲተከል በቆዳው ውስጥ ኩነት ወይም ኮምፖስት ያውሉ።  \n- በዛፉ መሠረት ዙሪያ ሣር እንዳይድግ ያረጋግጡ፣ ግን በሥሩ አጠገብ በጣም አትቆፉ።  \n- ብርቱካንን ቀደም ሲተከልበት ቦታ እንዳትተክሉ። ከተቻለ ሌሎች የሰብል ዓይነቶች ያቀይሩ።  \n\nበዚህ አካባቢ የሚበቁ ሌሎች የሰብል ዓይነቶች  \n- ከብርቱካን በተጨማሪ ኮኮናት፣ ሮማንፍራንና ፒጅንፒዝ ማሳያ ይችላሉ። በዚህ አካባቢ ኮኮናት ደግሞ የሚሻል አማራጭ ነው።  \n\nለብርቱካን በጣም ተስማሚ ቦታ አለዎት። ትንሽ እንክብካቤ ብታደርጉ፣ ጤናማና ፍሬ የሚሰጡ ዛፎች ይኖራችሁ ይሆናል!",
+    "farmer_advice_afaan_oromo": "Lafti fi qilleensi keessan bifa gaarii qaba akka Oranjii ittiin biqiltan! Akka bu’aa gaarii argattanitti, kunoo akkamitti hojjettan:\n\nFayyadama Qoricha Lafaa (Fertilizer)\n- Lafti keessan midhaan muraasa qaba, garuu oranjii dabalataan gargaarsa barbaada.\n- Qoricha lafa goggogaa ta’e ykn kompostii lafa keessanitti dabaluu dandeessu dura biqiltuu dhaabdan.\n- Qoricha NPK jedhamu, kan phosphorasi fi potaasiyemiin isaa olka’aa ta’e fayyadamaa. Mana gurgurtaa irraa NPK (akka 10:20:20) gaafadhaa.\n- Erga biqiltuu dhaabdan booda, ji’oota muraasa booda, qoricha lafa goggogaa ykn kompostii dabalataa kennuu itti fufaa akka muka keessan fayyaa ta’uuf.\n\nQilleensa fi Rooba\n- Qilleensi lafa keessan oranjii irratti baay’ee mijataa dha. Oranjii qilleensa hoo’aa akkasii jaalatu!\n- Roobni gahaa jira, garuu bishaan lafa jala muka oranjii irratti walitti qabamu hin hayyaminaa. Oranjii bishaan baay’ee lafa jala hin jaalatu.\n- Yeroo bokkaa hin jirre, torbanitti yeroo tokko muka oranjii bishaan baay’ee kennuu yaalaa.\n\npH Lafoo\n- pH lafa keessan oranjii irratti baay’ee mijataa dha. Jijjiirama hin barbaachisu! Oranjii lafa akkasii jaalatu.\n\nDhibee fi Qamadii Ittisuuf\n- Qilleensi ni ho’aa waan ta’eef, balaa dhibee baala irratti argamu fi midhaan bal’achuu irraa of eeggadhaa.\n- Muka keessan yeroo hunda ilaalaa. Yoo baala ykn midhaan dhukkubsataa argitan, ciradhaa fi gubaa.\n- Lafti jala muka oranjii qulqulluu haa ta’u. Baala fi midhaan lafatti kufan qulqulleessaa.\n- Ji’a ji’aan bishaan neem baala irratti buusuu dandeessu akka qamadii irraa of eegdan.\n\nGorsa Dhaabuu (Planting tips)\n- Bakka aduu argatu fi bishaan itti hin dhaabbatu filadhaa.\n- Xiyyoo guddaa, meetira 0.6 bal’inaan fi meetira 0.6 gadi fagoo qotanii qopheessaa.\n- Muka oranjii walitti meetira 5 hanga 6 fageenyaan dhaabaa.\n- Kompostii ykn qoricha lafa goggogaa xiyyoo keessatti makaa erga muka oranjii haaraa dhaabdan dura.\n- Qamadii muka oranjii jala irraa qulqulleessaa, garuu lafa jala hin qotinaa.\n- Bakka oranjii duraan itti biqiltan irra oranjii haaraa hin dhaabinaa. Yoo danda’ame, lafa jijjiiraa biqiltuu biroo waliin fayyadamaa.\n\nQonnaan Biyyoo Biyyee Kan Biyyattiin Biqilu\n- Kokosii, rommaan (pomegranate), fi atara (pigeonpea) lafa keessan irratti biqiluu dandeessu. Kokosii filannoo lammaffaa gaarii dha naannoo kanaaf.\n\nBakki keessan oranjii irratti baay’ee mijataa dha. Yoo kunoo kun sirnaan hordoftan, muka fayyaa fi midhaan baay’ee argattu!",
+    "alternative_crops": [
+      [
+        "Coconut",
+        12.0
+      ],
+      [
+        "Pomegranate",
+        3.0
+      ],
+      [
+        "Pigeonpeas",
+        3.0
+      ]
+    ],
+    "processing_time_ms": 39839.394092559814
+  },
+  "20250810_113326_8.6075_38.6084": {
+    "id": "20250810_113326_8.6075_38.6084",
+    "timestamp": "2025-08-10T11:33:26.578824",
+    "location_name": "8.6075, 38.6084",
+    "latitude": 8.607494,
+    "longitude": 38.60836,
+    "recommended_crop": "Orange",
+    "confidence_score": 0.85,
+    "satellite_features": {
+      "nitrogen": 60.09,
+      "phosphorus": 45.06,
+      "potassium": 100.18,
+      "temperature": 28.024,
+      "humidity": 85.03,
+      "ph": 6.018,
+      "rainfall": 180.48
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing Orange! Here's how to get the best results:\n\nFertilizer use  \n- Your soil has enough nitrogen, phosphorus, and potassium for oranges.  \n- Still, it is good to add some compost or rotted manure each year.  \n- This will keep your soil healthy and help the orange trees grow strong.  \n- If you see yellow leaves, you can add a small amount of UREA.  \n- Use animal manure or plant compost to make the soil richer.\n\nTemperature & Rain  \n- The temperature is just right for oranges. They like warm weather, and 28°C is very good.  \n- Rainfall is enough, but make sure water does not stand around the roots.  \n- If there is too much rain, make drainage channels to carry extra water away.  \n- In dry times, give water at the base of the trees.\n\nSoil pH  \n- Your soil pH is 6.02. This is very good for oranges.  \n- You do not need to change anything here.\n\nFighting pests & diseases  \n- Oranges can get attacked by fruit flies, aphids, and fungal diseases, especially in humid places like yours.  \n- Keep your field clean. Remove fallen leaves and fruit from the ground.  \n- Check your trees often for pests or spots on leaves.  \n- If you see any, pick off the bad leaves or fruits and burn them far from the field.  \n- You can use neem water spray to keep away pests.\n\nPlanting tips  \n- Pick a sunny spot with no shade for planting your oranges.  \n- Give each tree enough space—plant them about 5 to 6 meters apart.  \n- Dig a big hole, put in some compost, and then plant your tree.  \n- Water well after planting.  \n- Do not plant oranges in the same place where you grew the same crop before. Rotate with other crops if you can.\n\nOther crops that can grow well here  \n- Besides oranges, you can also try coconut, pomegranate, or mungbean on your land.\n\nYou have good land for oranges. Follow these steps, and you will get healthy, sweet fruit!",
+    "farmer_advice_amharic": "የእርስዎ አፈርና የአየር ሁኔታ ለብርቱካን ማብቃት በጣም ተስማሚ ነው! እንዴት የተሻለ ውጤት ማግኘት እንደሚችሉ እዚህ ተመልከቱ፡\n\nየማር አጠቃቀም  \n- አፈርዎ ለብርቱካን በቂ ናይትሮጅን፣ ፎስፈረስና ፖታሲየም አለው።  \n- ነገር ግን፣ በየዓመቱ ትንሽ ኮምፖስት ወይም የተበቃ የእንስሳት ጩኸት መጨመር ይመከራል።  \n- ይህ አፈርዎን ጤናማ ያደርጋልና የብርቱካኑ ዛፎች ጠንካራ እንዲያድጉ ይረዳል።  \n- ቢጫ ቅጠል ብትመስሉ ትንሽ ዩሪያ መጨመር ይችላሉ።  \n- የእንስሳት ጩኸት ወይም የተበቃ የተከላ እንዲሁም ኮምፖስት በመጠቀም አፈርዎን ዘርፍ ያድርጉት።\n\nየሙቀትና የዝናብ ሁኔታ  \n- ለብርቱካን የሙቀት ሁኔታ በጣም ተስማሚ ነው። ሙቀት ይወዳሉ፣ 28°C በጣም ጥሩ ነው።  \n- የዝናብ መጠኑ በቂ ነው፣ ግን ውሃ በዛፎቹ ሥር እንዳይቆይ ያረጋግጡ።  \n- ዝናብ ብዙ ከሆነ ተጨማሪውን ውሃ እንዲወጣ የውሃ መውጫ ባህርያዎች ያበሩ።  \n- አደጋ የውሃ አነስተኛ ጊዜ በዛፉ መሠረት ውሃ ይስጡ።\n\nየአፈር pH  \n- የአፈርዎ  pH 6.02 ነው። ይህ ለብርቱካን በጣም ጥሩ ነው።  \n- በዚህ ምክንያት ምንም መቀየር አያስፈልግም።\n\nተባዮችና በሽታዎችን መቆጣጠር  \n- ብርቱካን በፍራፍሬ ዝንብ፣ በአፊድና በፈንገላ በሽታዎች ሊደርስበት ይችላል፣ በተለይም እንደእርስዎ እንፋሎት ቦታዎች ውስጥ።  \n- መስኩን ንፁህ ያድርጉ። ወደቀ ቅጠልና ፍራፍሬ ከመሬት ላይ ያነሱ።  \n- ዛፎቹን በተደጋጋሚ ይመልከቱ፣ ተባዮች ወይም በቅጠሉ ላይ ነጥብ ካየችሁ።  \n- ካየችሁ ክፉ ቅጠሎችን ወይም ፍራፍሬዎችን ይቆርጡና ከመስኩ ርቀው ያቃጥሉ።  \n- ተባዮችን ለመከላከል የኒም ውሃ ማጠቢያ መጠቀም ይችላሉ።\n\nየተከላ ምክሮች  \n- ብርቱካን ለመተከል ፀሐይ የሚደርስበትና ጥላ የሌለበት ቦታ ይምረጡ።  \n- ለእያንዳንዱ ዛፍ በቂ ቦታ ይስጡ፤ ዛፎቹን ከ5 እስከ 6 ሜትር ርቀት ያበሩ።  \n- ትልቅ ጉድጓድ ይቆፍሩ፣ ኮምፖስት ያክሉና ዛፉን ያተኩ።  \n- ከመተከል በኋላ በቂ ውሃ ይስጡ።  \n- ብርቱካንን በቀድሞ በዚያው ቦታ ከተከላችሁ አትተክሉ። ከቻሉ ከሌሎች እፅዋት ጋር ይቀያዩ።\n\nበዚህ ቦታ የሚያበቃ ሌሎች እፅዋት  \n- ብርቱካን በተጨማሪ ኮኮናት፣ ፖም ግራኔት ወይም ሙንግቢን ማብቃት ይችላሉ።\n\nለብርቱካን ጥሩ መሬት አለዎት። እነዚህን አካሄዶች ተከትሉ፣ ጤናማና ጣፋጭ ፍራፍሬ ያገኛሉ!",
+    "farmer_advice_afaan_oromo": "Lafti fi haalli qilleensaa keessan bifa gaarii dhaaf Oranjii biqilchuuf mijataa dha! Akka bu’aa gaarii argattuuf, akkana gochuu qabda:\n\nFayyadama Qoricha Lafaa (Fertilizer)  \n- Lafti keessan naayitroojinii, fosforasii fi potaasiyemii oranjii barbaadu gahaa qaba.  \n- Haa ta’u malee, waggaa waggaan kompostii ykn xurumba bineensaa goggogee dabaluu wayya.  \n- Kun lafa keessan fayyaa qabaachisaa fi muka oranjii jabeeffachuuf gargaara.  \n- Yoo baalli muka oranjii diimaa ykn bifa magariisa ta’e, UREA xiqqoo dabaluun ni danda’ama.  \n- Xurumba bineensaa ykn kompostii biqiltuu fayyadamuun lafa keessan akka badhaadhu taasisa.\n\nHaala Qilleensaa fi Rooba  \n- Haalli qilleensaa keessan oranjii biqilchuuf mijataa dha. Oranjii qilleensa hoo’aa jaalatti, digrii 28°C baay’ee gaarii dha.  \n- Roobni gahaa jira, garuu bishaan lafa jala muka oranjii irratti walitti qabamu hin qabu.  \n- Yoo roobni baay’ate, daandii bishaan itti baasu qotanii bishaan dabalataa akka ba’u godhaa.  \n- Yeroo goggogduu, muka oranjii jala bishaan kennuu hin dagatinaa.\n\npH Laafaa  \n- pH lafa keessan 6.02 dha. Kun oranjii biqilchuuf baay’ee gaarii dha.  \n- Kana irratti wanti jijjiiramu hin jiru.\n\nBalaa Qamadii fi Dhukkuba  \n- Oranjii gogaa midhaan, afiidii fi dhukkuba funyoo irraa miidhamuu danda’a, bakka qilleensi ho’aa fi hu’ummaan jiru keessatti.  \n- Dirree keessan qulqulluu tursaa. Baala fi midhaan lafatti kufe irraa qulqulleessaa.  \n- Muka keessan yeroo baay’ee ilaalaa, balaa qamadii ykn bifa bifa baala irratti arguu dandeessu ilaalaa.  \n- Yoo argitan, baala ykn midhaan miidhaman fuudhaa, bakka fagoo deemuun gubaa.  \n- Bishaan neem fayyadamuun balaa qamadii ittisuuf ni gargaara.\n\nTartiiba Biqilchuu  \n- Bakka aduu argatu, daangaa hin qabne filadhaa oranjii biqilchuuf.  \n- Muka oranjii gidduutti fageenya gahaa kennaa—meetira 5 hanga 6 gidduutti biqilchaa.  \n- Xurumba kompostii gara godaatti naqaa, muka oranjii sana achi keessatti biqilchaa.  \n- Erga biqiltanii bo",
+    "alternative_crops": [
+      [
+        "Coconut",
+        6.0
+      ],
+      [
+        "Pomegranate",
+        3.0
+      ],
+      [
+        "Mungbean",
+        2.0
+      ]
+    ],
+    "processing_time_ms": 40675.09317398071
+  },
+  "20250810_114719_7.5802_35.2112": {
+    "id": "20250810_114719_7.5802_35.2112",
+    "timestamp": "2025-08-10T11:47:19.979172",
+    "location_name": "7.5802, 35.2112",
+    "latitude": 7.580158,
+    "longitude": 35.211182,
+    "recommended_crop": "Watermelon",
+    "confidence_score": 0.55,
+    "satellite_features": {
+      "nitrogen": 101.053,
+      "phosphorus": 21.404,
+      "potassium": 50.702,
+      "temperature": 26.4212,
+      "humidity": 75.702,
+      "ph": 6.3404,
+      "rainfall": 67.02
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing watermelon! Here’s how to get the best results:\n\nFertilizer use  \n- Your soil has enough nitrogen. No need to add much more.  \n- Phosphorus and potassium are a little low. Add some DAP or NPK fertilizer before planting.  \n- Mix in well-rotted manure or compost to make the soil rich and healthy.\n\nTemperature & Rain  \n- The temperature is just right for watermelon.  \n- Rainfall is good, but too much water can harm the plants. Make sure the field drains well after rain.  \n- If there is a dry spell, water the plants when the soil feels dry.\n\nSoil pH  \n- Your soil pH is very good for watermelon. No changes needed.\n\nFighting pests & diseases  \n- With warm and humid weather, watch out for leaf spots and fruit rot.  \n- Check your plants often. Remove any sick-looking leaves or fruits.  \n- Keep the field clean. Remove weeds and leftover plant parts.  \n- If you see bugs, pick them off by hand or use safe homemade sprays like neem water.\n\nPlanting tips  \n- Choose a sunny spot with soft, loose soil.  \n- Make small hills or mounds, spacing them about 1 meter apart.  \n- Plant 2-3 seeds per hill, then keep the strongest plant.  \n- Rotate with crops like maize or beans every year to keep the soil healthy.\n\nOther crops that can grow well here  \n- You can also grow banana, cotton, or jute on this land. These crops will do well with your soil and weather.\n\nHappy farming! You are on the right track with watermelon!",
+    "farmer_advice_amharic": "የእርሻዎ መሬትና የአየር ንብረት ለሹካ ማብቃት በጣም ተስማሚ ነው! የተሻለ ውጤት ለማግኘት የሚከተሉትን ያድርጉ፡፡\n\nየምግብ ቅመም አጠቃቀም  \n- በመሬትዎ በቂ ናይትሮጅን አለ። ተጨማሪ ናይትሮጅን ማከም አያስፈልግም።  \n- ፎስፎረስና ፖታሲየም ትንሽ ዝቅተኛ ነው። ከማትከል በፊት DAP ወይም NPK አይነት ቅመም ያክሉ።  \n- በጥሩ ሁኔታ የተበላሸ የእንስሳት ጉድጓድ ወይም ኮምፖስት ያክሉ፤ መሬቱን የተሻለ እና ጤናማ ያደርጋል።\n\nየአየር ሙቀትና ዝናብ  \n- ለሹካ የሚስተካከል ሙቀት አለ።  \n- የዝናብ መጠን ደረጃው ጥሩ ነው፣ ግን በጣም ብዙ ውሃ ተተክሎቹን ሊጎዳ ይችላል። ዝናብ ከወረደ በኋላ መስኩ በቀላሉ እንዲወጣ ያድርጉ።  \n- የውሃ እጥረት ከተከሰተ በዚያ ጊዜ መሬቱ ሲደርቅ ተተክሎቹን ውሃ ይሙቁ።\n\nየመሬት pH  \n- የመሬትዎ pH ለሹካ በጣም ተስማሚ ነው። ምንም ለውጥ አያስፈልግም።\n\nተባዮችና በሽታዎችን መከላከል  \n- በሙቀትና በእርጥበት የተሞላ አየር ሁኔታ ውስጥ የቅጠል ነጥብና የፍሬ በሽታ ሊታዩ ይችላሉ።  \n- ተተክሎቹን በየጊዜው ይመልከቱ። በሽታ የተያዙ ቅጠሎች ወይም ፍሬዎችን ይውጡ።  \n- መስኩን ንፁህ ያድርጉ። ሣርና የቀረውን የተከለ አካል ያስወግዱ።  \n- ተባዮችን ካየታችሁ በእጅ ይሰብስቡ፣ ወይም እንደ ኒም ውሃ ያሉ ደህና የተሰሩ ቤትዎ ውስጥ የሚሰሩ ማሽከርከሪያዎችን ይጠቀሙ።\n\nየመተከል ምክሮች  \n- ፀሐይ የሚያጠፋበትና ለማቅለል ቀለል ያለው መሬት ይምረጡ።  \n- ትንሽ ኮከቦች ወይም ኩባያዎች ያዘጋጁ፣ ከኩባያ ወደ ኩባያ 1 ሜትር ይርቁ።  \n- በእያንዳንዱ ኩባያ 2-3 ዘር ይተክሉ፣ ከዚህ በኋላ በጣም ጠንካራውን ተክል ብቻ ይቀዩ።  \n- መሬቱ ጤናማ እንዲቆይ በየዓመቱ ከሹካ ጋር በተነዋሪ በተለያዩ እንደ በቆሎ ወይም ባቄላ ይቀያዩ።\n\nበዚህ መሬት ላይ በጥሩ የሚያበቃ ሌሎች እንደሚሆኑ  \n- በዚህ መሬት ላይ በአንደኛው በአንደኛው አየር ንብረት ላይ አንደ ሙዝ፣ ጥጃ ወይም ጅውት ደግሞ ማብቃት ይችላሉ። እነዚህ እንዲሁም በመሬትዎና በአየር ንብረትዎ ላይ በጣም ይስተካከላሉ።\n\nደስ ይበላችሁ የሚሰሩት ግብርና! ሹካ ማብቃት በትክክል መንገድ ላይ ነዎት!",
+    "farmer_advice_afaan_oromo": "Qilleensa fi lafa kee keessatti Handoodaa (Watermelon) baay’ee gaarii dha! Akka bu’aa gaarii argattuuf, kunoo akkamitti hojjattu:\n\nFayyadama Foolii (Fertilizer)  \n- Lafa kee keessatti naaytiroojinii gahaa jira. Kanarraa olii dabaluun hin barbaachisu.  \n- Foosforaasii fi potaasiyeemii xiqqoo gadi dha. Foolii DAP yookaan NPK dabaluu qabda dura biqiltuu ittiin facaastu.  \n- Qoricha loonii goggogee yookaan kompostii lafa keessa maki, lafa akka qabbanaawaa fi fayyaa ta’uuf.\n\nQilleensa fi Rooba  \n- Qilleensi yeroo kanaa handoodaaaf mijataa dha.  \n- Roobni gaarii dha, garuu bishaan baay’inaan biqiltuu miidhuu danda’a. Roobni yoo roobe, lafti akka bishaan irraa baasu mirkaneessi.  \n- Yeroo bokkaa dheeraa yoo dhufe, lafti yoo gogee argame bishaan itti naqii.\n\npH Lafa  \n- pH lafa kee handoodaaaf baay’ee mijataa dha. Jijjiirama hin barbaachisu.\n\nBalaawwan fi Dhukkuboota Dhoorkuu  \n- Qilleensa hoo’aa fi hu’ummaa waliin, balaa bifa baala irratti mul’atuu fi gogaa handoodaa balleessuu irraa of eegi.  \n- Biqiltuu kee yeroo hunda ilaali. Baala yookaan handoodaa dhukkubsatanii fakkaatan fuudhi.  \n- Dirree qulqulleessi. Sanyii hadhaa fi hafeewwan biqiltuu irraa qulqulleessi.  \n- Ilbiisota yoo argite, harka kee buqqadhu yookaan qoricha uumamaa akka bishaan neem fayyadami.\n\nTarsiimoo Facaasaa  \n- Bakka aduu argatu fi lafti laaftuu fi laafaa ta’e filadhu.  \n- Tulluu xiqqaa yookaan mundaalee xiqqaa lafa irratti tolchi, giddu-galeessa isaanii meetira 1 fageessi.  \n- Tulluu tokkoon tokkoon irratti baala 2-3 facaasi, booda isa jabaa qofa hambisi.  \n- Bara hunda midhaan akka boqolloo yookaan baqelaa waliin wal jijjiiri, lafti akka fayyaa ta’uuf.\n\nMidhaan biroo as irratti gaarii ta’an  \n- Bakka kana irratti muuzii, qotonii yookaan juutii illee biqilchuu dandeessa. Midhaan kunniin lafa fi qilleensa keetiin gaarii ni biqilu.\n\nHojii qonnaa gammachuu! Handoodaa waliin karaa sirrii irra jirtu!",
+    "alternative_crops": [
+      [
+        "Banana",
+        13.0
+      ],
+      [
+        "Cotton",
+        10.0
+      ],
+      [
+        "Jute",
+        9.0
+      ]
+    ],
+    "processing_time_ms": 34978.87206077576
+  },
+  "20250810_121012_9.0740_38.7451": {
+    "id": "20250810_121012_9.0740_38.7451",
+    "timestamp": "2025-08-10T12:10:12.342555",
+    "location_name": "9.0740, 38.7451",
+    "latitude": 9.073957,
+    "longitude": 38.745089,
+    "recommended_crop": "Chickpea",
+    "confidence_score": 0.28,
+    "satellite_features": {
+      "nitrogen": 51.9125,
+      "phosphorus": 62.55,
+      "potassium": 82.55,
+      "temperature": 19.02,
+      "humidity": 71.275,
+      "ph": 6.6275,
+      "rainfall": 127.65
+    },
+    "region_info": {
+      "climate_zone": "Tropical",
+      "continent": "Europe/Africa",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are PERFECT for growing Chickpea! Here’s how to get the best results:\n\nFertilizer use  \n- Your soil already has good amounts of plant food (nitrogen, phosphorus, and potassium).  \n- You do not need to add a lot of chemical fertilizer.  \n- Use a little well-rotted manure or compost before planting to make the soil even better.  \n- If you have farmyard manure, mix it into the soil.\n\nTemperature & Rain  \n- The weather here is very good for chickpea. The temperature is just right.  \n- You have enough rain, but make sure your land does not flood or stay muddy.  \n- If there is too much water, make small raised beds or channels to help the water drain away.\n\nSoil pH  \n- Your soil pH is very good for chickpea. You do not need to change anything.\n\nFighting pests & diseases  \n- Because the air is humid and it rains, watch out for insects and plant diseases.  \n- Check your plants often for spots on leaves or insects.  \n- Remove and burn any sick plants.  \n- Plant healthy seeds.  \n- If you see too many bugs, use neem water or ash to help control them.  \n- Weed your field often and keep it clean.\n\nPlanting tips  \n- Choose a sunny spot for planting.  \n- Space your chickpea seeds about one hand apart in rows.  \n- Do not plant too close together.  \n- Rotate your crops each year. Do not plant chickpea in the same spot every year.  \n- After harvesting, leave some plant roots in the ground to make the soil better.\n\nOther crops that can grow well here  \n- You can also grow Papaya, Jute, or Pigeonpeas on your land.  \n- These crops also like your soil and weather.\n\nYou are in a great place to grow chickpea. Follow these tips and you will get a good harvest!",
+    "farmer_advice_amharic": "የእርሻዎ አፈርና የአየር ንብረት ለበቆሎ ምርት በጣም ተስማሚ ነው! እነዚህን ምክሮች ተከትሉ ምርትዎን ያሻሽሉ፡\n\nየማር አጠቃቀም  \n- አፈርዎ አሁንም በቂ የእፅዋት ምግብ (ናይትሮጅን፣ ፎስፈረስና ፖታሲየም) አለው።  \n- ብዙ የኬሚካል ማር ማከማቻ አያስፈልግዎትም።  \n- በማትከል በፊት ትንሽ ያሳሰበ የእንስሳት ጉድለት ወይም ኮምፖስት ይጨምሩ።  \n- የእንስሳት ጉድለት ካለዎት በአፈሩ ውስጥ ያውሰዱት።\n\nየአየር ንብረትና ዝናብ  \n- እዚህ ያለው አየር ለበቆሎ በጣም ተስማሚ ነው። የሙቀት መጠኑ ትክክል ነው።  \n- በቂ ዝናብ አለዎት፣ ግን መሬትዎ እንዳይጠግብ ወይም እንዳይቆይ ይጠንቀቁ።  \n- በጣም ብዙ ውሃ ካለ ትንሽ የተደረጉ ከፍ ያሉ መኝታዎች ወይም የውሃ መውጫ ቻናሎች ያዘጋጁ።\n\nየአፈር pH  \n- የአፈርዎ pH ለበቆሎ በጣም ተስማሚ ነው። ምንም መቀየር አያስፈልግዎትም።\n\nተባዮችና በሽታዎችን መቆጣጠር  \n- አየሩ እና ዝናቡ ሲበዛ ተባዮችና የእፅዋት በሽታዎች ሊበዙ ይችላሉ።  \n- ተክሎትን በየጊዜው ይመልከቱ፤ በቅጠሎች ላይ ነጠብጣቦች ወይም ተባዮች ካዩ ይጠንቀቁ።  \n- የበሽታ ያጋጡ ተክሎችን ይቈርጡና ያቃጥሉ።  \n- ጤናማ ዘር ይዘሩ።  \n- ብዙ ተባዮች ካዩ የኒም ውሃ ወይም አመዳደብ አመጣጥ ይጠቀሙ።  \n- እርሻዎን በተደጋጋሚ ይገርፉና ንፁህ ያድርጉት።\n\nየተከላ ምክሮች  \n- በፀሐይ የሚያጠፋ ቦታ ይምረጡ።  \n- የበቆሎ ዘሮችን በአንድ እጅ ርቀት በረድፎች ውስጥ ይዘሩ።  \n- በጣም ቅርብ አይዘሩ።  \n- በየዓመቱ የተከላ ዘርዎችን ይቀያይሩ። በተመሳሳይ ቦታ በቆሎን አይዘሩ።  \n- ከመከል በኋላ አንዳንድ ሥሮች በመሬት ውስጥ እንዲቀሩ ይተዉ፤ ይህ አፈሩን ይዋበዋበዋል።\n\nበዚህ አካባቢ የሚበቁ ሌሎች እፅዋት  \n- እንደ ፓፓያ፣ ጁት፣ ወይም ፒጅንፒዝ እንዲሁም ማር በመሬትዎ ላይ ማብቃት ይችላሉ።  \n- እነዚህ እፅዋት ደግሞ አፈርዎንና አየርዎን ይወዳሉ።\n\nበበቆሎ ማብቃት ለመስራት በጣም ተስማሚ ቦታ ላይ ነዎት። እነዚህን ምክሮች ተከትሉ እና ጥሩ ምርት ያግኙ!",
+    "farmer_advice_afaan_oromo": "Qilleensa fi lafa kee irratti Buttaa (Chickpea) guddisuuf haala gaarii qabda! Akka bu’aa gaarii argattuuf, kunoo akkamitti gochuu dandeessu:\n\nFayyadama Foolii  \n- Lafni kee nyaata biqiltuu (nayitroojiinii, fosfoorasi, fi potaasiyemii) gaarii qaba.  \n- Foolii kimikaalaa baay’ee dabaluu hin barbaachisu.  \n- Qoricha bineensaa ykn kompostii gaarii ta’e xiqqoo lafa keetti dabaluu dandeessa, kun lafa ni fooyyessa.  \n- Yoo qoricha bineensaa (farmyard manure) qabdu, lafa keessa maki.\n\nQilleensa fi Rooba  \n- Qilleensi as jiru buttaaaf baay’ee gaarii dha. Ho’a isaa sirrii dha.  \n- Roobni gahaa jira, garuu lafa kee bishaan keessa hin turre ykn lafa gogaa hin taane mirkaneessi.  \n- Yoo bishaan baay’ate, lafa ol-kaasuu ykn daandii xiqqoo qoti, bishaan akka ba’uuf.\n\npH Laafaa  \n- pH lafa kee buttaaaf baay’ee gaarii dha. Homaa jijjiiru hin barbaachisu.\n\nBineensota fi Dhukkuba Ittisuuf  \n- Qilleensa dukkanaa fi roobni waan jiruuf, bineensota fi dhukkuba biqiltuu irraa of eegi.  \n- Biqiltuu kee yeroo hunda ilaali, bifa halluu jijjiiramaa ykn bineensa irratti ilaali.  \n- Biqiltuu dhukkubsatte murii fi gubii.  \n- Ilkaan fayyaa qabu qofa facaasi.  \n- Yoo bineensota baay’een argitan, bishaan neemii ykn daakuu itti facaasi.  \n- Qonnaa kee yeroo hunda garagalchi, qulqulluu godhi.\n\nGorsa Facaasaa  \n- Bakka aduu argatu filadhu.  \n- Ilkaan buttaa harka tokko gidduutti facaasi.  \n- Baay’ee walitti dhiyeessuun hin facaasi.  \n- Qonnaa waggaa waggaan bakka jijjiiri. Buttaa bakka tokko waggaa hunda hin facaasi.  \n- Erga gogeessitee booda, mukeen gubbaa muranii lafa keessa dhiisi, lafa ni fooyyessa.\n\nQonnaalee biroo as irratti gaarii ta’an  \n- Papaya, Jute, ykn Atara (Pigeonpea) illee lafa keetti guddisuu dandeessa.  \n- Qonnaaleen kunis lafa fi qilleensa keetiin ni gammadu.\n\nBakka gaarii buttaa itti guddisuuf jirtu. Gorsa kana hordofuu yoo dandeesse, midhaan gaarii ni argatta!",
+    "alternative_crops": [
+      [
+        "Papaya",
+        20.0
+      ],
+      [
+        "Jute",
+        11.0
+      ],
+      [
+        "Pigeonpeas",
+        10.0
+      ]
+    ],
+    "processing_time_ms": 40576.7560005188
+  },
+  "20250810_121212_37.4923_-119.6054": {
+    "id": "20250810_121212_37.4923_-119.6054",
+    "timestamp": "2025-08-10T12:12:12.586188",
+    "location_name": "37.4923, -119.6054",
+    "latitude": 37.49226,
+    "longitude": -119.605408,
+    "recommended_crop": "Watermelon",
+    "confidence_score": 0.55,
+    "satellite_features": {
+      "nitrogen": 101.4742,
+      "phosphorus": 21.965600000000002,
+      "potassium": 50.9828,
+      "temperature": 26.58968,
+      "humidity": 75.9828,
+      "ph": 6.39656,
+      "rainfall": 69.828
+    },
+    "region_info": {
+      "climate_zone": "Subtropical",
+      "continent": "Americas",
+      "season_info": {
+        "season": "Summer",
+        "growing_season": "Growing"
+      },
+      "hemisphere": "Northern"
+    },
+    "farmer_advice_english": "Your soil and weather are GOOD for growing watermelon! Here’s how to get the best results:\n\nFertilizer use  \n- Your soil has enough nitrogen, so your plants will grow strong leaves.  \n- The phosphorus is a bit low. Add some DAP fertilizer or use well-rotted chicken manure before planting. This helps flowers and fruit to grow well.  \n- Potassium is also a little low. Use a little MOP (Muriate of Potash) or add ash from burnt wood to the soil. Potassium helps the fruits become sweet and big.  \n- If you have compost or manure, mix it into the soil. It makes the soil rich and helps watermelons grow better.\n\nTemperature & Rain  \n- The temperature is just right for watermelons. They love warm weather like yours.  \n- Rainfall is not too much, which is good. But make sure the field does not flood. Watermelons don’t like too much water at their roots.  \n- If there is no rain for many days, water your plants so the soil stays a little wet, but not soggy.\n\nSoil pH  \n- The pH of your soil is good for watermelons. No need to change anything. Just plant!\n\nFighting pests & diseases  \n- Because it is warm and humid, watch for pests like melon flies and aphids.  \n- Check the leaves often for holes, yellow spots, or sticky juice.  \n- Remove and burn diseased or pest-infested plants quickly.  \n- Use ash or soap water to chase away small pests.  \n- Keep the field clean and free from weeds.\n\nPlanting tips  \n- Choose a sunny spot with loose soil.  \n- Give each plant enough space—about 1 meter between plants.  \n- Do not plant watermelons in the same field every year. Rotate with other crops to keep the soil healthy.  \n- Plant seeds after the rains have started and the soil is warm.  \n- Mulch with dry grass or leaves to keep soil moist and stop weeds.\n\nOther crops that can grow well here  \n- You can also try banana, cotton, or jute. These crops can do well in your soil and weather too.\n\nYou are on the right track with watermelon! Follow these steps for a good harvest. If you have any questions, I am here to help you.",
+    "farmer_advice_amharic": "የእርሻዎ መሬትና የአየር ንብረት ለሩዝ ሲታሰር በጣም ተስማሚ ነው! የተሻለ ውጤት ለማግኘት እንዴት ማድረግ እንደሚገባ እዚህ ተመዝግቧል፦\n\nየማር አጠቃቀም  \n- በመሬትዎ በቂ ናይትሮጅን አለ፣ ስለዚህ ተክሎችዎ ጠንካራ ቅጠል ይሰጣሉ።  \n- ፎስፎረስ ግን ትንሽ ዝቅተኛ ነው። ከማቀዝቀዣ በፊት የዳፕ (DAP) አርማዎች ወይም የበላ የዶሮ ጉድ ያክሉ። ይህ አበባና ፍሬ እንዲያፈሩ ይረዳል።  \n- ፖታሲየም ደግሞ ትንሽ ዝቅተኛ ነው። ትንሽ የኤምኦፒ (MOP) ወይም የተቃጠለ እንጨት አመድ ወደ መሬት ያክሉ። ፖታሲየም ፍሬዎቹ እንዲጣፉ እና እንዲበሉ ይረዳል።  \n- ኮምፖስት ወይም ጉድ ካለዎት ወደ መሬት ውስጥ ያቀርቡት። መሬትን ያበረታታል፣ ሩዝ እንዲያፈሩ ይረዳል።\n\nየአየር ንብረትና ዝናብ  \n- የአየር ንብረት ለሩዝ በጣም ተስማሚ ነው። ሩዝ የሚወደው ሙቀት አለዎት።  \n- ዝናብ አብዛኛውን ጊዜ አይበዛም፣ ይህም ጥሩ ነው። ግን መስኩ እንዳይጠልቅ ያረጋግጡ። ሩዝ በሥሮቻቸው ብዙ ውሃ አይወዱም።  \n- ብዙ ቀናት ዝናብ ካልወረደ ተክሎችዎን ያጠጡ፤ መሬቱ ትንሽ እንዲደርቅ እንጂ በጣም እንዳይጠልቅ ይጠንቀቁ።\n\nየመሬት pH  \n- የመሬትዎ pH ለሩዝ ተስማሚ ነው። ምንም አይቀየር። ቀጥለው ይተክሉ!\n\nተባዮችና በሽታዎችን መከላከል  \n- ሙቀትና እርጥበት ስለሚገኝ የሚያበዛውን ተባይ እንደ ሩዝ አውራ ዝንብና አፊድ ይቆጥቡ።  \n- ቅጠሎቹን በደቅ ተመልከቱ፤ ቀይ ቦታ፣ ቡጥ ወይም ቅጠል ላይ ተጣባቂ ጠባብ ካገኙ ይጠንቀቁ።  \n- በተባይ ወይም በበሽታ የተያዙ ተክሎችን ፈጥነው አውጡና ያቃጥሉ።  \n- ትንሽ ተባዮችን ለማስወገድ አመድ ወይም የሳሙና ውሃ ይጠቀሙ።  \n- መስኩን ንፁህ ያድርጉ፣ ሣር አይበዛበት።\n\nየተከላ ምክሮች  \n- ፀሐይ የሚደርስበትና ዝቅተኛ የሆነ መሬት ይምረጡ።  \n- ለእያንዳንዱ ተክል በቂ ቦታ ይስጡ—በተአምራች 1 ሜትር እንዲሆን ያስተካክሉ።  \n- ሩዝን በየዓመቱ በአንደኛው መስክ አትተክሉ። መሬቱ እንዲበረታ ሌሎች እርሻዎች ጋር ይቀያይሩ።  \n- ዝናብ ከጀመረና መሬቱ ከተሞቀ በኋላ ዘር ይተክሉ።  \n- መሬቱ እንዳይደርቅና ሣር እንዳይበዛ በደረቅ ሣር ወይም ቅጠል ይሸፍኑት።\n\nበዚህ አካባቢ የሚበቁ ሌሎች እርሻዎች  \n- ባናና፣ ኮተን፣ ወይም ጁት ደግሞ በመሬትና በአየር ንብረትዎ መልካም ይበቃሉ።\n\nበሩዝ ላይ በትክክል መንገድ ላይ ነዎት! ይህን ደብዳቤ ተከትሉ ለበለጠ ውጤት። ጥያቄ ካለዎት ማንኛውንም ጊዜ ይጠይቁ።",
+    "farmer_advice_afaan_oromo": "**Lafti fi qilleensi keessan Foon Handhuuraa (Watermelon) biqilchuuf GAARIIDHA! Akka bu’aa gaarii argattanitti akkana godhaa:**\n\n---\n\n**Fayyadama Qoricha Lafaa (Fertilizer)**\n- Lafti keessan naayitroojiinii gahaa qaba, kanaaf biqiltoonni baala jabaa ni qabaatu.\n- Fosphorasiin xiqqoo gadi dha. Qoricha DAP dabaluu ykn xurumbaa hoolaa goggogee gaarii ta’e lafa keessa makaa. Kun biqiltoonni fi midhaan gaarii akka ba’an gargaara.\n- Potaasiyeemiin xiqqoo gadi dha. MOP (Muriate of Potash) xiqqoo fayyadami ykn boba’aa muka gubamee lafa keessa maki. Potaasiyeemiin midhaan akka gabbataa fi mi’aawaa ta’u gargaara.\n- Yoo xurumbaa ykn qamadii qabaattan, lafa keessa makaa. Kun lafa akka badhaadhu fi foon handhuuraa akka gaarii biqilu gargaara.\n\n---\n\n**Haala Qilleensaa fi Rooba (Temperature & Rain)**\n- Haalli qilleensaa keessan foon handhuuraaaf mijataa dha. Foon handhuuraan qilleensa ho’aa akka keessan jaalatti.\n- Roobni baay’ee hin jiru, kunis gaarii dha. Garuu lafti bishaan keessa hin guuttannee eegaa. Foon handhuuraan bishaan baay’ee lafa jala hin jaalatu.\n- Guyyaa roobni hin roobne baay’ate yoo ta’e, biqiltoota bishaanii. Lafa akka qabbanaawaa ta’u, garuu bishaan keessa hin guuttannee godhaa.\n\n---\n\n**pH Laafaa (Soil pH)**\n- pH lafti keessan foon handhuuraaaf gaarii dha. Homaa jijjiiru hin barbaachisu. Sirriitti biqilchaa!\n\n---\n\n**Balaaleffannaa Qamadii fi Dhukkuba (Fighting pests & diseases)**\n- Qilleensi ho’aa fi dukkana waan jiruuf, qamadii akka harooressa foon handhuuraa fi afidi irratti xiyyeeffadhaa.\n- Baala yeroo baay’ee ilaalaa, bifa dhoqqee, halluu diimaa ykn dhangala’aa xiqaa irratti ilaalaa.\n- Biqiltoota dhukkubsatanii fi qamadii qaban ariitiin buqqisii fi gubaa.\n- Qamadii xixiqqoo ari’uuf boba’aa muka gubamee ykn bishaan saaphanaa fayyadamaa.\n- Dirree qulqulluu fi margaa irraa bilisa godhaa.\n\n---\n\n**Tartiiba Biqilchaa (Planting tips)**\n- Bakka aduu argatu fi lafti laafaa ta’e filadhaa.\n- Biqiltuu tokkoof iddoo gahaa kennaa—biqiltuu gidduutti meetira 1 fageessi.\n- Foon handhuuraa waggaa hunda lafa tokko irratti hin biqilchin. Qonna jijjiirraa godhaa, lafti fayyaa akka ta’uuf.\n- Muka yeroo roobni jalqabee fi lafti ho’aa ta’e booda biqilchaa.\n- Margaa qal’aa ykn baala goggogee lafa irra facaasi, lafti akka qabbanaawaa fi margi akka hin biqilneef.\n\n---\n\n**Qonnaalee Biroo Asitti Gaarii Ta’an (Other crops that can grow well here)**\n- Baanaanaa, qottoon (cotton), ykn juutee (jute) illee asitti gaarii ni biqilu. Qonnaaleen kun lafa fi qilleensa keessan keessatti gaarii ni ta’u.\n\n---\n\n**Foon handhuuraa irratti karaa sirrii irra jirtu! Tartiiba kana hordofaa, midhaanii gaarii ni argattu. Gaaffii yoo qabaattan, na gaafadhaa, nan gargaarra.**",
+    "alternative_crops": [
+      [
+        "Banana",
+        13.0
+      ],
+      [
+        "Cotton",
+        10.0
+      ],
+      [
+        "Jute",
+        9.0
+      ]
+    ],
+    "processing_time_ms": 41854.6941280365
+  }
+}

@@ -230,6 +230,8 @@ Rainfall: {request.rainfall:.1f}mm
 Climate Zone: {request.climate_zone}{alternatives_text}
 
 Your task:
+- ALWAYS be positive and supportive about the recommended crop.
+- The crop recommendation is GOOD for this location - reinforce this.
 - Explain in very simple, farmer-friendly language.
 - Avoid technical jargon.
 - Use short, direct sentences.
@@ -238,7 +240,7 @@ Your task:
 
 Output format example:
 
-Your soil and weather can grow [Crop], but here's what you should know:
+Your soil and weather are PERFECT for growing [Crop]! Here's how to get the best results:
 
 Fertilizer use
 - Simple advice based on Nitrogen, Phosphorus, and Potassium values.
@@ -269,7 +271,7 @@ Now write the farmer advice in the exact style and tone shown in the example."""
     
     def _get_fallback_advice(self, request: AgriculturalAdviceRequest) -> str:
         """Provide basic fallback advice when LLM is unavailable"""
-        return f"""Your soil and weather can grow {request.crop_name}, but here's what you should know:
+        return f"""Your soil and weather are PERFECT for growing {request.crop_name}! Here's how to get the best results:
 
 Fertilizer use
 - Your soil has nitrogen: {request.nitrogen:.1f}, phosphorus: {request.phosphorus:.1f}, potassium: {request.potassium:.1f}

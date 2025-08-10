@@ -1,0 +1,62 @@
+{
+  "Bahir Dar": [
+    {
+      "name": "Getachew Alemu",
+      "phone_number": "+251933456789",
+      "location": "Bahir Dar",
+      "latitude": 11.598,
+      "longitude": 37.3906,
+      "preferred_language": "amharic",
+      "created_at": "2025-08-09T23:53:03.752320"
+    }
+  ],
+  "Jimma": [
+    {
+      "name": "Chaltu Bekele",
+      "phone_number": "+251944567890",
+      "location": "Jimma",
+      "latitude": 7.6731,
+      "longitude": 36.8344,
+      "preferred_language": "afaan_oromo",
+      "created_at": "2025-08-09T23:53:03.752322"
+    },
+    {
+      "name": "Abebe Girma",
+      "phone_number": "+251955678901",
+      "location": "Jimma",
+      "latitude": 7.68,
+      "longitude": 36.84,
+      "preferred_language": "english",
+      "created_at": "2025-08-09T23:53:03.752323"
+    }
+  ],
+  "Addis Ababa": [
+    {
+      "name": "Samuel Getachew",
+      "phone_number": "+251988490096",
+      "location": "Addis Ababa",
+      "latitude": 9.032,
+      "longitude": 38.7469,
+      "preferred_language": "amharic",
+      "created_at": "2025-08-09T23:55:58.740657"
+    },
+    {
+      "name": "Bikila Lema",
+      "phone_number": "+251988330158",
+      "location": "Addis Ababa",
+      "latitude": 9.032,
+      "longitude": 38.7469,
+      "preferred_language": "amharic",
+      "created_at": "2025-08-09T23:57:23.942264"
+    },
+    {
+      "name": "Zekarias Getaneh",
+      "phone_number": "+251913834691",
+      "location": "Addis Ababa",
+      "latitude": 9.032,
+      "longitude": 38.7469,
+      "preferred_language": "amharic",
+      "created_at": "2025-08-10T00:49:36.917902"
+    }
+  ]
+}

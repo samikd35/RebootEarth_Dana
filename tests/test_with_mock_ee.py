@@ -60,10 +60,23 @@ class MockAlphaEarthFeatureExtractor:
             base_features['potassium'] += 20
             base_features['rainfall'] += 80
         
-        # Add some realistic variation
-        np.random.seed(int(abs(latitude * longitude)))  # Deterministic but varied
+        # Add more realistic variation based on precise coordinates
+        # Use a more complex seed to ensure different locations get different features
+        seed = int(abs(latitude * 1000 + longitude * 1000 + year)) % 2147483647
+        np.random.seed(seed)
+        
+        # Add significant variation to create diverse crop recommendations
         for key in base_features:
-            variation = np.random.normal(0, 0.1)  # 10% variation
+            if key in ['nitrogen', 'phosphorus', 'potassium']:
+                # Nutrient levels can vary significantly (20-40% variation)
+                variation = np.random.normal(0, 0.3)
+            elif key in ['temperature', 'rainfall']:
+                # Climate factors have moderate variation (15-25%)
+                variation = np.random.normal(0, 0.2)
+            else:
+                # pH and humidity have smaller variation (10-15%)
+                variation = np.random.normal(0, 0.15)
+            
             base_features[key] *= (1 + variation)
         
         # Ensure values are within realistic ranges
