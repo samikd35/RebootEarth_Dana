@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js"
+    "start": "node init && node server.js"
   },
   "author": "Google LLC",
   "license": "Apache-2.0"
